@@ -1,0 +1,3853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TERMOS</key>
+	<array>
+		<dict>
+			<key>nome</key>
+			<string>Abdome agudo</string>
+			<key>significado</key>
+			<string>Qualquer estado mórbido agudo do ventre, que requer intervenção cirúrgica imediata</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Abdução</string>
+			<key>significado</key>
+			<string>Afastamento de um membro do eixo do corpo.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Ablepsia</string>
+			<key>significado</key>
+			<string>Cegueira.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Abrasão</string>
+			<key>significado</key>
+			<string>Esfoladura, arranhão.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Abscesso</string>
+			<key>significado</key>
+			<string>Coleção de pus externa ou internamente.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Absorção</string>
+			<key>significado</key>
+			<string>Penetração de liquido pela pele ou mucosa.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Abstinência</string>
+			<key>significado</key>
+			<string>Contenção, ato de evitar.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Acesso</string>
+			<key>significado</key>
+			<string>Repetição periódica de um fenômeno patológico</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Acinésia</string>
+			<key>significado</key>
+			<string>Impossibilidade de movimentos voluntários, paralisia.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Acne</string>
+			<key>significado</key>
+			<string>Doença inflamatória das glândulas sebáceas.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Acromia</string>
+			<key>significado</key>
+			<string>Falta de melanina, falta de pigmentação &quot;albinismo&quot;.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Adenoma</string>
+			<key>significado</key>
+			<string>Tumor de uma glândula e que reproduz a estrutura dela</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Aderência</string>
+			<key>significado</key>
+			<string>Soldadura anormal de órgãos próximos, geralmente resultante de inflamação</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Adiposo</string>
+			<key>significado</key>
+			<string>Gordura.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Adução</string>
+			<key>significado</key>
+			<string>Mover para o centro ou para a linha
+                mediana</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Afagia</string>
+			<key>significado</key>
+			<string>Impossibilidade de deglutir.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Afasia</string>
+			<key>significado</key>
+			<string>impossibilidade de falar ou entender
+                a palavra falada.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Afebril</string>
+			<key>significado</key>
+			<string>Sem febre, apirético.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Afluxo</string>
+			<key>significado</key>
+			<string>Vinda para determinado lugar.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Afonia</string>
+			<key>significado</key>
+			<string>Perda mais ou menos acentuada da voz.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Agrafia</string>
+			<key>significado</key>
+			<string>Não consegue escrever.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Algia</string>
+			<key>significado</key>
+			<string>Dor em geral.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Algidez</string>
+			<key>significado</key>
+			<string>Esfriamento das extremidades.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Algido</string>
+			<key>significado</key>
+			<string>Frio.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Alopecia</string>
+			<key>significado</key>
+			<string>Queda total ou parcial dos cabelos e pelos.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Aloplastia</string>
+			<key>significado</key>
+			<string>(Prótese), substituto de uma parte do corpo por material estranho.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Autoclave</string>
+			<key>significado</key>
+			<string>Máquina p/ esterilizar</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Alucinação</string>
+			<key>significado</key>
+			<string>Percepção de um objeto, que na realidade não existe.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Ambidestro</string>
+			<key>significado</key>
+			<string>Habilidade de usar as duas mãos.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Ambliopia</string>
+			<key>significado</key>
+			<string>Diminuição da acuidade visual.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Amenorréia</string>
+			<key>significado</key>
+			<string>Falta de menstruação.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Amputação</string>
+			<key>significado</key>
+			<string>Operação para eliminação de membro ou segmento de corpo necrosado</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Analgesia</string>
+			<key>significado</key>
+			<string>Abolição da sensibilidade á dor.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Anasarca</string>
+			<key>significado</key>
+			<string>Edema generalizado.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Anastomose</string>
+			<key>significado</key>
+			<string>União entre estruturas tubulares, como alças intestinais ou vasos</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Ancilose</string>
+			<key>significado</key>
+			<string>Imobilidade de uma articulação.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Angioplastia</string>
+			<key>significado</key>
+			<string>Correção dos vasos sangüíneos</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Anemia</string>
+			<key>significado</key>
+			<string>É a diminuição dos números de hemácias.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Aneurismectomia</string>
+			<key>significado</key>
+			<string>Retirada de aneurisma</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Anexectomia</string>
+			<key>significado</key>
+			<string>Retirada dos anexos do útero</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Anfiantrose</string>
+			<key>significado</key>
+			<string>Articulação que se movimenta muito pouco, ex.falange</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Aniridia</string>
+			<key>significado</key>
+			<string>Ausência ou falha da íris.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Anisocoria</string>
+			<key>significado</key>
+			<string>Desigualdade de diâmetro das pupilas.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Anodontia</string>
+			<key>significado</key>
+			<string>Ausência congênita ou adquirida dos dentes.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Anoretal</string>
+			<key>significado</key>
+			<string>Região referente ao anus e reto.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Anorexia</string>
+			<key>significado</key>
+			<string>Falta de apetite, inapetência.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Anosmia</string>
+			<key>significado</key>
+			<string>Siminuição ou perda completa do olfato.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Anóxia</string>
+			<key>significado</key>
+			<string>Redução do suprimento de oxigênio nos tecidos.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Anquitose</string>
+			<key>significado</key>
+			<string>Diminuição ou supressão dos movimentos de uma articulação</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Anterior</string>
+			<key>significado</key>
+			<string>A parte da frente</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Anuperineal</string>
+			<key>significado</key>
+			<string>Região referente ao anus e períneo.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Anúria</string>
+			<key>significado</key>
+			<string>Ausência da eliminação urinaria</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Ânus</string>
+			<key>significado</key>
+			<string>Orifício de saída retal.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Apalestesia</string>
+			<key>significado</key>
+			<string>Perda do sentido das vibrações.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Apático</string>
+			<key>significado</key>
+			<string>Sem vontade ou interesse para efetuar esforço físico ou mental.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Apelo</string>
+			<key>significado</key>
+			<string>Sem pele, não cicatrizado, aplicado a feridas. Desprovido de de prepúcio, circuncidado.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Apeplexia</string>
+			<key>significado</key>
+			<string>Perda súbita dos sentidos, com elevação da temperatura, mas sem hemiplegia.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Apnéia</string>
+			<key>significado</key>
+			<string>Parada dos movimentos respiratórios</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Aposia</string>
+			<key>significado</key>
+			<string>Ausência de sede.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Aptialismo</string>
+			<key>significado</key>
+			<string>Deficiência ou ausência de saliva</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Aponeurose</string>
+			<key>significado</key>
+			<string>Membrana fibrosa branca, resistente, que serve de envoltura aos músculos. Aponevrose. Fáscia</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Apoptose</string>
+			<key>significado</key>
+			<string>Morte celular</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Apendicectomia</string>
+			<key>significado</key>
+			<string>Retirada total do apêndice vermiforme</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Arteriografia</string>
+			<key>significado</key>
+			<string>Exame radiológico para visualização da artéria</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Arteriorrafia</string>
+			<key>significado</key>
+			<string>Sutura ou síntese de uma artéria</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Artrodese</string>
+			<key>significado</key>
+			<string>fixação cirúrgica de articulação para fundir as superfícies articulares</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Artroplastia</string>
+			<key>significado</key>
+			<string>Econstrução da articulação com a finalidade de restaurar o movimento e a função da mesma</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Artrotomia</string>
+			<key>significado</key>
+			<string>Abertura da articulação </string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Ascite</string>
+			<key>significado</key>
+			<string>Edema localizado na cavidade peritonial com acúmulo de liquido.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Asfixia</string>
+			<key>significado</key>
+			<string>Sufocação, dificuldade da passagem do ar.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Assepsia</string>
+			<key>significado</key>
+			<string>Esterilização de local/materiais</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Astasia</string>
+			<key>significado</key>
+			<string>Incapacidade de permanecer em pé, por falta de coordenação motora.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Astenia</string>
+			<key>significado</key>
+			<string>Fraqueza, cansaço.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Ataxia</string>
+			<key>significado</key>
+			<string>Não coordena os músculos e a locomoção.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Atresia</string>
+			<key>significado</key>
+			<string>Ausência ou fechamento de um orifício natural.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Atrofia</string>
+			<key>significado</key>
+			<string>Diminuição do tamanho ou peso natural de um órgão ou tecido</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Auricular</string>
+			<key>significado</key>
+			<string>Referente a orelha.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Azia</string>
+			<key>significado</key>
+			<string>Sensação de ardor estomacal, eructação azeda e ácida</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Balanite</string>
+			<key>significado</key>
+			<string>Inflamação da glande ou da cabeça do pênis.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Balanopostite</string>
+			<key>significado</key>
+			<string>Inflamação da glande e do prepúcio.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Bandagem</string>
+			<key>significado</key>
+			<string>Enfaixe.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Bartolinectomia</string>
+			<key>significado</key>
+			<string>Retirada da glândula de Bartholin</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Benigno</string>
+			<key>significado</key>
+			<string>Que não ameaça a saúde nem á vida.Não maligno, como certos tumores,
+                inócuo.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Bilioso</string>
+			<key>significado</key>
+			<string>Referente á bile, peculiar a transtornos causados por excesso de
+                bile.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Binasal</string>
+			<key>significado</key>
+			<string>Referente a ambos os campos visuais nasais.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Biópsia</string>
+			<key>significado</key>
+			<string>Extração, para exame microscópio, com fins diagnósticos de tecidos procedentes de organismo vivo</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Blefarite</string>
+			<key>significado</key>
+			<string>Inflamação das pálpebras.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Blefaropexia.</string>
+			<key>significado</key>
+			<string>Fixação das pálpebras</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Blenofitalmia</string>
+			<key>significado</key>
+			<string>Secreção mucosa nos olhos.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Blenorréia</string>
+			<key>significado</key>
+			<string>Secreção abundante das mucosas, especialmente da vagina e uretra.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Blenúria</string>
+			<key>significado</key>
+			<string>Presença de muco na urina.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Bleferoplastia</string>
+			<key>significado</key>
+			<string>Cirurgia plástica das pálpebras</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Bócio</string>
+			<key>significado</key>
+			<string>hiperplasia da glândula tireóide.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Borra de café</string>
+			<key>significado</key>
+			<string>Aspecto do vômito ou da defecação que contém sangue.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Bradicardia</string>
+			<key>significado</key>
+			<string>Diminuição dos batimentos cardíacos.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Bradipnéia</string>
+			<key>significado</key>
+			<string>Movimento respiratório abaixo do normal.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Bradisfígmico</string>
+			<key>significado</key>
+			<string>O pulso lento</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Braquialgia</string>
+			<key>significado</key>
+			<string>Dor no braço.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Brida</string>
+			<key>significado</key>
+			<string>O mesmo que aderência</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Bronco Aspiração</string>
+			<key>significado</key>
+			<string>É quando o alimento,saliva ou secreção realiza o trajeto errado,ao invés de descer pelo esófago,desce pela traquéia</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Broncoscopia</string>
+			<key>significado</key>
+			<string>Visualização dos brônquios, através de aparelhos de ótica</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Broncotomia</string>
+			<key>significado</key>
+			<string>Abertura dos brônquios</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Bucal</string>
+			<key>significado</key>
+			<string>Oral, referente a boca.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Bulimia</string>
+			<key>significado</key>
+			<string>Fome excessiva e patológica.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>By-pass</string>
+			<key>significado</key>
+			<string>Cirurgia neurológica utilizada para retirar aneurisma dos principais vasos sangüíneos</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Bursite</string>
+			<key>significado</key>
+			<string>Inflamação da bolsa sinovial.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Cacofonia</string>
+			<key>significado</key>
+			<string>Voz anormal e desagradável</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Cãibra</string>
+			<key>significado</key>
+			<string>Contração muscular, espasmódica e dolorosa.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Calafrio</string>
+			<key>significado</key>
+			<string>Contrações involuntárias das musculatura esquelética com tremores e bater dos dentes.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Campos</string>
+			<key>significado</key>
+			<string>Peças de pano que isolam a região a operar</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Campo cirúrgico</string>
+			<key>significado</key>
+			<string>Área onde se opera</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Caquexia</string>
+			<key>significado</key>
+			<string>Desnutrição adiantada, emagrecimento severo.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Cardiotomia </string>
+			<key>significado</key>
+			<string>Abertura da cárdia (transição esôfago – gástrica).</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Cauterização</string>
+			<key>significado</key>
+			<string>Destruição de tecidos por cáusticos ou com fio aquecido</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Cefaléia</string>
+			<key>significado</key>
+			<string>Dor de cabeça.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Cervicite</string>
+			<key>significado</key>
+			<string>Inflamação do colo uterino.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Cesariana </string>
+			<key>significado</key>
+			<string>Extração do feto por insição através da parede abdominal.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Choque</string>
+			<key>significado</key>
+			<string>Estado de insuficiência circulatória se manifesta com pele fria, queda de temperatura, cianose e morte.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Cianose</string>
+			<key>significado</key>
+			<string>Cor azulada da pele e mucosas causadas pela oxigenação insuficiente do sangue</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Cianúria</string>
+			<key>significado</key>
+			<string>Emissão de urina de cor azulada.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Cintilografia </string>
+			<key>significado</key>
+			<string>Exame radiológico para visualização dos tecidos</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Circuncição</string>
+			<key>significado</key>
+			<string>Ressecção da pele do prepúcio quando cobre a glande Cirrose</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Cistalgia</string>
+			<key>significado</key>
+			<string>Dor na bexiga.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Cistectomia</string>
+			<key>significado</key>
+			<string>Retirada da bexiga</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Cistite</string>
+			<key>significado</key>
+			<string>Inflamação da bexiga.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Cistocele </string>
+			<key>significado</key>
+			<string>Hérnia da bexiga</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Citoscopia</string>
+			<key>significado</key>
+			<string>Exame sob visão direta da bexiga</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Citostomia</string>
+			<key>significado</key>
+			<string>Abertura da bexiga para drenagem da urina</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Claudicação</string>
+			<key>significado</key>
+			<string>Fraqueza momentânea de um membro.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Clister</string>
+			<key>significado</key>
+			<string>Introdução de pequena quantidade de água, medicamento ou alimento no intestino.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Cloasma</string>
+			<key>significado</key>
+			<string>Manchas escuras na pele, principalmente na face da gestante.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Coagulação</string>
+			<key>significado</key>
+			<string>Espessamento de um liquido formando coágulo.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Colecistectomia</string>
+			<key>significado</key>
+			<string>Retirada da vesícula biliar</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Colecistite</string>
+			<key>significado</key>
+			<string>Inflamação da vesícula biliar.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Colecistostomia</string>
+			<key>significado</key>
+			<string>Abertura e colocação de dreno na vesícula biliar</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Colecistotripsina</string>
+			<key>significado</key>
+			<string>Esmagamento de cálculo na vesícula biliar</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Coledocostomia</string>
+			<key>significado</key>
+			<string>Colocação de dreno no colédoco para drenagem</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Coledoctomia </string>
+			<key>significado</key>
+			<string>Abertura do canal colédoco (canal que liga o fígado à vesícula biliar)</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Coledectomia</string>
+			<key>significado</key>
+			<string>Retirada do canal colédoco</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Colectomia </string>
+			<key>significado</key>
+			<string>Retirada do cólon</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Colêmese</string>
+			<key>significado</key>
+			<string>Vômito com presença de bile.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Colite</string>
+			<key>significado</key>
+			<string>Inflamação do colon.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Colostomia</string>
+			<key>significado</key>
+			<string>Abertura para comunicação do intestino grosso com o exterior</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Colpoperineoplastia</string>
+			<key>significado</key>
+			<string>Plástica vaginal, para correção de defeitos na vagina</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Colpoperineorrafia</string>
+			<key>significado</key>
+			<string>Operação reparadora em torno da vagina e períneo.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Colporrafia</string>
+			<key>significado</key>
+			<string>Sutura da vagina</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Colpotomia</string>
+			<key>significado</key>
+			<string>Excisão total ou parcial da vagina</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Colúria</string>
+			<key>significado</key>
+			<string>Presença de bilirrubina ou bílis na urina.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Compressa</string>
+			<key>significado</key>
+			<string>Peça de pano absorvente usada para isolar ou segurar órgãos, ou absorver sangue durante a cirurgia</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Congênito</string>
+			<key>significado</key>
+			<string>Doença herdada no nascimento.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Congestão</string>
+			<key>significado</key>
+			<string>Acúmulo anormal ou excessivo de sangue numa parte do organismo.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Contaminação</string>
+			<key>significado</key>
+			<string>Presença de micróbios vivos.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Contratura</string>
+			<key>significado</key>
+			<string>Rigidez muscular.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Convalescença</string>
+			<key>significado</key>
+			<string>Caminha para o restabelecimento.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Convulsão</string>
+			<key>significado</key>
+			<string>Contrações violentas involuntárias do músculo, agitação desordenada.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Coprólito</string>
+			<key>significado</key>
+			<string>Massa endurecida de matéria fecal nos intestinos.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Coprostasia</string>
+			<key>significado</key>
+			<string>Ausência de material orgânico</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Cordialgia</string>
+			<key>significado</key>
+			<string>Dor no coração.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Cordotomia</string>
+			<key>significado</key>
+			<string>Divisão cirúrgica antero lateral da coluna vertebral</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Colrofobia</string>
+			<key>significado</key>
+			<string>Fobia de palhaços</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Craniectomia</string>
+			<key>significado</key>
+			<string>Retirada da caixa craniana</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Cranioplastia </string>
+			<key>significado</key>
+			<string>Correção cirúrgica na caixa craniana</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Craniotomia </string>
+			<key>significado</key>
+			<string>Abertura da caixa craniana</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Cremalheira</string>
+			<key>significado</key>
+			<string>Peça munida de dentes que mantém fechados os instrumentos cirúrgicos</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Curativo compressivo</string>
+			<key>significado</key>
+			<string>Curativos nas feridas que sangram.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Curativo frouxo</string>
+			<key>significado</key>
+			<string>Curativo em feridas que supuram.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Curativo seco</string>
+			<key>significado</key>
+			<string>Feito apenas com gaze.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Curativo úmido</string>
+			<key>significado</key>
+			<string>Quando há aplicação de medicamentos líquidos ou úmidos.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Cutâneo</string>
+			<key>significado</key>
+			<string>Referente a pele.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Cútis</string>
+			<key>significado</key>
+			<string>Derma</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Dactilite</string>
+			<key>significado</key>
+			<string>Inflamação de um dedo, ou artelho.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Deambular</string>
+			<key>significado</key>
+			<string>Andar,caminhar</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Debridamento</string>
+			<key>significado</key>
+			<string>Limpeza de um tecido do infectado ou necrótico de um ferimento.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Decúbito</string>
+			<key>significado</key>
+			<string>Posição deitada.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Deltóide</string>
+			<key>significado</key>
+			<string>Músculo do braço em forma de &quot;D&quot;,onde se aplicam injeções intramuscular</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Dicrótico</string>
+			<key>significado</key>
+			<string>É o pulso que dá a impressão de dois batimentos.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Diérese</string>
+			<key>significado</key>
+			<string>Primeiro tempo cirúrgico, incisão cirúrgica</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Diplegia</string>
+			<key>significado</key>
+			<string>Paralisia de dois membros do corpo</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Diplopia</string>
+			<key>significado</key>
+			<string>Visão dupla</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Disfagia</string>
+			<key>significado</key>
+			<string>Dificuldade de deglutir</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Disfonia</string>
+			<key>significado</key>
+			<string>Distúrbio na voz.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Dismenorréia</string>
+			<key>significado</key>
+			<string>Menstruação difícil e dolorosa.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Dispnéia</string>
+			<key>significado</key>
+			<string>Dificuldade respiratória.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Disquesia</string>
+			<key>significado</key>
+			<string>Evacuação difícil e dolorosa.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Dissecção</string>
+			<key>significado</key>
+			<string>Isolamento de um órgão ou estrutura através de cirurgia</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Distensão</string>
+			<key>significado</key>
+			<string>Estiramento de alguma fibra muscular, intumescimento ou expansão.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Distrofia</string>
+			<key>significado</key>
+			<string>Perturbação da nutrição.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Disúria</string>
+			<key>significado</key>
+			<string>Micção difícil e dolorosa.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Diurese</string>
+			<key>significado</key>
+			<string>Secreção urinaria.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Divertículo</string>
+			<key>significado</key>
+			<string>Apêndice oco, em forma de bolsa, de uma cavidade ou tubo principal</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Duodenectomia </string>
+			<key>significado</key>
+			<string>Retirada do duodeno</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Duodenorrafia </string>
+			<key>significado</key>
+			<string>Sutura do duodeno</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Duodenotomia</string>
+			<key>significado</key>
+			<string>Abertura do duodeno</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Ecopraxia</string>
+			<key>significado</key>
+			<string>Repetição dos movimentos ou maneirismo de outra pessoa.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Edema</string>
+			<key>significado</key>
+			<string>Retenção ou acúmulo de líquidos no tecido celular</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Embolectomia</string>
+			<key>significado</key>
+			<string>Extração de um embolo</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Êmese</string>
+			<key>significado</key>
+			<string>Ato de vomitar.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Empiema </string>
+			<key>significado</key>
+			<string>Acúmulo de pus em uma cavidade natural</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Enema</string>
+			<key>significado</key>
+			<string>Clister, lavagem, introdução de líquidos no reto.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Enteralgia</string>
+			<key>significado</key>
+			<string>Dor intestinal</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Enterorrafia</string>
+			<key>significado</key>
+			<string>Sutura do intestino</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Enterostomia</string>
+			<key>significado</key>
+			<string>Abertura do intestino através da parede abdominal</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Enucleação</string>
+			<key>significado</key>
+			<string>Retirada do órgão ou tumor com seus envoltórios</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Enurese</string>
+			<key>significado</key>
+			<string>Incontinência urinaria noturna.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Enxaqueca</string>
+			<key>significado</key>
+			<string>Dor de cabeça unilateral</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Enxerto</string>
+			<key>significado</key>
+			<string>Transplante de um órgão ou tecido</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Enterotomia</string>
+			<key>significado</key>
+			<string>Abertura do intestino</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Epiderme </string>
+			<key>significado</key>
+			<string>Camada mais superficial da pele</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Epigástrio</string>
+			<key>significado</key>
+			<string>Porção média e superior do abdômen</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Episiorrafia</string>
+			<key>significado</key>
+			<string>Sutura do músculo perineal após o parto</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Episiotomia</string>
+			<key>significado</key>
+			<string>Abertura do músculo perineal para o parto</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Epistaxe</string>
+			<key>significado</key>
+			<string>Hemorragia nasal.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Epistótomo</string>
+			<key>significado</key>
+			<string>Contrações musculares generalizados com encurvamento do corpo para frente.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Equimose</string>
+			<key>significado</key>
+			<string>Pequeno derrame sanguíneo debaixo da pele.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Eritema</string>
+			<key>significado</key>
+			<string>Vermelhidão na pele.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Eructação</string>
+			<key>significado</key>
+			<string>Emissão de gases estomacais pela boca, arroto.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Erupção</string>
+			<key>significado</key>
+			<string>Lesões visíveis na pele.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Escabiose</string>
+			<key>significado</key>
+			<string>Moléstia cutâneas contagiosa, caracterizada por lesão multiformes, acompanhadas por prurido intenso.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Escara de decúbito</string>
+			<key>significado</key>
+			<string>Alcera perfurante em região de proeminências ósseas.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esclerodermia</string>
+			<key>significado</key>
+			<string>Afecção cutânea com endurecimento da pele.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esclerose</string>
+			<key>significado</key>
+			<string>Endurecimento dos vasos ou perda de elasticidade.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Escoriações</string>
+			<key>significado</key>
+			<string>Abrasão, erosão, perda superficial dos tecidos.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Escótomo cintilante</string>
+			<key>significado</key>
+			<string>Pontos luminosos no campo visual, na hipertensão arterial.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Escótomo</string>
+			<key>significado</key>
+			<string>Ponto cego no campo visual.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Escrotocele</string>
+			<key>significado</key>
+			<string>Hérnia do escroto.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esfacelo</string>
+			<key>significado</key>
+			<string>Necrose, gangrena</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esfacelodermia</string>
+			<key>significado</key>
+			<string>Gangrena da pele.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esfenoidal</string>
+			<key>significado</key>
+			<string>Referente ao esfenóide.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esfenóide</string>
+			<key>significado</key>
+			<string>Osso situado no centro do assoalho do crânio</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esfígmico</string>
+			<key>significado</key>
+			<string>Relativo ao pulso.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esfigmocardiógrafo</string>
+			<key>significado</key>
+			<string>Aparelho que registra graficamente os movimentos do pulso e do coração.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esfimógrafo</string>
+			<key>significado</key>
+			<string>Aparelho que registra graficamente os movimentos do pulso.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esfíncter</string>
+			<key>significado</key>
+			<string>Músculo circular que constrói o orifício de um órgão.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esfincteralgia</string>
+			<key>significado</key>
+			<string>Dor no esfíncter.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esfincteroplastia</string>
+			<key>significado</key>
+			<string>Reparação cirúrgica de um esfíncter.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esfincterotomia</string>
+			<key>significado</key>
+			<string>Divisão dos músculos de um esfíncter.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esfoliação</string>
+			<key>significado</key>
+			<string>Desprendimento de tecido necrosado sob a forma de lâminas.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esmegma</string>
+			<key>significado</key>
+			<string>Secreção caseosa em redor do prepúcio ou dos pequenos lábios.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esofagectomia</string>
+			<key>significado</key>
+			<string>Retirada do esôfago</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esofagismo</string>
+			<key>significado</key>
+			<string>Espasmo do esôfago.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esofagocele</string>
+			<key>significado</key>
+			<string>Hérnia do esôfago.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esofagomalacia</string>
+			<key>significado</key>
+			<string>Amolecimento do esôfago.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esofagoptose</string>
+			<key>significado</key>
+			<string>Prolapso do esôfago.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esofagoscopia </string>
+			<key>significado</key>
+			<string>Exame com visualização direta do esôfago</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esofagoscópio</string>
+			<key>significado</key>
+			<string>Instrumento para exame visual do esôfago.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esofagostenose</string>
+			<key>significado</key>
+			<string>Estreitamento do esôfago.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esofagostomia</string>
+			<key>significado</key>
+			<string>Abertura de comunicação entre o esôfago e o exterior. Formação de uma fistula esofagiana.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esofagotomia</string>
+			<key>significado</key>
+			<string>Incisão do esôfago.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Espasmo</string>
+			<key>significado</key>
+			<string>Contrações involuntárias, violenta e repentina de um músculo ou grupo de músculo;pode acometer as vísceras ocas como estômago e os intestinos.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Espasmofilia</string>
+			<key>significado</key>
+			<string>Tendência aos espasmos e ás convulsões.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Espasmolítico</string>
+			<key>significado</key>
+			<string>Medicamento que combate o espasmo.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Espasticidade</string>
+			<key>significado</key>
+			<string>É caracterizado por um aumento no tônus muscular que ocorre durante a contração..resultado.os músculos demoram mais para relaxar tornando os movimentos lentos e desconexos.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Espástico</string>
+			<key>significado</key>
+			<string>Em estado espasmódico.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Especulo</string>
+			<key>significado</key>
+			<string>Instrumento para examinar o interior de cavidades como a vagina, reto, ouvido.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Espermatocistite</string>
+			<key>significado</key>
+			<string>Inflamação da vesícula seminal.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Espermatorreia</string>
+			<key>significado</key>
+			<string>Incontinência de esperma.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Espermatúria</string>
+			<key>significado</key>
+			<string>Presença de esperma na urina.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Espirômetro</string>
+			<key>significado</key>
+			<string>Aparelho que mede a capacidade respiratória dos pulmões.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esplenectopia</string>
+			<key>significado</key>
+			<string>Queda do baço.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esplenelcose</string>
+			<key>significado</key>
+			<string>Úlcera do baço.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esplenite</string>
+			<key>significado</key>
+			<string>Inflamação do baço.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esplenocele</string>
+			<key>significado</key>
+			<string>Hérnia do baço.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esplenectomia</string>
+			<key>significado</key>
+			<string>Remoção do baço</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esplenodimia</string>
+			<key>significado</key>
+			<string>Dor no baço.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esplenomalácia</string>
+			<key>significado</key>
+			<string>Amolecimento do baço.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esplenomegalia</string>
+			<key>significado</key>
+			<string>Aumento do baço</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esplenopatia</string>
+			<key>significado</key>
+			<string>Afecção do baço.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esplenopexia</string>
+			<key>significado</key>
+			<string>fixação cirúrgica do baço.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esplenotomia</string>
+			<key>significado</key>
+			<string>incisão no baço.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Espondilalgia</string>
+			<key>significado</key>
+			<string>Dor nas vértebras.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Espondilartrite</string>
+			<key>significado</key>
+			<string>Inflamação das articulações vertebrais.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Espondilite</string>
+			<key>significado</key>
+			<string>Inflamação de uma ou mais vértebras.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Espasticidade</string>
+			<key>significado</key>
+			<string>Capacidade de entrar em espasmo.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Espirometria</string>
+			<key>significado</key>
+			<string>Medida da capacidade respiratório dos pulmões.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esputo</string>
+			<key>significado</key>
+			<string>Escarro, material expectorado.pode ser mucótico, mucopurulento,purulento, hemorrágico, espumoso.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esquinência</string>
+			<key>significado</key>
+			<string>Qualquer doença inflamatória da garganta.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Estafiledema</string>
+			<key>significado</key>
+			<string>Edema da úvula.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Estafelite</string>
+			<key>significado</key>
+			<string>Inflamação da úvula.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Estafilococemia</string>
+			<key>significado</key>
+			<string>Presença de estafilococos no sangue.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Estafiloplastia</string>
+			<key>significado</key>
+			<string>Cirurgia plástica da úvula.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Estafilorrafia</string>
+			<key>significado</key>
+			<string>Sutura da úvula.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Estase intestinal</string>
+			<key>significado</key>
+			<string>Demora excessiva das fezes no intestino.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esteatoma</string>
+			<key>significado</key>
+			<string>Lipoma, tumor de tecido gorduroso.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esteatorreia</string>
+			<key>significado</key>
+			<string>Evacuação de fezes descoradas, contendo muita gordura.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esteatose</string>
+			<key>significado</key>
+			<string>Degeneração gordurosa.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Estenose</string>
+			<key>significado</key>
+			<string>Estreitamento</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Estenose uretral</string>
+			<key>significado</key>
+			<string>Estreitamento de um ou mais segmentos da uretra</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Estercólito</string>
+			<key>significado</key>
+			<string>Fecálito, massa dura e compacta de fezes &quot;cíbalo&quot;.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Estereognose</string>
+			<key>significado</key>
+			<string>Reconhecimento de um corpo pelo tato.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esterilização</string>
+			<key>significado</key>
+			<string>Operação pela qual, uma substância ou um objeto passa a não conter nenhum micróbio.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Eterização</string>
+			<key>significado</key>
+			<string>Anestesia pelo éter</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Estermitatório</string>
+			<key>significado</key>
+			<string>Que provoca espirro.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esternalgia</string>
+			<key>significado</key>
+			<string>Dor no esterno.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Esternutação</string>
+			<key>significado</key>
+			<string>Espirro.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Estertorosa</string>
+			<key>significado</key>
+			<string>Respiração ruidosa.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Estomatorragia</string>
+			<key>significado</key>
+			<string>Hemorragia da boca.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Estrangúria</string>
+			<key>significado</key>
+			<string>Micção dolorosa.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Estritura</string>
+			<key>significado</key>
+			<string>Estreitamento de uma canal.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Estrófulo</string>
+			<key>significado</key>
+			<string>Dermatose benigna, comum no recém-nascido.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Estrumite</string>
+			<key>significado</key>
+			<string>Inflamação da glândula tiroide.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Estupor</string>
+			<key>significado</key>
+			<string>Inconsciência total ou parcial, mutismo sem perda da percepção sensorial.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Estutor</string>
+			<key>significado</key>
+			<string>Inconsciência total ou parcial.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Etmoide</string>
+			<key>significado</key>
+			<string>Osso cito no assoalho do crânio ao lado esfenoide.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Eupneia</string>
+			<key>significado</key>
+			<string>Respiração normal.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Eutócia</string>
+			<key>significado</key>
+			<string>Parto natural.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Eutrofia</string>
+			<key>significado</key>
+			<string>Boa alimentação.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Eventração</string>
+			<key>significado</key>
+			<string>Saída total ou parcial das vísceras através de abertura muscular na parede abdominal, ficando protegidas somente pelos tegumentos superficiais</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Evisceração</string>
+			<key>significado</key>
+			<string>Extração ou saída das vísceras de suas cavidades continentes</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Exacerbação</string>
+			<key>significado</key>
+			<string>Agravação dos sintomas.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Exantema</string>
+			<key>significado</key>
+			<string>Erupção da pele.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Excisão</string>
+			<key>significado</key>
+			<string>Corte ou retirada de um órgão ou parte dele.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Exoftalmia</string>
+			<key>significado</key>
+			<string>Projeção dos olhos para fora.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Exodontia</string>
+			<key>significado</key>
+			<string>Extração de dentes.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Exostose</string>
+			<key>significado</key>
+			<string>Projeção óssea para fora da superfície do corpo.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Expectação</string>
+			<key>significado</key>
+			<string>Ato de deixar a doença evoluir limitando-se o médico a atenuar os sintomas.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Expectoração</string>
+			<key>significado</key>
+			<string>Expelir secreção pulmonar&quot;escarro&quot;.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Expectorante</string>
+			<key>significado</key>
+			<string>Medicamento que promove a expulsão de catarro e mucosidade da traquéia e brônquios.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Exsudato</string>
+			<key>significado</key>
+			<string>Substância liquida eliminada patologicamente.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Exteriorizada</string>
+			<key>significado</key>
+			<string>Colocar para fora (EX. colostomia,quando uma pequena parte e exteriorizada,para que o intestino fique fixo na parede abdominal)</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Extirpação</string>
+			<key>significado</key>
+			<string>Retirada completa.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Extrofobia</string>
+			<key>significado</key>
+			<string>Reviramento de um órgão para fora.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Faringectomia</string>
+			<key>significado</key>
+			<string>Ablação cirúrgica da faringe.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Faringite</string>
+			<key>significado</key>
+			<string>Inflamação da faringe.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Faringodimia</string>
+			<key>significado</key>
+			<string>Dor na faringe.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Faringoplegia</string>
+			<key>significado</key>
+			<string>Paralisia dos músculos da faringe.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Faringotomia</string>
+			<key>significado</key>
+			<string>Incisão da faringe.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Fáscia</string>
+			<key>significado</key>
+			<string>O mesmo que aponeurose</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Fastígio</string>
+			<key>significado</key>
+			<string>O ponto máximo da febre.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Febre intermitente</string>
+			<key>significado</key>
+			<string>Alternativas de febre e temperatura normal. A malária por exemplo produz febre intermitente, com intervalos certos.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Febre recorrente</string>
+			<key>significado</key>
+			<string>Alguns dias com febre, seguidos de outros sem febre e novamente outros com febre.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Febre remitente</string>
+			<key>significado</key>
+			<string>Febre que apresenta melhoras ou diminuição, mas sem chegar a desaparecer.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Febrífugo</string>
+			<key>significado</key>
+			<string>Que afasta a febre.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Fecalóide</string>
+			<key>significado</key>
+			<string>Semelhante ás fezes.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Fel</string>
+			<key>significado</key>
+			<string>Bile.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Fenda palatina</string>
+			<key>significado</key>
+			<string>Comunicação buco nasal,podendo atingir palato duro e palato mole,onde e possível visualizar o septo nasal. </string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Fenestrado</string>
+			<key>significado</key>
+			<string>Com aberturas ou janelas.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Feocromocitoma</string>
+			<key>significado</key>
+			<string>Tumor das glândulas supra renais, que produz elevação da pressão arterial.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Fibrose</string>
+			<key>significado</key>
+			<string>Formação de tecido fibroso</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Filático</string>
+			<key>significado</key>
+			<string>Que protege.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Filaxia</string>
+			<key>significado</key>
+			<string>Proteção, defesa.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Filopressão</string>
+			<key>significado</key>
+			<string>Compressão de uma vaso sanguíneo por um fio.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Fimatose</string>
+			<key>significado</key>
+			<string>Tuberculose.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Fissura</string>
+			<key>significado</key>
+			<string>Fenda.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Fístula </string>
+			<key>significado</key>
+			<string>Comunicação anormal entre dois órgãos cavitários, ou entre um órgão cavitários e a pele, por onde sai pus ou secreção</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Fistulótomo</string>
+			<key>significado</key>
+			<string>Instrumento para incisão de fístulas.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Flebectomia</string>
+			<key>significado</key>
+			<string>Retirada de uma veia periférica</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Fleborrexe</string>
+			<key>significado</key>
+			<string>Ruptura de uma veia.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Flebotomia</string>
+			<key>significado</key>
+			<string>Incisão da veia</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Flebotomia</string>
+			<key>significado</key>
+			<string>Abertura de uma veia periférica através de um cateter</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Flebite</string>
+			<key>significado</key>
+			<string>Inflamação do vaso </string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Flegmasia</string>
+			<key>significado</key>
+			<string>Inflamação.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Flictema</string>
+			<key>significado</key>
+			<string>Vesícula, pequena bolha cheia de liquido.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Flogístico</string>
+			<key>significado</key>
+			<string>Inflamatório.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Flogose</string>
+			<key>significado</key>
+			<string>Inflamação.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Folículos</string>
+			<key>significado</key>
+			<string>Órgão microscópio existente no ovário, e que ao amadurecer forma o óvulo, também pequeno saco ou cavidade. Fomentação</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Fontanela</string>
+			<key>significado</key>
+			<string>&quot;Moleira&quot;, parte não ossificada dos ossos do crânio em crianças até 10 á 12 meses.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Fratura cominutiva</string>
+			<key>significado</key>
+			<string>Fratura em que o osso de divide em mais de dois fragmentos.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Frenalgia</string>
+			<key>significado</key>
+			<string>Dor no diafragma.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Frenite</string>
+			<key>significado</key>
+			<string>Inflamação no diafragma.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Fumigação</string>
+			<key>significado</key>
+			<string>Desinfecção por meio de gases.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Funda</string>
+			<key>significado</key>
+			<string>Aparelho para manter a hérnia no lugar.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Furúnculo</string>
+			<key>significado</key>
+			<string>Infecção e inflamação de um folículo piloso.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Galactagogo</string>
+			<key>significado</key>
+			<string>Que estimula a secreção de leite.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Galactocele</string>
+			<key>significado</key>
+			<string>Dilatação da glândula mamária em causada pela formação de um cisto cheio de leite.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Gânglio linfático</string>
+			<key>significado</key>
+			<string>É um nódulo ou um aglomerado de tecidos linfoide, dividido em compartimentos por um tecido fibroso.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Gangliomite</string>
+			<key>significado</key>
+			<string>Inflamação do gânglio.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Gangrena de raynound</string>
+			<key>significado</key>
+			<string>Gangrena simétrica das extremidades.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Gangrena</string>
+			<key>significado</key>
+			<string>Necrose maciça dos tecidos devido á falta de irrigação sanguínea.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Garrote</string>
+			<key>significado</key>
+			<string>Curativo compressivo para deter hemorragia, faz-se com um torniquete , é preciso afrouxar a cada hora,para evitar isquemia e gangrena.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Gastralgia</string>
+			<key>significado</key>
+			<string>Dor de estômago.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Gastrectomia</string>
+			<key>significado</key>
+			<string>Retirada total ou parcial do estômago</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Gástrico</string>
+			<key>significado</key>
+			<string>Relativo ao estomago.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Gastrite</string>
+			<key>significado</key>
+			<string>Inflamação do estomago.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Gastrocele</string>
+			<key>significado</key>
+			<string>Hérnia do estomago.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Gastrocolotomia</string>
+			<key>significado</key>
+			<string>Incisão do estomago e do cólon.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Gastroscópio</string>
+			<key>significado</key>
+			<string>Instrumento para examinar o interior do estomago, mediante a introdução pelo esôfago de um foco luminoso e um espelho.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Gastrodinia</string>
+			<key>significado</key>
+			<string>Dor no estomago.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Gastroenterostomia </string>
+			<key>significado</key>
+			<string>Abertura cirúrgica para passagem entre o estômago e o intestino Gastrólito presença de cálculo no estomago.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Gastromalacia</string>
+			<key>significado</key>
+			<string>Amolecimento do estomago.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Gastropexia</string>
+			<key>significado</key>
+			<string>Operação para fixação do estomago caído.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Gastroplastia</string>
+			<key>significado</key>
+			<string>Operação plástica no estomago.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Gastroplegia</string>
+			<key>significado</key>
+			<string>Paralisia do estomago.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Gastroptose</string>
+			<key>significado</key>
+			<string>Prolapso do estomago.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Gastrorrafia </string>
+			<key>significado</key>
+			<string>Sutura do estômago</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Gastrorragia</string>
+			<key>significado</key>
+			<string>Hemorragia pelo estomago.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Gastroscopia</string>
+			<key>significado</key>
+			<string>Exame do interior do estomago.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Gastrossucorreia</string>
+			<key>significado</key>
+			<string>Excessiva secreção de suco gástrico pelo estomago.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Gastrotaxia</string>
+			<key>significado</key>
+			<string>Hemorragia no estomago</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Gastrostomia</string>
+			<key>significado</key>
+			<string>Abertura do estômago para fins alimentares e medicamentos</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Gemioplástia</string>
+			<key>significado</key>
+			<string>Cirurgia plástica do queixo.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Genal</string>
+			<key>significado</key>
+			<string>Relativo á bochecha.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Genoplastia</string>
+			<key>significado</key>
+			<string>Cirurgia plástica da bochecha.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Gigantismo</string>
+			<key>significado</key>
+			<string>Doença causada pelo excesso da função hipófise.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Glomerulite</string>
+			<key>significado</key>
+			<string>Inflamação dos glomérulos do rim.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Glossalgia</string>
+			<key>significado</key>
+			<string>Dor na língua</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Glossectomia </string>
+			<key>significado</key>
+			<string>Retirada total ou parcial da língua</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Glossite</string>
+			<key>significado</key>
+			<string>Inflamação da língua.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Glossotomia</string>
+			<key>significado</key>
+			<string>Abertura da língua</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Gutural</string>
+			<key>significado</key>
+			<string>Relativo á garganta</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Halitose</string>
+			<key>significado</key>
+			<string>(Mau halito). É a exalação de um odor desagradável,que pode ser oriundo da boca ou estomago. Sendo na maioria dos casos provocados pela saburra na língua.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hidrotórax</string>
+			<key>significado</key>
+			<string>É o acumulo de liquido seroso anormal, dentro da cavidade pleural</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hallux</string>
+			<key>significado</key>
+			<string>Dedo grande do pé.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hematêmese</string>
+			<key>significado</key>
+			<string>Vômitos com sangue.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hematopoese ou Hemopoiese</string>
+			<key>significado</key>
+			<string>É a produção dos elementos do sangue na medula óssea como, (eritrócitos, leucócitos e plaquetas).</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hemeralopia</string>
+			<key>significado</key>
+			<string>Cegueira diurna, diminuição da visão á luz do dia.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hemianalgesia</string>
+			<key>significado</key>
+			<string>Analgesia de um lado ou de uma metade do corpo.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hemianopsia</string>
+			<key>significado</key>
+			<string>Perda de uma das metades do campo visual de um ou dos dois olhos, esta perda pode ser parcial ou total. </string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hemicolectomia</string>
+			<key>significado</key>
+			<string>Remoção cirúrgica de metade do cólon.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hemicrânea</string>
+			<key>significado</key>
+			<string>Enxaqueca, dor (em metade do crânio).</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hemiplegia</string>
+			<key>significado</key>
+			<string>É a paralisia dos membros superior e inferior do mesmo lado(ex. AVC que paralisa um lado do corpo).</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hemoftalmia</string>
+			<key>significado</key>
+			<string>Hemorragia no olho.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hemólise</string>
+			<key>significado</key>
+			<string>É quando ocorre a (quebra) rompimento de uma hemácia,causando a liberação de hemoglobina no plasma....ocorre de fato um rompimento da membrana plasmática.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hemoptise</string>
+			<key>significado</key>
+			<string>Hemorragia que provém dos órgãos respiratórios e passa pela glote.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hemorragia</string>
+			<key>significado</key>
+			<string>Sangramento, escape do sangue dos vasos sanguíneos.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hemorroidectomia</string>
+			<key>significado</key>
+			<string>Remoção de hemorróidas</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hemostasia</string>
+			<key>significado</key>
+			<string>Estancamento do sangue</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hemostático</string>
+			<key>significado</key>
+			<string>Qualquer instrumento usado para fazer hemostasia</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hemotórax</string>
+			<key>significado</key>
+			<string>Coleção de sangue, na cavidade pleural.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hepatectomia</string>
+			<key>significado</key>
+			<string>Retirada total ou parcial do fígado</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hepatomegalia</string>
+			<key>significado</key>
+			<string>Aumento do fígado</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hepatomia</string>
+			<key>significado</key>
+			<string>Abertura do fígado</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hiperbilirrubinemia</string>
+			<key>significado</key>
+			<string>Alta concentração de bilirrubina no sangue</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hiperemia</string>
+			<key>significado</key>
+			<string>Aumento da quantidade de sangue circulante, causado por algum trauma ou alergia(vermelhidão)</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hipertensão</string>
+			<key>significado</key>
+			<string>Pressão arterial alta,acima de 140x90 mmHg</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hipertermia</string>
+			<key>significado</key>
+			<string>Aumento de temperatura (febre) acima de 37,4ºC</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hipotermia</string>
+			<key>significado</key>
+			<string>Diminuição de temperatura, abaixo de 36</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hepatorrafia</string>
+			<key>significado</key>
+			<string>Sutura do fígado</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hipoidrose</string>
+			<key>significado</key>
+			<string>Redução da capacidade de transpiração</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hiporexia</string>
+			<key>significado</key>
+			<string>Redução do apetite </string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hérnia</string>
+			<key>significado</key>
+			<string>“Tumor” formado pela saída de um órgão ou parte dele através de uma abertura natural ou acidental</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Herniorrafia</string>
+			<key>significado</key>
+			<string>Sutura da hérnia</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Heteroinfecção</string>
+			<key>significado</key>
+			<string>Infecção por germes vindo do exterior.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Heteroplástia</string>
+			<key>significado</key>
+			<string>Enxerto de tecidos de outras pessoas.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hidramnio</string>
+			<key>significado</key>
+			<string>Excesso de líquido amniótico</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hidratado</string>
+			<key>significado</key>
+			<string>Com água</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hidrocele</string>
+			<key>significado</key>
+			<string>É a presença de líquidos em quantidade aumentada dentro do saco escrotal.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hidrocefalia</string>
+			<key>significado</key>
+			<string>Aumento anormal da quantidade de líquidos na cavidade craniana.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hidropsia</string>
+			<key>significado</key>
+			<string>Acúmulo patológico de serosidade</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hidruxia</string>
+			<key>significado</key>
+			<string>Urina excessiva e com baixa densidade, quase aquosa.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hilo</string>
+			<key>significado</key>
+			<string>Região do órgão por onde entram e ou saem os vasos sangüíneos</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hiperalgesia</string>
+			<key>significado</key>
+			<string>Sensibilidade exagerada á dor.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hipercalcemia</string>
+			<key>significado</key>
+			<string>Quantidade excessiva de cálcio no sangue.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hipercapnia</string>
+			<key>significado</key>
+			<string>Excesso de gás carbônico no sangue.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hiperemese</string>
+			<key>significado</key>
+			<string>Vômitos excessivos ou incoercíveis.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hiperglicemia</string>
+			<key>significado</key>
+			<string>Excesso de glicose no sangue.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hiperpirexia</string>
+			<key>significado</key>
+			<string>Febre muito alta, acima de 42 graus c.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hiperpnéia</string>
+			<key>significado</key>
+			<string>Respiração acelerada.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hipersônia</string>
+			<key>significado</key>
+			<string>Sonolência excessiva.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hipertrofia</string>
+			<key>significado</key>
+			<string>Aumento anormal de um órgão ou tecido</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hipertricose</string>
+			<key>significado</key>
+			<string>Excesso de pêlos, ou sua localização anormal.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hipoestesia</string>
+			<key>significado</key>
+			<string>Diminuição da sensibilidade.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hipofoxia</string>
+			<key>significado</key>
+			<string>Falta de oxigênio.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hipotensão</string>
+			<key>significado</key>
+			<string>Baixa pressão arterial.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hipotonia</string>
+			<key>significado</key>
+			<string>Tonicidade muscular diminuída.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Histerectomia</string>
+			<key>significado</key>
+			<string>Retirada total ou parcial do útero </string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Histeropexia</string>
+			<key>significado</key>
+			<string>Fixação do útero na parede abdominal ou na vagina</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Histerorrafia</string>
+			<key>significado</key>
+			<string>Sutura do útero.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Histeroscopia</string>
+			<key>significado</key>
+			<string>É um exame especifico onde se introduz uma sonda com uma micro câmera para se observar a cavidade uterina e o canal cervical,ele pode ser realizado até mesmo em um consultório, pois não necessidade de anestesia.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Incisão</string>
+			<key>significado</key>
+			<string>Abertura, corte</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Ileostomia</string>
+			<key>significado</key>
+			<string>Abertura do íleo</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Jejunorrafia</string>
+			<key>significado</key>
+			<string>Sutura do jejuno</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Jejunostomia</string>
+			<key>significado</key>
+			<string>Abertura do jejuno para fins alimentares</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Lábio leporino</string>
+			<key>significado</key>
+			<string>É uma abertura no lábio ou palato, ocorrida pelo não fechamento desta estrutura durante a gestação.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Laparoscopia</string>
+			<key>significado</key>
+			<string>Exame com visualização da cavidade abdominal</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Laparotomia </string>
+			<key>significado</key>
+			<string>Abertura da cavidade abdominal para fins explorativos</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Laringectomia</string>
+			<key>significado</key>
+			<string>Retirada da bexiga</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Laringoscopia</string>
+			<key>significado</key>
+			<string>Exame com visualização da laringe.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Leucorreia</string>
+			<key>significado</key>
+			<string>Fluxo vaginal anormal,geralmente aumentado,também chamado de (vaginite ou vulvovaginite)</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Lienteria</string>
+			<key>significado</key>
+			<string>Diarréia de fezes líquidas contendo matéria não digerida.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Língua saburrosa</string>
+			<key>significado</key>
+			<string>Também conhecido como saburra lingual ou língua branca,é caracterizada por uma formação de placa bacteriana esbranquiçada; Que pode se apresentar nas cores branca amarela e marrom.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Lipotímia.</string>
+			<key>significado</key>
+			<string>desmaio ligeiro com perda dos sentidos</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Litotomia</string>
+			<key>significado</key>
+			<string>Incisão de um órgão para retirada de um cálculo</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Lobectomia</string>
+			<key>significado</key>
+			<string>Remoção de um lobo de um órgão.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Luxação</string>
+			<key>significado</key>
+			<string>Separação das superfícies óssea de uma articulação. </string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Mácula</string>
+			<key>significado</key>
+			<string>Uma lesão que acomete uma pequena área no fundo do olho,que nos permite enxergar detalhes de pequenas coisas, quando há lesão nesse local,vemos embaçamento ou escuridão no centro da visão.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Mastectomia</string>
+			<key>significado</key>
+			<string>Retirada da mama.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Mastalgia</string>
+			<key>significado</key>
+			<string>Dor no seio.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Melena</string>
+			<key>significado</key>
+			<string>Hemorragia pelo ânus em forma de borra de café, é o sangue que vem do estômago ou duodeno e sofreu transformações químicas.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Menorralgia</string>
+			<key>significado</key>
+			<string>Hemorragia menstrual.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Metrorrafia</string>
+			<key>significado</key>
+			<string>Sutura do útero</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Metrorragia</string>
+			<key>significado</key>
+			<string>Sangramento fora do período menstrual.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Metrosalpingite</string>
+			<key>significado</key>
+			<string>É uma inflamação que se localiza na região uterina e nas tubas</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Míase</string>
+			<key>significado</key>
+			<string>Presença de larvas de moscas no organismo.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Mictúria</string>
+			<key>significado</key>
+			<string>Micção freqüente á noite.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Miomectomia</string>
+			<key>significado</key>
+			<string>remoção de mioma.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Midríase</string>
+			<key>significado</key>
+			<string>dilatação da pupila.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Miose</string>
+			<key>significado</key>
+			<string>Contração da pupila</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Monoplegia</string>
+			<key>significado</key>
+			<string>É a paralisia de um único membro membro</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Necrose</string>
+			<key>significado</key>
+			<string>Morte do tecido</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Nefrectomia</string>
+			<key>significado</key>
+			<string>Retirada total ou parcial dos rins</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Nefrite</string>
+			<key>significado</key>
+			<string>Inflamação dos glomérulos renais</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Nefrografia</string>
+			<key>significado</key>
+			<string>Radiologia do rim</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Nefropexia</string>
+			<key>significado</key>
+			<string>Fixação do rim ou ambos os rins</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Nefroplastia</string>
+			<key>significado</key>
+			<string>Plástica do rim</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Nictalopia</string>
+			<key>significado</key>
+			<string>Cegueira noturna.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Nictúria</string>
+			<key>significado</key>
+			<string>Micção freqüente á noite.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Nódulo</string>
+			<key>significado</key>
+			<string>É uma lesão solida, geralmente de origem epitelial ou conjuntiva,com tamanho superior a 1cm de diâmetro. </string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Normocárdico ou normotenso</string>
+			<key>significado</key>
+			<string>É a frequência cardíaca normal,que no adulto fica entre 60 a 100 Bpm,de 80 a 100 Bpm em crianças, e 120 a 130 Bpm em bebês.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Normotermia</string>
+			<key>significado</key>
+			<string>É a temperatura normal,que situa-se entre 36 a 37.2C°</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Obstipação</string>
+			<key>significado</key>
+			<string>Constipação rebelde, prisão de ventre.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Obstrução intestinal</string>
+			<key>significado</key>
+			<string>Oclusão do intestino com parada de progressão de seu conteúdo Oligomenorréia, Menstruação insuficiente.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Oligúria</string>
+			<key>significado</key>
+			<string>Deficiência de eliminação urinaria &quot;escassez&quot;.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Oligúria</string>
+			<key>significado</key>
+			<string>Diminuição da quantidade de urina.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Omalgia</string>
+			<key>significado</key>
+			<string>Dor no ombro.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Ooforectamia</string>
+			<key>significado</key>
+			<string>Retirada total ou parcial dos ovários</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Ooforopexia</string>
+			<key>significado</key>
+			<string>Cirurgia de fixação do ovário.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Operação de Haminsted </string>
+			<key>significado</key>
+			<string>Correção da estenose pilórica</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Operação de Mancheste</string>
+			<key>significado</key>
+			<string>Correção do prolapso uterino</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Operação de Werthen</string>
+			<key>significado</key>
+			<string>Remoção do útero e seus anexos</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Orquiectomia</string>
+			<key>significado</key>
+			<string>Retirada do testículo</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Otalgia</string>
+			<key>significado</key>
+			<string>Dor de ouvido </string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Ortopnéia</string>
+			<key>significado</key>
+			<string>Acentuada falta de ar em decúbito dorsal.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Otorreia</string>
+			<key>significado</key>
+			<string>Saída anormal de secreção pelo ouvido</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Palatorrafia ou estafilorrafia </string>
+			<key>significado</key>
+			<string>Sutura do palato (fenda palatina)</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Pancreatectomia</string>
+			<key>significado</key>
+			<string>Retirada do pâncreas</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Papilotomia</string>
+			<key>significado</key>
+			<string>Incisão da papila duodenal</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Papilototomia</string>
+			<key>significado</key>
+			<string>Abertura da papila duodenal</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Paracentese</string>
+			<key>significado</key>
+			<string>Punção da cavidade abdominal</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Paresia</string>
+			<key>significado</key>
+			<string>Paralisia ligeira ou incompleta.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Parestesia</string>
+			<key>significado</key>
+			<string>Alteração da sensibilidade, desordem nervosa, com sensações anormais.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Patéla</string>
+			<key>significado</key>
+			<string>Rótulo, osso do joelho.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Pedículo</string>
+			<key>significado</key>
+			<string>Porção estreita de um tumor que lhe serve de base de implante; o mesmo que hilo</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Penectomia</string>
+			<key>significado</key>
+			<string>Retirada total ou parcial do pênis</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Pericardiocentese</string>
+			<key>significado</key>
+			<string>Punção do peritônio</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Perineorrafia</string>
+			<key>significado</key>
+			<string>Sutura do períneo</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string></string>
+			<key>significado</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Peristaltismo</string>
+			<key>significado</key>
+			<string>É um conjunto de contrações musculares, rítmicas e coordenadas que ocorrem involuntariamente para movimentar o alimento pelo trato digestivo.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Peritônio</string>
+			<key>significado</key>
+			<string>Membrana serosa que reveste internamente a parede abdominal</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Peritoniocentese</string>
+			<key>significado</key>
+			<string>Punção do peritônio</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Pielolitotomia</string>
+			<key>significado</key>
+			<string>Incisão do cálice renal para retirada de cálculo</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Pielotomia </string>
+			<key>significado</key>
+			<string>Incisão do cálice renal</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Piloroplastia</string>
+			<key>significado</key>
+			<string>Plástica do piloro para aumentar o seu diâmetro</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Pirexia</string>
+			<key>significado</key>
+			<string>Elevação da temperatura corporal (febre)</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Pirose</string>
+			<key>significado</key>
+			<string>Sensação de queimação dor que é provocado pela ação do acido gástrico.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Plegia</string>
+			<key>significado</key>
+			<string>Paralisia</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Paraplegia</string>
+			<key>significado</key>
+			<string>É a paralisia dos membros inferiores.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Tetraplegia ou quadriplegia</string>
+			<key>significado</key>
+			<string>É a paralisia dos quatro membros.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Pleurocentese </string>
+			<key>significado</key>
+			<string>Punção da pleura</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Podialgia</string>
+			<key>significado</key>
+			<string>Dor no pé.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Polagiúria</string>
+			<key>significado</key>
+			<string>Eliminação frequente de urina.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Polaquiuria</string>
+			<key>significado</key>
+			<string>Micções frequentes e em pequenas quantidades.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Plexo</string>
+			<key>significado</key>
+			<string>Rede de arranjo de gânglios, vasos e nervo</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Polidactilia</string>
+			<key>significado</key>
+			<string>Possui mais dedos que o normal </string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Polidipsia</string>
+			<key>significado</key>
+			<string>Sede excessiva.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Polifagia</string>
+			<key>significado</key>
+			<string>É uma especie de bulemia nervosa,quando o paciente ingere uma quantidade grande de alimentos em um pequeno período de tempo..uma especie de fome excessiva momentânea.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Polipneia</string>
+			<key>significado</key>
+			<string>Respiração rápida e ofegante.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Poliúria</string>
+			<key>significado</key>
+			<string>Aumento da quantidade de urina.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Pneumectomia</string>
+			<key>significado</key>
+			<string>Retirada do pulmão</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Pneumomediastino</string>
+			<key>significado</key>
+			<string>Ar ou gás no mediastino.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Pneumotórax</string>
+			<key>significado</key>
+			<string>Ar ou gás na cavidade pleural,que pode ser causado por doença ou trauma.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Posição de Fowler</string>
+			<key>significado</key>
+			<string>Posição semi sentada que se obtém com cama articulada ou com auxilio de travesseiros.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Posição de Trendelemburg</string>
+			<key>significado</key>
+			<string>Com os pés em nível mais alto que a cabeça.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Pós-operatório</string>
+			<key>significado</key>
+			<string>Depois da cirurgia</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Precordial</string>
+			<key>significado</key>
+			<string>Relativo á área torácica que corresponde ao coração.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Pré-operatório</string>
+			<key>significado</key>
+			<string>Antes da cirurgia</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Proctalgia</string>
+			<key>significado</key>
+			<string>Dor no reto.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Proctorralgia</string>
+			<key>significado</key>
+			<string>Hemorragia retal.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Proctorréia</string>
+			<key>significado</key>
+			<string>Evacuação do muco pelo ânus.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Prolapso</string>
+			<key>significado</key>
+			<string>Queda de órgãos ou víscera ou desvio de sua posição natural devido ao afrouxamento físico.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Prostatectomia</string>
+			<key>significado</key>
+			<string>Retirada total da glândula prostática</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Prótese</string>
+			<key>significado</key>
+			<string>Aparelho colocado no corpo em substituição a uma de suas partes ou órgão</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Prurido</string>
+			<key>significado</key>
+			<string>Significa coceira</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Psicose</string>
+			<key>significado</key>
+			<string>Doença mental, caracterizada pela distorção da realidade, delírios e alucinações...</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Ptialismo</string>
+			<key>significado</key>
+			<string>Hipersecreção salivar.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Ptose palpebral</string>
+			<key>significado</key>
+			<string>Queda da pálpebras.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Ptose</string>
+			<key>significado</key>
+			<string>Perda da posição original ou queda de um órgão interno.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Pulso filiforme</string>
+			<key>significado</key>
+			<string>Pulso mole e muito pequeno.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Pulso intermitente</string>
+			<key>significado</key>
+			<string>Pulso em que algumas pulsações não são percebidas pela mão que o apalpa.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Pústula</string>
+			<key>significado</key>
+			<string>Vesícula cheia de pus.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Quadriplegia</string>
+			<key>significado</key>
+			<string>Paralisia das duas pernas e dos dois braços.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Queilose</string>
+			<key>significado</key>
+			<string>Afecção dos lábios e dos ângulos da boca.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Quelóide</string>
+			<key>significado</key>
+			<string>Excesso de tecido conjuntivo na cicatriz, que fica exuberante.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Quieloplastia </string>
+			<key>significado</key>
+			<string>Reparar os defeitos dos lábios.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Rádio</string>
+			<key>significado</key>
+			<string>O osso externo do antebraço.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Reflexo</string>
+			<key>significado</key>
+			<string>Contração muscular, resposta involuntária a um estimulo.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Regurgitação</string>
+			<key>significado</key>
+			<string>Volta de comia do estômago á boca.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Respiração de Kussmaul</string>
+			<key>significado</key>
+			<string>É um processo respiratório profundo e trabalhoso que normalmente esta associado a uma acidose metabólica.Se faz uma hiperventilação afim de reduzir o dióxido de carbono presente no sangue.por isso a frequência pode ser maior ou mais profunda.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Retenção</string>
+			<key>significado</key>
+			<string>Incapacidade de eliminar.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Retenção urinária</string>
+			<key>significado</key>
+			<string>Incapacidade de eliminar a urina.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Restituição</string>
+			<key>significado</key>
+			<string>Reconstrução de tecido órgão etc...</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Retosigmoidectomia</string>
+			<key>significado</key>
+			<string>Retirada do reto sigmóide</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Retossigmoidoscopia</string>
+			<key>significado</key>
+			<string>Exame com visualização direta do reto sigmóide</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Rinirragia</string>
+			<key>significado</key>
+			<string>Hemorragia nasal.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Rinoplastia</string>
+			<key>significado</key>
+			<string>Plástica do nariz</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Rinorréia</string>
+			<key>significado</key>
+			<string>Coriza, descarga mucosa pelo nariz.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Ritidoplastia</string>
+			<key>significado</key>
+			<string>Eliminação cirúrgica das rugas da pele</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Safenas</string>
+			<key>significado</key>
+			<string>Nome de duas grandes veias do membro inferior.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Safenectomia </string>
+			<key>significado</key>
+			<string>Retirada da veia safena</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Salpingectomia</string>
+			<key>significado</key>
+			<string>Retirada total ou parcial da trompas uterinas</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Salpingoplastia</string>
+			<key>significado</key>
+			<string>Plástica das trompas uterinas</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Sânie</string>
+			<key>significado</key>
+			<string>Secreção fétida de uma úlcera. </string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Secreção</string>
+			<key>significado</key>
+			<string>Produto de uma glândula.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Sialorréia</string>
+			<key>significado</key>
+			<string>Salivação excessiva. </string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Sialosquiese</string>
+			<key>significado</key>
+			<string>Salivação deficiente (boca seca).</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Sibilante</string>
+			<key>significado</key>
+			<string>Semelhante á assobio. </string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Simpatectomia</string>
+			<key>significado</key>
+			<string>Retirada total ou parcial do nervo simpático</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Sigmoidoscopia.</string>
+			<key>significado</key>
+			<string>Exame com visualização direta do sigmóide.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Síntese</string>
+			<key>significado</key>
+			<string>Reunião dos tecidos separados, corresponde à sutura.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Sublingual</string>
+			<key>significado</key>
+			<string>Abaixo da língua, é uma das vias de administração de medicamentos.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Supuração</string>
+			<key>significado</key>
+			<string>Formação de pus.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Sutura </string>
+			<key>significado</key>
+			<string>União de órgãos ou tecidos através de agulha e fio</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Talalgia</string>
+			<key>significado</key>
+			<string>Dor no calcanhar.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Taquicardia</string>
+			<key>significado</key>
+			<string>Aceleração dos batimentos cardíacos.O normal é entre 72 e 80.De 200 em diante o pulso se torna incontável. </string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Taquipnéia</string>
+			<key>significado</key>
+			<string>Movimentos respiratórios acelerados.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Tarso</string>
+			<key>significado</key>
+			<string>Tornozelo.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Tenalgia</string>
+			<key>significado</key>
+			<string>Dor no tendão. </string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Tenorrafia</string>
+			<key>significado</key>
+			<string>Sutura do tendão</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Tetalgia</string>
+			<key>significado</key>
+			<string>Dor no bico do seio.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Tetraplegia</string>
+			<key>significado</key>
+			<string>Paralisia dos quatros membros.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Tireoidectomia</string>
+			<key>significado</key>
+			<string>Remoção da tireoide</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Toracocentese </string>
+			<key>significado</key>
+			<string>Punção da cavidade abdominal para retirada de líquido extra-corpóreo</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Toracoplastia</string>
+			<key>significado</key>
+			<string>Plástica da parede torácica</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Toracotomia</string>
+			<key>significado</key>
+			<string>Abertura da parede do tórax</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Trans-operatório</string>
+			<key>significado</key>
+			<string>Ato cirúrgico propriamente dito</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Traquelectomia</string>
+			<key>significado</key>
+			<string>Excisão do colo uterino, com amputação</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Traquelectomopexia</string>
+			<key>significado</key>
+			<string>Excisão parcial e fixação do colo uterino</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Traqueostomia</string>
+			<key>significado</key>
+			<string>Abertura da traquéia no meio interno para o externo</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Traqueotomia</string>
+			<key>significado</key>
+			<string>Abertura da traquéia para emergência</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Tricotomia</string>
+			<key>significado</key>
+			<string>Raspagem dos pelos</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Úlcera</string>
+			<key>significado</key>
+			<string>Necrose gradual do tecido, com perda de substância</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Úlcera varicosa</string>
+			<key>significado</key>
+			<string>Ulceração da parte inferior da perna devido a redução no suprimento do sangue.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Ulceração</string>
+			<key>significado</key>
+			<string>Formação de úlceras.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Ulorragia</string>
+			<key>significado</key>
+			<string>Hemorragia gengival.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Ultra-sonografia</string>
+			<key>significado</key>
+			<string>Exame radiológico para visualização da cavidade abdominal</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Ureteralgia</string>
+			<key>significado</key>
+			<string>Dor no ureter.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Uretralgia</string>
+			<key>significado</key>
+			<string>Dor na uretra.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Ureterolitotomia</string>
+			<key>significado</key>
+			<string>Abertura do ureter para retirada de cálculos</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Uretroscopia</string>
+			<key>significado</key>
+			<string>Exame com visualização direta da uretra</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Urina residual</string>
+			<key>significado</key>
+			<string>Urina que permanece na bexiga após a micção.Mede-se mediante cateterismo. </string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Urografia excretora</string>
+			<key>significado</key>
+			<string>É um exame radiológico,onde o paciente recebe um contraste Por via IM,e este se espalha pelo rins formando um contraste ,e neste momento se faz um raio X. Onde pode se localizar alguma anormalidade.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Urticária</string>
+			<key>significado</key>
+			<string>Erupção eritematosa da pele com prurido.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Varicocele</string>
+			<key>significado</key>
+			<string>Dilatação das veias do escroto</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Vasoconstrição</string>
+			<key>significado</key>
+			<string>Contração dos vasos com estreitamento de seu cana ou luz.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Vasodilatação</string>
+			<key>significado</key>
+			<string>Dilatação dos vasos sanguíneos.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Venóclise</string>
+			<key>significado</key>
+			<string>É a infusão de grande quantidade de volume liquido dentro de uma veia a fim de administrar medicamentos,repor sais minerais,nutrientes ou restabelecer o volume sanguíneo</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Vertigem</string>
+			<key>significado</key>
+			<string>Distúrbio neuro vegetativo, tontura. </string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Vulvectomia</string>
+			<key>significado</key>
+			<string>Retirada da vulva</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Xantorréia</string>
+			<key>significado</key>
+			<string>Corrimento vaginal amarelo,acre e purulento.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Xerodermia</string>
+			<key>significado</key>
+			<string>Secura da pele.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Xeromicteria</string>
+			<key>significado</key>
+			<string>Falta de umidade nas vias nasais.</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,1997 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SIGLAS</key>
+	<array>
+		<dict>
+			<key>nome</key>
+			<string>aa</string>
+			<key>significado</key>
+			<string>ar ambiente</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Aa</string>
+			<key>significado</key>
+			<string>aminoacido</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>AAA</string>
+			<key>significado</key>
+			<string>aneurisma de aorta abdominal</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>ABO</string>
+			<key>significado</key>
+			<string>tipo sanguineo ABO</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>ABVO</string>
+			<key>significado</key>
+			<string>aceita bem via oral</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>AC</string>
+			<key>significado</key>
+			<string>alojamento conjunto</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>ACM</string>
+			<key>significado</key>
+			<string>a criterio medico</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>ACTH</string>
+			<key>significado</key>
+			<string>hormonio adrenocorticotrofico</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>ADH</string>
+			<key>significado</key>
+			<string>hormonio antidiuretico</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>ADP</string>
+			<key>significado</key>
+			<string>adenosina difosfato</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>AIDS</string>
+			<key>significado</key>
+			<string>sindrome da imunodeficiencia</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>AD</string>
+			<key>significado</key>
+			<string>atrio direito</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>AE</string>
+			<key>significado</key>
+			<string>atrio esquerdo</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>AGE</string>
+			<key>significado</key>
+			<string>acidos graxos essenciais</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>amp</string>
+			<key>significado</key>
+			<string>ampola</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>AMP</string>
+			<key>significado</key>
+			<string>adenosina monofosfato</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>AMVO</string>
+			<key>significado</key>
+			<string>aceita mal via oral</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>AO</string>
+			<key>significado</key>
+			<string>aorta.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>AOE</string>
+			<key>significado</key>
+			<string>abertura ocular espontanea</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>AP</string>
+			<key>significado</key>
+			<string>antecedentes pessoais. </string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>AP</string>
+			<key>significado</key>
+			<string>aparelho pulmonar</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>AR</string>
+			<key>significado</key>
+			<string>aparelho respiratório.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>ARVO</string>
+			<key>significado</key>
+			<string>aceita regular via oral</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>AV</string>
+			<key>significado</key>
+			<string>atrio ventricular</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>AVC</string>
+			<key>significado</key>
+			<string>acidente vascular cerebral</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>AVC</string>
+			<key>significado</key>
+			<string>acesso venoso central</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>AVE</string>
+			<key>significado</key>
+			<string>acidente vascular encefalico</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>AVE</string>
+			<key>significado</key>
+			<string>aneurisma ventrículo esquerdo.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>AVP</string>
+			<key>significado</key>
+			<string>acesso venoso periférico</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>BAN</string>
+			<key>significado</key>
+			<string>batimento de asa do nariz</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>BAV</string>
+			<key>significado</key>
+			<string>bloqueio atrioventricular</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>BCP</string>
+			<key>significado</key>
+			<string>broncopneumonia</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>BEG</string>
+			<key>significado</key>
+			<string>bom estado geral</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>BIA</string>
+			<key>significado</key>
+			<string>balao intra-aortico</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>BIPAP</string>
+			<key>significado</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>BC</string>
+			<key>significado</key>
+			<string>bloco cirurgico</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>bpm</string>
+			<key>significado</key>
+			<string>batimento por minuto</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>BAVT</string>
+			<key>significado</key>
+			<string>bloqueio átrio ventricular total.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Ca</string>
+			<key>significado</key>
+			<string>calcio</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CA</string>
+			<key>significado</key>
+			<string>cancer</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CAPD</string>
+			<key>significado</key>
+			<string>dialise peritoneal ambulatorial continua</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CAPs</string>
+			<key>significado</key>
+			<string>contracoes atriais prematuras</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CAT</string>
+			<key>significado</key>
+			<string>cateterismo.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>cc</string>
+			<key>significado</key>
+			<string>centimetro cubico</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CC</string>
+			<key>significado</key>
+			<string>centro cirurgico</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CD</string>
+			<key>significado</key>
+			<string>conduta</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CD</string>
+			<key>significado</key>
+			<string>controle de diurese</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CE</string>
+			<key>significado</key>
+			<string>corpo estranho</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CEC</string>
+			<key>significado</key>
+			<string>circulação extra corpórea.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CEN</string>
+			<key>significado</key>
+			<string>cateter extra nasal</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CET</string>
+			<key>significado</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CH</string>
+			<key>significado</key>
+			<string>concentrado de hemaceas</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CHF</string>
+			<key>significado</key>
+			<string>concentrado de hemaceas filtrado</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CHFI</string>
+			<key>significado</key>
+			<string>concentrado de hemaceas filtrado e irradiado</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CIA</string>
+			<key>significado</key>
+			<string>comunicação intra atrial.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CID</string>
+			<key>significado</key>
+			<string>classificacao internacional de doencas</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CIV</string>
+			<key>significado</key>
+			<string>comunicação interventricular. </string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CKMB</string>
+			<key>significado</key>
+			<string>fracao da enzima CPK</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>cm</string>
+			<key>significado</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CME</string>
+			<key>significado</key>
+			<string>centro de material e esterilizacao</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CMO</string>
+			<key>significado</key>
+			<string>cardiomiopatias obstrutivas. </string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CMV</string>
+			<key>significado</key>
+			<string>citomegalovirus</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CN</string>
+			<key>significado</key>
+			<string>cateter nasal</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CO</string>
+			<key>significado</key>
+			<string>centro obstetrico</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CO</string>
+			<key>significado</key>
+			<string>monoxido de carbono</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CO2</string>
+			<key>significado</key>
+			<string>dioxido de carbono</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>conc</string>
+			<key>significado</key>
+			<string>concentracao</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CP</string>
+			<key>significado</key>
+			<string>contagem de plaquetas</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CPAP</string>
+			<key>significado</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CPK</string>
+			<key>significado</key>
+			<string>creatinina fosfoquinase</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CPT</string>
+			<key>significado</key>
+			<string>capacidade pulmonar total</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CRF</string>
+			<key>significado</key>
+			<string>capacidade residual funcional</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CST</string>
+			<key>significado</key>
+			<string>complacencia estatica</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CSV</string>
+			<key>significado</key>
+			<string>controle de sinais vitais</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CT</string>
+			<key>significado</key>
+			<string>tomografia computadorizada</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CTI</string>
+			<key>significado</key>
+			<string>centro de terapia intensiva</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CV</string>
+			<key>significado</key>
+			<string>capacidade vital</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CV</string>
+			<key>significado</key>
+			<string>cardioversao</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CV</string>
+			<key>significado</key>
+			<string>cateterismo vesical</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CVC</string>
+			<key>significado</key>
+			<string>cateter venoso central</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CVE</string>
+			<key>significado</key>
+			<string>cardioversao eletrica</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CVPs</string>
+			<key>significado</key>
+			<string>contracoes ventriculares Prematuras</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>CX</string>
+			<key>significado</key>
+			<string>circunflexa. </string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>D</string>
+			<key>significado</key>
+			<string>dialise</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>D</string>
+			<key>significado</key>
+			<string>difusao</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>d</string>
+			<key>significado</key>
+			<string>dia</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>DC</string>
+			<key>significado</key>
+			<string>debito cardiaco</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>DDAVP</string>
+			<key>significado</key>
+			<string>desmopressina</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>dg</string>
+			<key>significado</key>
+			<string>dragea</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>DHL</string>
+			<key>significado</key>
+			<string>desidrogenase latica</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>DI</string>
+			<key>significado</key>
+			<string>diabetes insipidus</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>DI</string>
+			<key>significado</key>
+			<string>dia de internacao</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>DIU</string>
+			<key>significado</key>
+			<string>dispositivo intra-uterino</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>dl</string>
+			<key>significado</key>
+			<string>decilitro</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>DL</string>
+			<key>significado</key>
+			<string>drenagem linfatica</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>DL</string>
+			<key>significado</key>
+			<string>duplo lumen</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>DLAO</string>
+			<key>significado</key>
+			<string>dupla lesão aórtica.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>DLD</string>
+			<key>significado</key>
+			<string>decubito lateral direito</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>DLE</string>
+			<key>significado</key>
+			<string>decubito lateral esquerdo</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>DNA</string>
+			<key>significado</key>
+			<string>acido desoxiribonucleico</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>DP</string>
+			<key>significado</key>
+			<string>dialise peritoneal</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>DPI</string>
+			<key>significado</key>
+			<string>dialise peritoneal intermitente</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>DPI</string>
+			<key>significado</key>
+			<string>doenca inflamatoria pelvica</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>DPP</string>
+			<key>significado</key>
+			<string>descolamento prematuro de placenta</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>DPOC</string>
+			<key>significado</key>
+			<string>doenca pulmonar obstrutiva cronica</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>DRGE</string>
+			<key>significado</key>
+			<string>doenca refluxo gastroesofagico</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>DRP</string>
+			<key>significado</key>
+			<string>disfuncao respiratoria precoce</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>DT</string>
+			<key>significado</key>
+			<string>dreno de torax</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>DV</string>
+			<key>significado</key>
+			<string>decubito ventral</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>DVAO</string>
+			<key>significado</key>
+			<string>disfunção válvula aórtica</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>DVE</string>
+			<key>significado</key>
+			<string>derivacao ventricular externa</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>DVP</string>
+			<key>significado</key>
+			<string>derivacao ventricular peritoneal</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>EAM</string>
+			<key>significado</key>
+			<string>estenose artéria mitral.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>ECG</string>
+			<key>significado</key>
+			<string>eletrocardiograma</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>ECO</string>
+			<key>significado</key>
+			<string>ecocardiograma</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>EEG</string>
+			<key>significado</key>
+			<string>eletroencefalograma</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>EF</string>
+			<key>significado</key>
+			<string>exame fisico</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>EM</string>
+			<key>significado</key>
+			<string>estenose mitral.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>EN</string>
+			<key>significado</key>
+			<string>Enterocolite necrosante</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>EP</string>
+			<key>significado</key>
+			<string>embolia pulmonar</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>ERVB</string>
+			<key>significado</key>
+			<string>exploracao radiologica de vias biliares</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>ETO</string>
+			<key>significado</key>
+			<string>esterilizacao por oxido de etileno</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>EV</string>
+			<key>significado</key>
+			<string>endovenoso</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>FA</string>
+			<key>significado</key>
+			<string>fosfatase alcalina</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>FA</string>
+			<key>significado</key>
+			<string>fibrilacao atrial</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>FC</string>
+			<key>significado</key>
+			<string>frequencia cardiaca</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>fco</string>
+			<key>significado</key>
+			<string>frasco</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>FIO2</string>
+			<key>significado</key>
+			<string>fracao inspiratoria de oxigenio</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>FL</string>
+			<key>significado</key>
+			<string>fezes liquidas</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>FP</string>
+			<key>significado</key>
+			<string>fezes pastosas</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>FSL</string>
+			<key>significado</key>
+			<string>fezes semi-liquidas</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>FSP</string>
+			<key>significado</key>
+			<string>fezes semi-pastosas</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>FR</string>
+			<key>significado</key>
+			<string>frequencia respiratoria</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>FV</string>
+			<key>significado</key>
+			<string>fibrilacao ventricular</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>FAV</string>
+			<key>significado</key>
+			<string>fistula arteriovenosa</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>G+</string>
+			<key>significado</key>
+			<string>gram positivo</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>G-</string>
+			<key>significado</key>
+			<string>gram negativo</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>GA</string>
+			<key>significado</key>
+			<string>gasometria arterial</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>GB</string>
+			<key>significado</key>
+			<string>globulos brancos</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>GDP</string>
+			<key>significado</key>
+			<string>gastroduodenopancreatectomia</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>g</string>
+			<key>significado</key>
+			<string>gramas</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>GV</string>
+			<key>significado</key>
+			<string>globulos vermelhos</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>GV</string>
+			<key>significado</key>
+			<string>gasometria venosa</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>h</string>
+			<key>significado</key>
+			<string>hora</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>
+HAS</string>
+			<key>significado</key>
+			<string>hipertensao arterial sistemica</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Hb</string>
+			<key>significado</key>
+			<string>hemoglobina</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>HBV</string>
+			<key>significado</key>
+			<string>virus da hepatite B</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>HCV</string>
+			<key>significado</key>
+			<string>virus da hepatite C</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>HD</string>
+			<key>significado</key>
+			<string>hemodialise</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>HDF</string>
+			<key>significado</key>
+			<string>hemodiafiltracao</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>HF</string>
+			<key>significado</key>
+			<string>hemofiltracao</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>HGT</string>
+			<key>significado</key>
+			<string>hemoglicoteste</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>HIV</string>
+			<key>significado</key>
+			<string>virus da imunodeficiencia humana</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>HM</string>
+			<key>significado</key>
+			<string>hipertermia maligna</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>HP</string>
+			<key>significado</key>
+			<string>hipertensao pulmonar</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>HSDE</string>
+			<key>significado</key>
+			<string>hematoma subdural esquerdo</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>HSDD</string>
+			<key>significado</key>
+			<string>hematoma subdural direito</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>HTA</string>
+			<key>significado</key>
+			<string>histerectomia total abdominal</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Htc</string>
+			<key>significado</key>
+			<string>hematocrito</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>HTD</string>
+			<key>significado</key>
+			<string>hemitorax direito</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>HTE</string>
+			<key>significado</key>
+			<string>hemitorax esquerdo</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>HTV</string>
+			<key>significado</key>
+			<string>histerectomia total via vaginal</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>IAM</string>
+			<key>significado</key>
+			<string>infarto agudo do miocardio</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>IAO</string>
+			<key>significado</key>
+			<string>insuficiência aórtica.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>ICC</string>
+			<key>significado</key>
+			<string>insuficiencia cardiaca congestiva</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>ICHS</string>
+			<key>significado</key>
+			<string>hormonio estimulante das</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>ID</string>
+			<key>significado</key>
+			<string>intradermica</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Ig</string>
+			<key>significado</key>
+			<string>imunoglobulina</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>IM</string>
+			<key>significado</key>
+			<string>intramuscular</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>IMV</string>
+			<key>significado</key>
+			<string>ventilacao mandatoria intermitente</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>IRA</string>
+			<key>significado</key>
+			<string>insuficiencia renal aguda</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>IRA</string>
+			<key>significado</key>
+			<string>insuficiencia respiratoria aguda</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>IRC</string>
+			<key>significado</key>
+			<string>insuficiencia renal cronica</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>ISCD</string>
+			<key>significado</key>
+			<string>subclavia direita</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>ISCE</string>
+			<key>significado</key>
+			<string>subclavia esquerda</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>IV</string>
+			<key>significado</key>
+			<string>intravascular</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>IV</string>
+			<key>significado</key>
+			<string>intravenoso</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>IVD</string>
+			<key>significado</key>
+			<string>insuficiência ventricular direita</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>K</string>
+			<key>significado</key>
+			<string>potassio</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Kg</string>
+			<key>significado</key>
+			<string>quilograma</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Km</string>
+			<key>significado</key>
+			<string>quilometro</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>L</string>
+			<key>significado</key>
+			<string>litro</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>LCR</string>
+			<key>significado</key>
+			<string>liquido cefalorraquidiano</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>LES</string>
+			<key>significado</key>
+			<string>lupus eritematoso sistemico</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>LH</string>
+			<key>significado</key>
+			<string>linfoma de Hodking</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>LH</string>
+			<key>significado</key>
+			<string>hormonio luteinizante</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>LLA</string>
+			<key>significado</key>
+			<string>leucemia linfocitica aguda</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>LLC</string>
+			<key>significado</key>
+			<string>leucemia linfocitica cronica</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>LMA</string>
+			<key>significado</key>
+			<string>leucemia mieloide aguda</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>LMC</string>
+			<key>significado</key>
+			<string>leucemia mieloide cronica</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>LOC</string>
+			<key>significado</key>
+			<string>lucido, orientado e coerente</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>m</string>
+			<key>significado</key>
+			<string>metro</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>mEq</string>
+			<key>significado</key>
+			<string>miliequivalente</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>mg</string>
+			<key>significado</key>
+			<string>miligrama</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>min</string>
+			<key>significado</key>
+			<string>minuto</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>MIE/CD</string>
+			<key>significado</key>
+			<string>mamaria-coronária direita.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>ml</string>
+			<key>significado</key>
+			<string>mililitro</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>mm</string>
+			<key>significado</key>
+			<string>milimetro</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>mmHg</string>
+			<key>significado</key>
+			<string>milimetros de mercurio</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>MEG</string>
+			<key>significado</key>
+			<string>mau estado geral</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>MP</string>
+			<key>significado</key>
+			<string>marcapasso</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>MMII</string>
+			<key>significado</key>
+			<string>membros inferiores</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>MMSS</string>
+			<key>significado</key>
+			<string>membros superiores</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>MID</string>
+			<key>significado</key>
+			<string>membro inferior direito</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>MIE</string>
+			<key>significado</key>
+			<string>membro inferior esquerdo</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>MOE</string>
+			<key>significado</key>
+			<string>movimentos oculares extrinsecos</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>MSD</string>
+			<key>significado</key>
+			<string>membro superior direito</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>MSE</string>
+			<key>significado</key>
+			<string>membro superior esquerdo</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>MSH</string>
+			<key>significado</key>
+			<string>hormonio melanocito estimulante</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>MV+</string>
+			<key>significado</key>
+			<string>murmurio vesicular presente</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Na</string>
+			<key>significado</key>
+			<string>sodio</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>N</string>
+			<key>significado</key>
+			<string>nitrogenio</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>NPP</string>
+			<key>significado</key>
+			<string>nutricao parenteral prolongada</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>NPT</string>
+			<key>significado</key>
+			<string>nutricao parenteral total</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>NO</string>
+			<key>significado</key>
+			<string>oxido nitrico</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>NTG</string>
+			<key>significado</key>
+			<string>nitroglicerina</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>OPO</string>
+			<key>significado</key>
+			<string>organizacao procura de óbitos</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>P</string>
+			<key>significado</key>
+			<string>pulso</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>PA</string>
+			<key>significado</key>
+			<string>pressao arterial</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>PA</string>
+			<key>significado</key>
+			<string>perimetro abdominal</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>PAM</string>
+			<key>significado</key>
+			<string>pressao arterial media</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>PAP</string>
+			<key>significado</key>
+			<string>pressao arteria pulmonar</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>PACO2</string>
+			<key>significado</key>
+			<string>pressao alveolar de gas carbonico</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>PAD</string>
+			<key>significado</key>
+			<string>pressao arterial diastolica</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>PAS</string>
+			<key>significado</key>
+			<string>pressao arterial sistolica</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>PBE</string>
+			<key>significado</key>
+			<string>peritonite bacteriana espontanea</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>PC</string>
+			<key>significado</key>
+			<string>perimetro cefalico</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>PCO2</string>
+			<key>significado</key>
+			<string>pressao parcial de gas carbonico</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>PCP</string>
+			<key>significado</key>
+			<string>pressao capilar pulmonar</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>PEEP</string>
+			<key>significado</key>
+			<string>pressao positiva expiratoria final</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>PEP</string>
+			<key>significado</key>
+			<string>prontuario eletronico do paciente</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>PE</string>
+			<key>significado</key>
+			<string>papilotomia endoscopica</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>PE</string>
+			<key>significado</key>
+			<string>potenciais evocados</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>PAO2</string>
+			<key>significado</key>
+			<string>pressao alveolar de oxigenio</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>PaO2</string>
+			<key>significado</key>
+			<string>pressao arterial de oxigenio</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>PCA</string>
+			<key>significado</key>
+			<string>analgesia controlada pelo paciente</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>pH</string>
+			<key>significado</key>
+			<string>potencial de hidrogenio</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>PIC</string>
+			<key>significado</key>
+			<string>pressao intracraniana</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>PL</string>
+			<key>significado</key>
+			<string>puncao lombar</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>PMT</string>
+			<key>significado</key>
+			<string>prematuro</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>PNM</string>
+			<key>significado</key>
+			<string>pneumonia</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>PO</string>
+			<key>significado</key>
+			<string>pos-operatorio</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>POI</string>
+			<key>significado</key>
+			<string>pos-operatorio imediato</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>POT</string>
+			<key>significado</key>
+			<string>pos-operatorio tardio</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>PRN</string>
+			<key>significado</key>
+			<string>poliradiculoneurite</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>PS</string>
+			<key>significado</key>
+			<string>pronto-socorro</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>PT</string>
+			<key>significado</key>
+			<string>perimetro toracico</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>PTI</string>
+			<key>significado</key>
+			<string>purpura trombocitopenica idiopatica</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>PTM</string>
+			<key>significado</key>
+			<string>pressao transmembrana</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>PVC</string>
+			<key>significado</key>
+			<string>pressao venosa central</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>QRS</string>
+			<key>significado</key>
+			<string>complexo QRS do eletrocardiograma</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>QT</string>
+			<key>significado</key>
+			<string>quimioterapia</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>QT</string>
+			<key>significado</key>
+			<string>intervalo QT do eletrocardiograma</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>RA</string>
+			<key>significado</key>
+			<string>ruidos adventicios</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>RAA</string>
+			<key>significado</key>
+			<string>reumatismo articular agudo.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>REG</string>
+			<key>significado</key>
+			<string>regular estado geral</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>RG</string>
+			<key>significado</key>
+			<string>residuo gastrico</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>RHA</string>
+			<key>significado</key>
+			<string>ruido hidroaereo</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>RFM</string>
+			<key>significado</key>
+			<string>reflexo foto motor</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>RM</string>
+			<key>significado</key>
+			<string>ressonancia magnetica</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>RN</string>
+			<key>significado</key>
+			<string>recem nascido</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>RNA</string>
+			<key>significado</key>
+			<string>acido ribonucleico</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>RPA</string>
+			<key>significado</key>
+			<string>recuperacao pos-anestesica</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>rpm</string>
+			<key>significado</key>
+			<string>respiracao por minuto</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>SaO2</string>
+			<key>significado</key>
+			<string>saturacao arterial de oxigenio</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>SN-IPPV</string>
+			<key>significado</key>
+			<string>Synchronized nasal intermittent
+positive pressure ventilation </string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>SC</string>
+			<key>significado</key>
+			<string>subcutanea</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>seg</string>
+			<key>significado</key>
+			<string>segundo</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>SF</string>
+			<key>significado</key>
+			<string>soro fisiologico</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>SG</string>
+			<key>significado</key>
+			<string>soro glicosado</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>SIMV</string>
+			<key>significado</key>
+			<string>ventilacao mandatoria intermitente sincronizada</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>SK</string>
+			<key>significado</key>
+			<string>estreptoquinase</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>SL</string>
+			<key>significado</key>
+			<string>sublingual</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>SM</string>
+			<key>significado</key>
+			<string>seio materno</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>SNC</string>
+			<key>significado</key>
+			<string>sistema nervoso central</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>SNG</string>
+			<key>significado</key>
+			<string>sonda nasogastrica</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>s/n</string>
+			<key>significado</key>
+			<string>se necessario</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>SNE</string>
+			<key>significado</key>
+			<string>sonda nasoenteral</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>SO</string>
+			<key>significado</key>
+			<string>sala de operacao</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>SOE</string>
+			<key>significado</key>
+			<string>sonda oroenteral</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>SOG</string>
+			<key>significado</key>
+			<string>sonda orogastrica</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>SVM</string>
+			<key>significado</key>
+			<string>sem visceromegalias.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>SVA</string>
+			<key>significado</key>
+			<string>sondagem vesical de alivio</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>SVD</string>
+			<key>significado</key>
+			<string>sondagem vesical de demora</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>SVE</string>
+			<key>significado</key>
+			<string>sinais vitais estáveis</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>T</string>
+			<key>significado</key>
+			<string>temperatura</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string> TAP</string>
+			<key>significado</key>
+			<string>taquicardia atrial paroxistica</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>TB</string>
+			<key>significado</key>
+			<string>tuberculose</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>TC</string>
+			<key>significado</key>
+			<string>tempo de coagulacao</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Tc</string>
+			<key>significado</key>
+			<string>temperatura central</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>TCE</string>
+			<key>significado</key>
+			<string>traumatismo cranioencefalico</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>TEP</string>
+			<key>significado</key>
+			<string>tromboembolismo pulmonar</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>TGO</string>
+			<key>significado</key>
+			<string>transaminase glutamicooxalacetica</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>TGP</string>
+			<key>significado</key>
+			<string>transaminase glutamico-piruvica</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>TMO</string>
+			<key>significado</key>
+			<string>transplante de medula ossea</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>TP</string>
+			<key>significado</key>
+			<string>tempo de protrombina</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>TS</string>
+			<key>significado</key>
+			<string>tempo de sangramento</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>TS</string>
+			<key>significado</key>
+			<string>tipo sanguineo</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>TSH</string>
+			<key>significado</key>
+			<string>hormonio estimulante da tireoide</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>TV</string>
+			<key>significado</key>
+			<string>taquicardia ventricular</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>TVP</string>
+			<key>significado</key>
+			<string>trombose venosa profunda</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>TTPA</string>
+			<key>significado</key>
+			<string>tempo de tromboplastina parcial ativado</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Tx</string>
+			<key>significado</key>
+			<string>transplante</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>TU</string>
+			<key>significado</key>
+			<string>tumor</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>U</string>
+			<key>significado</key>
+			<string>unidade</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>UAC</string>
+			<key>significado</key>
+			<string>unidade de assistencia cardiaca</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>UE</string>
+			<key>significado</key>
+			<string>unidade de emergencia</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>UF</string>
+			<key>significado</key>
+			<string>ultrafiltracao</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>UI</string>
+			<key>significado</key>
+			<string>unidades internacionais</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>UK</string>
+			<key>significado</key>
+			<string>uroquinase</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>US</string>
+			<key>significado</key>
+			<string>ultra-sonografia</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>UTI</string>
+			<key>significado</key>
+			<string>unidade de terapia intensiva</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>VAA</string>
+			<key>significado</key>
+			<string>via aerea artificial</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>VAS</string>
+			<key>significado</key>
+			<string>vias aereas superiores</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>VAPSV</string>
+			<key>significado</key>
+			<string>ventilacao com pressao de suporte e volume garantido</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>VC</string>
+			<key>significado</key>
+			<string>volume corrente</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>VD</string>
+			<key>significado</key>
+			<string>ventriculo direito</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>VE</string>
+			<key>significado</key>
+			<string>ventriculo esquerdo</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>VM</string>
+			<key>significado</key>
+			<string>ventilacao mecanica</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>VM</string>
+			<key>significado</key>
+			<string>volume minuto</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>VMI</string>
+			<key>significado</key>
+			<string>ventilacao mecanica invasiva</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>VMNI</string>
+			<key>significado</key>
+			<string>ventilacao mecanica nao invasiva</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>VO</string>
+			<key>significado</key>
+			<string>via oral</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>VP</string>
+			<key>significado</key>
+			<string>veia periferica</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>VP</string>
+			<key>significado</key>
+			<string>via parenteral</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>VPP</string>
+			<key>significado</key>
+			<string>ventilacao com pressao positiva</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>VR</string>
+			<key>significado</key>
+			<string>volume residual</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>VS</string>
+			<key>significado</key>
+			<string>volume sistolico</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>VSCD</string>
+			<key>significado</key>
+			<string>veia subclavia direita</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>VSCE</string>
+			<key>significado</key>
+			<string>veia subclavia esquerda</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>VSR</string>
+			<key>significado</key>
+			<string>virus sincicial respiratorio</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -12,6 +12,7 @@
 @interface TermoTableViewController ()
 
 @property (nonatomic, copy) NSArray *termos;
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 

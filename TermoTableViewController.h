@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TermoTableViewController : UITableViewController
+@interface TermoTableViewController : UIViewController
 
 @end

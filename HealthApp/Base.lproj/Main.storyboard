@@ -401,10 +401,10 @@
             </objects>
             <point key="canvasLocation" x="-531.5" y="1624.5"/>
         </scene>
-        <!--Termo View Controller-->
+        <!--Termo Table View Controller-->
         <scene sceneID="nIq-bP-fIu">
             <objects>
-                <viewController id="gZk-c1-2MX" customClass="TermoViewController" sceneMemberID="viewController">
+                <viewController id="gZk-c1-2MX" customClass="TermoTableViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zLX-ol-rV5"/>
                         <viewControllerLayoutGuide type="bottom" id="7Co-MH-Ciz"/>
@@ -438,6 +438,10 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="gZk-c1-2MX" id="lCs-ax-C1q"/>
+                                    <outlet property="delegate" destination="gZk-c1-2MX" id="gfI-z2-O2D"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -445,6 +449,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="searchDisplayController" destination="ZKp-oE-7er" id="jLX-6p-K7d"/>
+                        <outlet property="tableView" destination="jh2-vJ-er6" id="1At-p5-EMk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H7B-Rm-Tg4" userLabel="First Responder" sceneMemberID="firstResponder"/>

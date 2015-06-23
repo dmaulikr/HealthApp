@@ -61,7 +61,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Oi-XT-nNG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="862.5" y="1788.5"/>
+            <point key="canvasLocation" x="874.5" y="2388.5"/>
         </scene>
         <!--Capítulos-->
         <scene sceneID="7qK-qW-Xr5">
@@ -438,6 +438,106 @@
             </objects>
             <point key="canvasLocation" x="-531.5" y="1624.5"/>
         </scene>
+        <!--Siglas Table View Controller-->
+        <scene sceneID="oRB-s9-gYt">
+            <objects>
+                <viewController id="3g8-g1-5Va" customClass="SiglasTableViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3m4-Xj-Amd"/>
+                        <viewControllerLayoutGuide type="bottom" id="sD2-da-Pzw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Pw2-ni-Ozp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S3v-f8-mbY">
+                                <rect key="frame" x="0.0" y="64" width="375" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="3g8-g1-5Va" id="SMo-A9-mq5"/>
+                                </connections>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="QRt-kI-Edl">
+                                <rect key="frame" x="0.0" y="108" width="375" height="510"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="tWy-dP-BN9">
+                                        <rect key="frame" x="0.0" y="22" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tWy-dP-BN9" id="Gdh-aK-TK2">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="VIt-y7-tQu" kind="show" id="mCU-Pg-4xt"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="3g8-g1-5Va" id="uW1-G6-fzP"/>
+                                    <outlet property="delegate" destination="3g8-g1-5Va" id="60P-Qd-uhg"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="QNI-gk-KSL" id="IM1-2f-V6E"/>
+                        <outlet property="tableView" destination="QRt-kI-Edl" id="hjI-Rd-ELP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JT8-xv-OZc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="QNI-gk-KSL">
+                    <connections>
+                        <outlet property="delegate" destination="3g8-g1-5Va" id="8xl-Cn-O8q"/>
+                        <outlet property="searchBar" destination="S3v-f8-mbY" id="Nnr-Sv-NlV"/>
+                        <outlet property="searchContentsController" destination="3g8-g1-5Va" id="aNE-XO-B3B"/>
+                        <outlet property="searchResultsDataSource" destination="3g8-g1-5Va" id="Crj-6M-EXT"/>
+                        <outlet property="searchResultsDelegate" destination="3g8-g1-5Va" id="rwA-oG-EjL"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="30.5" y="1624.5"/>
+        </scene>
+        <!--Siglas View Controller-->
+        <scene sceneID="tka-0v-Lyc">
+            <objects>
+                <viewController id="VIt-y7-tQu" customClass="SiglasViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UuC-VX-LAl"/>
+                        <viewControllerLayoutGuide type="bottom" id="rA4-tP-6Ow"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Cjr-Vl-FDt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vlg-zv-UhG">
+                                <rect key="frame" x="20" y="112" width="335" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gaa-lI-he6">
+                                <rect key="frame" x="20" y="161" width="335" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="lbSiglas" destination="vlg-zv-UhG" id="YLn-iN-Mgw"/>
+                        <outlet property="tvSiglas" destination="gaa-lI-he6" id="2qO-Ca-TB4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yvR-bt-yKA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="614.5" y="1624.5"/>
+        </scene>
         <!--Termo Table View Controller-->
         <scene sceneID="nIq-bP-fIu">
             <objects>
@@ -509,7 +609,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="222.5" y="1788.5"/>
+            <point key="canvasLocation" x="397.5" y="2388.5"/>
         </scene>
     </scenes>
     <resources>

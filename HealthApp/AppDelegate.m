@@ -16,7 +16,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [[UITabBar appearance] setTintColor:[Color verde]];
+    [[UITabBar appearance] setBarTintColor:[Color verde]];
+    
+    [[UINavigationBar appearance] setBarTintColor:[Color verde]];
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
     return YES;
 }
 

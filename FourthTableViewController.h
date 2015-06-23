@@ -11,5 +11,6 @@
 @interface FourthTableViewController : UITableViewController
 
 @property (nonatomic) NSArray *test;
+@property (nonatomic) NSString *group;
 
 @end

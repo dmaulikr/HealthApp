@@ -12,5 +12,6 @@
 @interface ThirdTableViewController : UITableViewController
 
 @property (nonatomic) NSArray *test;
+@property (nonatomic) NSString *group;
 
 @end

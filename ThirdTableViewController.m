@@ -17,6 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.title = self.group;
 }
 
 - (void)didReceiveMemoryWarning
@@ -38,8 +39,8 @@
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     NSDictionary *cid = self.test[indexPath.row];
-    cell.detailTextLabel.text = [cid objectForKey:@"classificacao"];
-    cell.textLabel.text = [cid objectForKey:@"nome"];
+    cell.textLabel.text = [cid objectForKey:@"classificacao"];
+    cell.detailTextLabel.text = [cid objectForKey:@"nome"];
     return cell;
 }
 
@@ -49,6 +50,7 @@
     NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
     NSDictionary *cid = self.test[indexPath.row];
     NSArray *x = [cid objectForKey:@"codigo"];
+    destination.group = [cid objectForKey:@"classificacao"];
     destination.test = x;
 }
 

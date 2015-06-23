@@ -55,6 +55,7 @@
     NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
     NSDictionary *cid = self.cids[indexPath.row];
     NSArray *x = [cid objectForKey:@"grupo"];
+    destination.group = [cid objectForKey:@"capitulo"];
     destination.test = x;
 }
 

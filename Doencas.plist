@@ -67085,30 +67085,6 @@
 						</dict>
 					</array>
 				</dict>
-				<dict>
-					<key>classificacao</key>
-					<string>Vit</string>
-					<key>nome</key>
-					<string> 400</string>
-					<key>codigo</key>
-					<array/>
-				</dict>
-				<dict>
-					<key>classificacao</key>
-					<string>Gin</string>
-					<key>nome</key>
-					<string>ralen</string>
-					<key>codigo</key>
-					<array/>
-				</dict>
-				<dict>
-					<key>classificacao</key>
-					<string>Amo</string>
-					<key>nome</key>
-					<string>MS</string>
-					<key>codigo</key>
-					<array/>
-				</dict>
 			</array>
 		</dict>
 	</array>

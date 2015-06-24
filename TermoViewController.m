@@ -21,15 +21,10 @@
     
     self.lbTermo.text = self.Detail.nomeTermo;
     self.txSignificado.text = self.Detail.sigTermo;
-    
-//    self.lbTermo.text = [self.Detail objectForKey:@"nome"];
-//    self.txSignificado.text = [self.Detail objectForKey:@"significado"];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
-
 
 @end

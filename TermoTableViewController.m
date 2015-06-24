@@ -22,13 +22,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [[UITabBar appearance] setTintColor:[UIColor redColor]];
-    [[UITabBar appearance] setBarTintColor:[UIColor redColor]];
-
     NSURL *plistURL = [[NSBundle mainBundle] URLForResource:@"Termos" withExtension:@"plist"];
-//    NSDictionary *plist = [NSDictionary dictionaryWithContentsOfURL:plistURL];
     self.content = [[NSMutableArray alloc] initWithContentsOfURL:plistURL];
-
 }
 
 - (void)didReceiveMemoryWarning
@@ -38,90 +33,78 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (tableView == self.searchDisplayController.searchResultsTableView) {
+    if (tableView == self.searchDisplayController.searchResultsTableView)
+    {
         [self performSegueWithIdentifier: @"showDetails" sender: self];
     }
 }
 
-
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    if ([segue.identifier isEqualToString:@"showDetails"]) {
-        
+    if ([segue.identifier isEqualToString:@"showDetails"])
+    {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         TermoViewController *detailViewController = (TermoViewController *)segue.destinationViewController;
         detailViewController.Detail = [self.content objectAtIndex:indexPath.row];
-        
-        if ([self.searchDisplayController isActive]) {
+        if ([self.searchDisplayController isActive])
+        {
             detailViewController.Detail = [self.searchResults objectAtIndex:indexPath.row];
-        } 
-        
+        }
     }
-
-//    NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-//    TermoViewController *detailViewController = (TermoViewController *)segue.destinationViewController;
-//    detailViewController.Detail = [self.content objectAtIndex:indexPath.row];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-
     return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-
-    if (tableView == self.searchDisplayController.searchResultsTableView) {
+    if (tableView == self.searchDisplayController.searchResultsTableView)
+    {
         return [self.searchResults count];
-        
-    } else {
+    }
+    else
+    {
         return [self.content count];
-        
     }
 }
-
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
+    if (cell == nil)
+    {
         cell = [[UITableViewCell alloc] initWithStyle: UITableViewCellStyleDefault reuseIdentifier: CellIdentifier];
     }
-    
     NSDictionary *termoRecord;
-    if (tableView == self.searchDisplayController.searchResultsTableView) {
+    if (tableView == self.searchDisplayController.searchResultsTableView)
+    {
         termoRecord = [self.searchResults objectAtIndex:indexPath.row];
-    } else {
+    }
+    else
+    {
         termoRecord = [self.content objectAtIndex:indexPath.row];
     }
-        
-        cell.textLabel.text       = termoRecord.nomeTermo;
-        cell.detailTextLabel.text = termoRecord.sigTermo;
-
-//    cell.textLabel.text = [termo objectForKey:@"nome"];
-//    cell.detailTextLabel.text = [termo objectForKey:@"significado"];
+    cell.textLabel.text       = termoRecord.nomeTermo;
+    cell.detailTextLabel.text = termoRecord.sigTermo;
     return cell;
 }
 
 
 - (void)filterContentForSearchText:(NSString*)searchText scope:(NSString*)scope
 {
-    
     NSPredicate *resultPredicate = [NSPredicate predicateWithFormat: @"SELF['nome'] contains[c] %@ ", self.searchBar.text];
-        
     self.searchResults = [self.content filteredArrayUsingPredicate:resultPredicate] ;
 }
 
 -(BOOL)searchDisplayController:(UISearchDisplayController *)controller shouldReloadTableForSearchString:(NSString *)searchString
-
 {
     [self filterContentForSearchText:searchString
                                scope:[[self.searchDisplayController.searchBar scopeButtonTitles]
                                       objectAtIndex:[self.searchDisplayController.searchBar
                                                      selectedScopeButtonIndex]]];
-    
     return YES;
 }
 

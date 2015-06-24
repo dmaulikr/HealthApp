@@ -13,33 +13,21 @@
 
 @interface SearchTableViewController ()
 
-
 @end
 
 @implementation SearchTableViewController
 
-
-
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    
-    self.title = @"Consulta Geral";
-    
     NSURL *plistURL = [[NSBundle mainBundle] URLForResource:@"Listas" withExtension:@"plist"];
     NSDictionary *plist = [NSDictionary dictionaryWithContentsOfURL:plistURL];
     self.content = [plist objectForKey:@"Listas"];
-    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
-
-
-
-#pragma mark - Table view data source
-
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
@@ -51,30 +39,30 @@
 {
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
+    if (cell == nil)
+    {
         cell = [[UITableViewCell alloc] initWithStyle: UITableViewCellStyleDefault reuseIdentifier: CellIdentifier];
     }
     
     NSDictionary *termoRecord;
-    if (tableView == self.searchDisplayController.searchResultsTableView) {
+    if (tableView == self.searchDisplayController.searchResultsTableView)
+    {
         termoRecord = [self.searchResults objectAtIndex:indexPath.row];
     } else {
         termoRecord = [self.content objectAtIndex:indexPath.row];
     }
     
-    if ([self.searchDisplayController isActive]) {
-        
+    if ([self.searchDisplayController isActive])
+    {
         cell.textLabel.text       = termoRecord.nomeTermo;
         cell.detailTextLabel.text = termoRecord.sigTermo;
     }
-    
     return cell;
 }
 
 
 - (void)filterContentForSearchText:(NSString*)searchText scope:(NSString*)scope
 {
-    
     NSPredicate *resultPredicate = [NSPredicate predicateWithFormat: @"SELF['nome'] contains[c] %@ ", self.searchBar.text];
     
     //    NSPredicate *resultPredicate = [NSPredicate predicateWithFormat: @"(SELF['nome'] contains[c] %@) OR (SELF['significado'] contains[c] %@)", self.searchBar.text, self.searchBar.text];
@@ -95,7 +83,8 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (tableView == self.searchDisplayController.searchResultsTableView) {
+    if (tableView == self.searchDisplayController.searchResultsTableView)
+    {
         [self performSegueWithIdentifier: @"showDetails" sender: self];
     }
 }

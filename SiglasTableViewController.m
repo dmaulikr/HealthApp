@@ -40,13 +40,11 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    
     return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    
     return [self.siglas count];
 }
 
@@ -59,4 +57,5 @@
     cell.detailTextLabel.text = [sigla objectForKey:@"significado"];
     return cell;
 }
+
 @end

@@ -18,10 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     self.lbNome.text = self.Detail.nomeTermo;
     self.txSignificado.text = self.Detail.sigTermo;
-    
 }
 
 - (void)didReceiveMemoryWarning {

@@ -70,8 +70,8 @@
 		2A8DE7691B3999BF005AA2E0 /* Siglas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Siglas.plist; sourceTree = "<group>"; };
 		2AC3A0DD1B2867AA0011F857 /* DoencaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoencaTableViewController.h; sourceTree = "<group>"; };
 		2AC3A0DE1B2867AA0011F857 /* DoencaTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoencaTableViewController.m; sourceTree = "<group>"; };
-		490C29CF1B39A019004C978B /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
-		490C29D01B39A019004C978B /* Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Color.m; sourceTree = "<group>"; };
+		490C29CF1B39A019004C978B /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Color.h; path = ../Color.h; sourceTree = "<group>"; };
+		490C29D01B39A019004C978B /* Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Color.m; path = ../Color.m; sourceTree = "<group>"; };
 		493E91161B39B1FC009F6096 /* SiglasTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiglasTableViewController.h; sourceTree = "<group>"; };
 		493E91171B39B1FC009F6096 /* SiglasTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiglasTableViewController.m; sourceTree = "<group>"; };
 		493E91191B39B21A009F6096 /* SiglasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiglasViewController.h; sourceTree = "<group>"; };
@@ -131,8 +131,6 @@
 				2A7453B21B2B0BEF00A7E1EE /* ThirdTableViewController.m */,
 				2A1569041B3986E00058ECE8 /* FourthTableViewController.h */,
 				2A1569051B3986E00058ECE8 /* FourthTableViewController.m */,
-				490C29CF1B39A019004C978B /* Color.h */,
-				490C29D01B39A019004C978B /* Color.m */,
 				493E91161B39B1FC009F6096 /* SiglasTableViewController.h */,
 				493E91171B39B1FC009F6096 /* SiglasTableViewController.m */,
 				493E91191B39B21A009F6096 /* SiglasViewController.h */,
@@ -176,6 +174,8 @@
 			children = (
 				2A872EF31B265E5C00252E27 /* AppDelegate.h */,
 				2A872EF41B265E5C00252E27 /* AppDelegate.m */,
+				490C29CF1B39A019004C978B /* Color.h */,
+				490C29D01B39A019004C978B /* Color.m */,
 				2A872EFC1B265E5C00252E27 /* Images.xcassets */,
 				2A872EFE1B265E5C00252E27 /* LaunchScreen.xib */,
 				2A872EEF1B265E5C00252E27 /* Supporting Files */,

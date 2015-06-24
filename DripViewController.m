@@ -7,6 +7,7 @@
 //
 
 #import "DripViewController.h"
+#import "ResultDripViewController.h"
 
 @interface DripViewController () <UITextFieldDelegate>
 
@@ -67,17 +68,18 @@
     if (self.typeSegmented.selectedSegmentIndex == 0)
     {
         float microgotas = (valorSolucao1/(total));
-        NSLog(@"microgotas: %f", microgotas);
-        self.lbResult.text = [[NSString alloc] initWithFormat:@"%f", microgotas];
-        self.lbResult.hidden = NO;
+        NSLog(@"microgotas: %.0f", microgotas);
+        self.lbResult.text = [[NSString alloc] initWithFormat:@"%.0f", microgotas];
+        NSLog(@"test: %@", self.lbResult);
+        self.lbResult.hidden = YES;
         
     }
     else
     {
         float macrogotas = (valorSolucao1/(total*3));
         NSLog(@"macrogotas: %f", macrogotas);
-        self.lbResult.text = [[NSString alloc] initWithFormat:@"%f", macrogotas];
-        self.lbResult.hidden = NO;
+        self.lbResult.text = [[NSString alloc] initWithFormat:@"%.0f", macrogotas];
+        self.lbResult.hidden = YES;
     }
     
 }
@@ -97,5 +99,16 @@
     NSString *formatedDate = [dateFormatter stringFromDate:self.datePicker.date];
     
     self.tfTime.text = formatedDate;
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    NSLog(@"prepareForSegue: %@", segue.identifier);
+    
+    if ([segue.identifier isEqualToString:@"dados"]) {
+        NSLog(@"prepareForSegue: %@", segue.identifier);
+        ResultDripViewController *test = [segue destinationViewController];
+        test.temporal = self.lbResult.text;
+    } 
 }
 @end

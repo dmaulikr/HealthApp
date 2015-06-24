@@ -6,117 +6,105 @@
 	<array>
 		<dict>
 			<key>nome</key>
-			<string>aa</string>
-			<key>significado</key>
-			<string>ar ambiente</string>
-		</dict>
-		<dict>
-			<key>nome</key>
-			<string>Aa</string>
-			<key>significado</key>
-			<string>aminoacido</string>
-		</dict>
-		<dict>
-			<key>nome</key>
 			<string>AAA</string>
 			<key>significado</key>
-			<string>aneurisma de aorta abdominal</string>
+			<string>Aneurisma de aorta abdominal</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>ABO</string>
 			<key>significado</key>
-			<string>tipo sanguineo ABO</string>
+			<string>Tipo sanguineo ABO</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>ABVO</string>
 			<key>significado</key>
-			<string>aceita bem via oral</string>
+			<string>Aceita bem via oral</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>AC</string>
 			<key>significado</key>
-			<string>alojamento conjunto</string>
+			<string>Alojamento conjunto</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>ACM</string>
 			<key>significado</key>
-			<string>a criterio medico</string>
+			<string>A criterio medico</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>ACTH</string>
 			<key>significado</key>
-			<string>hormonio adrenocorticotrofico</string>
+			<string>Hormonio adrenocorticotrofico</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>ADH</string>
 			<key>significado</key>
-			<string>hormonio antidiuretico</string>
+			<string>Hormonio antidiuretico</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>ADP</string>
 			<key>significado</key>
-			<string>adenosina difosfato</string>
+			<string>Adenosina difosfato</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>AIDS</string>
 			<key>significado</key>
-			<string>sindrome da imunodeficiencia</string>
+			<string>Sindrome da imunodeficiencia</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>AD</string>
 			<key>significado</key>
-			<string>atrio direito</string>
+			<string>Atrio direito</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>AE</string>
 			<key>significado</key>
-			<string>atrio esquerdo</string>
+			<string>Atrio esquerdo</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>AGE</string>
 			<key>significado</key>
-			<string>acidos graxos essenciais</string>
+			<string>Acidos graxos essenciais</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>amp</string>
 			<key>significado</key>
-			<string>ampola</string>
+			<string>Ampola</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>AMP</string>
 			<key>significado</key>
-			<string>adenosina monofosfato</string>
+			<string>Adenosina monofosfato</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>AMVO</string>
 			<key>significado</key>
-			<string>aceita mal via oral</string>
+			<string>Aceita mal via oral</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>AO</string>
 			<key>significado</key>
-			<string>aorta.</string>
+			<string>Aorta.</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>AOE</string>
 			<key>significado</key>
-			<string>abertura ocular espontanea</string>
+			<string>Abertura ocular espontanea</string>
 		</dict>
 		<dict>
 			<key>nome</key>

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TermoViewController : UIViewController
+@interface TermoViewController : UIViewController <UIApplicationDelegate>
 
 @property (strong, nonatomic) NSDictionary *Detail;
 @property (strong, nonatomic) IBOutlet UILabel *lbTermo;

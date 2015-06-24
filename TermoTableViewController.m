@@ -9,6 +9,7 @@
 #import "TermoTableViewController.h"
 #import "TermoViewController.h"
 #import "NSDictionary+TermoRecord.h"
+#import "Color.h"
 
 @interface TermoTableViewController ()
 
@@ -21,6 +22,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [[UITabBar appearance] setTintColor:[UIColor redColor]];
+    [[UITabBar appearance] setBarTintColor:[UIColor redColor]];
 
     NSURL *plistURL = [[NSBundle mainBundle] URLForResource:@"Termos" withExtension:@"plist"];
 //    NSDictionary *plist = [NSDictionary dictionaryWithContentsOfURL:plistURL];

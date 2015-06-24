@@ -12,7 +12,7 @@
 
 + (UIColor *)verde
 {
-    return [UIColor colorWithRed:(float)51/255 green:(float)164/255 blue:(float)48/255 alpha:1];
+    return [UIColor colorWithRed:(float)20/255 green:(float)154/255 blue:(float)92/255 alpha:1];
 }
 
 @end

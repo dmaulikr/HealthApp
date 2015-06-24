@@ -10,7 +10,7 @@
 #import "TermoTableViewController.h"
 #import "NSDictionary+TermoRecord.h"
 
-@interface TermoViewController ()
+@interface TermoViewController () 
 
 @end
 

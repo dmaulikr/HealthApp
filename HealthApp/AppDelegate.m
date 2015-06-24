@@ -19,9 +19,24 @@
     [[UITabBar appearance] setTintColor:[Color verde]];
     [[UITabBar appearance] setBarTintColor:[Color verde]];
     
+    UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
+    UITabBar *tabBar = tabBarController.tabBar;
+    UITabBarItem *tabBarItem1 = [tabBar.items objectAtIndex:0];
+    UITabBarItem *tabBarItem2 = [tabBar.items objectAtIndex:1];
+    UITabBarItem *tabBarItem3 = [tabBar.items objectAtIndex:2];
+    UITabBarItem *tabBarItem4 = [tabBar.items objectAtIndex:3];
+    
+    [tabBarItem1 setFinishedSelectedImage:[UIImage imageNamed:@"busca-icon-1-selected.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"busca.png"]];
+    [tabBarItem2 setFinishedSelectedImage:[UIImage imageNamed:@"dicionario-Termos-Técnicos.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"dicionario.png"]];
+    [tabBarItem3 setFinishedSelectedImage:[UIImage imageNamed:@"calculo-icon-3-selected.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"calculo.png"]];
+    [tabBarItem4 setFinishedSelectedImage:[UIImage imageNamed:@"recentes-icon-4-selected.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"recentes.png"]];
+
+    
+    
     [[UINavigationBar appearance] setBarTintColor:[Color verde]];
     [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
     [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
+
     return YES;
 }
 

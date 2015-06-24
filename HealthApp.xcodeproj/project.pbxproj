@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A1422CB1B3B012F002DD43A /* Listas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A1422CA1B3B012F002DD43A /* Listas.plist */; };
 		2A1569061B3986E00058ECE8 /* FourthTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1569051B3986E00058ECE8 /* FourthTableViewController.m */; };
 		2A1569081B3991C30058ECE8 /* Termos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A1569071B3991C30058ECE8 /* Termos.plist */; };
 		2A49D3541B39833800AB388A /* Doencas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A49D3531B39833800AB388A /* Doencas.plist */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A1422CA1B3B012F002DD43A /* Listas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Listas.plist; sourceTree = "<group>"; };
 		2A1569041B3986E00058ECE8 /* FourthTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthTableViewController.h; sourceTree = "<group>"; };
 		2A1569051B3986E00058ECE8 /* FourthTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthTableViewController.m; sourceTree = "<group>"; };
 		2A1569071B3991C30058ECE8 /* Termos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Termos.plist; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				2A872EF91B265E5C00252E27 /* Main.storyboard */,
+				2A1422CA1B3B012F002DD43A /* Listas.plist */,
 				2A49D3531B39833800AB388A /* Doencas.plist */,
 				2A1569071B3991C30058ECE8 /* Termos.plist */,
 				2A8DE7691B3999BF005AA2E0 /* Siglas.plist */,
@@ -279,6 +282,7 @@
 				2A872EFB1B265E5C00252E27 /* Main.storyboard in Resources */,
 				2A49D3541B39833800AB388A /* Doencas.plist in Resources */,
 				2A1569081B3991C30058ECE8 /* Termos.plist in Resources */,
+				2A1422CB1B3B012F002DD43A /* Listas.plist in Resources */,
 				2A872F001B265E5C00252E27 /* LaunchScreen.xib in Resources */,
 				2A872EFD1B265E5C00252E27 /* Images.xcassets in Resources */,
 				2A8DE76A1B3999BF005AA2E0 /* Siglas.plist in Resources */,

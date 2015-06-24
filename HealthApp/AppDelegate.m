@@ -26,12 +26,11 @@
     UITabBarItem *tabBarItem3 = [tabBar.items objectAtIndex:2];
     UITabBarItem *tabBarItem4 = [tabBar.items objectAtIndex:3];
     
-    [tabBarItem1 setFinishedSelectedImage:[UIImage imageNamed:@"busca-icon-1-selected.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"busca.png"]];
-    [tabBarItem2 setFinishedSelectedImage:[UIImage imageNamed:@"dicionario-Termos-Técnicos.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"dicionario.png"]];
-    [tabBarItem3 setFinishedSelectedImage:[UIImage imageNamed:@"calculo-icon-3-selected.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"calculo.png"]];
-    [tabBarItem4 setFinishedSelectedImage:[UIImage imageNamed:@"recentes-icon-4-selected.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"recentes.png"]];
+    [tabBarItem1 setFinishedSelectedImage:[UIImage imageNamed:@"busca-s.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"busca.png"]];
+    [tabBarItem2 setFinishedSelectedImage:[UIImage imageNamed:@"dicionario-s.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"dicionario.png"]];
+    [tabBarItem3 setFinishedSelectedImage:[UIImage imageNamed:@"calculo-s.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"calculo.png"]];
+    [tabBarItem4 setFinishedSelectedImage:[UIImage imageNamed:@"recentes-s.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"recentes.png"]];
 
-    
     
     [[UINavigationBar appearance] setBarTintColor:[Color verde]];
     [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];

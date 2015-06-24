@@ -28,6 +28,9 @@
 		49512EC91B2F0F28009ADD09 /* TermoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49512EC81B2F0F28009ADD09 /* TermoTableViewController.m */; };
 		49512ECE1B2F2171009ADD09 /* TermoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49512ECD1B2F2171009ADD09 /* TermoViewController.m */; };
 		496A06E21B276FB400649400 /* DripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496A06E11B276FB400649400 /* DripViewController.m */; };
+		8B4CA36C1B3AF8B900B80AFD /* SearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4CA36B1B3AF8B900B80AFD /* SearchTableViewController.m */; };
+		8B4CA36E1B3AF96A00B80AFD /* Listas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B4CA36D1B3AF96A00B80AFD /* Listas.plist */; };
+		8B4CA3711B3AFAB200B80AFD /* SearchDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4CA3701B3AFAB200B80AFD /* SearchDetailViewController.m */; };
 		8B9428BB1B3A4C1100E715EC /* NSDictionary+TermoRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9428BA1B3A4C1100E715EC /* NSDictionary+TermoRecord.m */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +83,11 @@
 		49512ECD1B2F2171009ADD09 /* TermoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermoViewController.m; sourceTree = "<group>"; };
 		496A06E01B276FB400649400 /* DripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DripViewController.h; sourceTree = "<group>"; };
 		496A06E11B276FB400649400 /* DripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DripViewController.m; sourceTree = "<group>"; };
+		8B4CA36A1B3AF8B900B80AFD /* SearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTableViewController.h; sourceTree = "<group>"; };
+		8B4CA36B1B3AF8B900B80AFD /* SearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTableViewController.m; sourceTree = "<group>"; };
+		8B4CA36D1B3AF96A00B80AFD /* Listas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Listas.plist; path = ../../Downloads/Listas.plist; sourceTree = "<group>"; };
+		8B4CA36F1B3AFAB200B80AFD /* SearchDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchDetailViewController.h; sourceTree = "<group>"; };
+		8B4CA3701B3AFAB200B80AFD /* SearchDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchDetailViewController.m; sourceTree = "<group>"; };
 		8B9428B91B3A4C1100E715EC /* NSDictionary+TermoRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+TermoRecord.h"; sourceTree = "<group>"; };
 		8B9428BA1B3A4C1100E715EC /* NSDictionary+TermoRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+TermoRecord.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -131,6 +139,10 @@
 				493E911A1B39B21A009F6096 /* SiglasViewController.m */,
 				8B9428B91B3A4C1100E715EC /* NSDictionary+TermoRecord.h */,
 				8B9428BA1B3A4C1100E715EC /* NSDictionary+TermoRecord.m */,
+				8B4CA36A1B3AF8B900B80AFD /* SearchTableViewController.h */,
+				8B4CA36B1B3AF8B900B80AFD /* SearchTableViewController.m */,
+				8B4CA36F1B3AFAB200B80AFD /* SearchDetailViewController.h */,
+				8B4CA3701B3AFAB200B80AFD /* SearchDetailViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -142,6 +154,7 @@
 				2A49D3531B39833800AB388A /* Doencas.plist */,
 				2A1569071B3991C30058ECE8 /* Termos.plist */,
 				2A8DE7691B3999BF005AA2E0 /* Siglas.plist */,
+				8B4CA36D1B3AF96A00B80AFD /* Listas.plist */,
 				2A5E0AB21B27132D00027920 /* Controller */,
 				2A872EEE1B265E5C00252E27 /* HealthApp */,
 				2A872F081B265E5C00252E27 /* HealthAppTests */,
@@ -279,6 +292,7 @@
 				2A872EFB1B265E5C00252E27 /* Main.storyboard in Resources */,
 				2A49D3541B39833800AB388A /* Doencas.plist in Resources */,
 				2A1569081B3991C30058ECE8 /* Termos.plist in Resources */,
+				8B4CA36E1B3AF96A00B80AFD /* Listas.plist in Resources */,
 				2A872F001B265E5C00252E27 /* LaunchScreen.xib in Resources */,
 				2A872EFD1B265E5C00252E27 /* Images.xcassets in Resources */,
 				2A8DE76A1B3999BF005AA2E0 /* Siglas.plist in Resources */,
@@ -299,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B4CA36C1B3AF8B900B80AFD /* SearchTableViewController.m in Sources */,
 				2A7453B31B2B0BEF00A7E1EE /* ThirdTableViewController.m in Sources */,
 				2A872EF81B265E5C00252E27 /* ViewController.m in Sources */,
 				2AC3A0DF1B2867AA0011F857 /* DoencaTableViewController.m in Sources */,
@@ -309,6 +324,7 @@
 				493E911E1B3A08F7009F6096 /* ResultDripViewController.m in Sources */,
 				2A6CE97A1B28722D0062CB5A /* TableViewController.m in Sources */,
 				496A06E21B276FB400649400 /* DripViewController.m in Sources */,
+				8B4CA3711B3AFAB200B80AFD /* SearchDetailViewController.m in Sources */,
 				490C29D11B39A019004C978B /* Color.m in Sources */,
 				493E91181B39B1FC009F6096 /* SiglasTableViewController.m in Sources */,
 				2A872EF51B265E5C00252E27 /* AppDelegate.m in Sources */,

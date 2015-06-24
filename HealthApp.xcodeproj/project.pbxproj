@@ -27,6 +27,7 @@
 		49512EC91B2F0F28009ADD09 /* TermoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49512EC81B2F0F28009ADD09 /* TermoTableViewController.m */; };
 		49512ECE1B2F2171009ADD09 /* TermoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49512ECD1B2F2171009ADD09 /* TermoViewController.m */; };
 		496A06E21B276FB400649400 /* DripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496A06E11B276FB400649400 /* DripViewController.m */; };
+		8B9428BB1B3A4C1100E715EC /* NSDictionary+TermoRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9428BA1B3A4C1100E715EC /* NSDictionary+TermoRecord.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,8 @@
 		49512ECD1B2F2171009ADD09 /* TermoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermoViewController.m; sourceTree = "<group>"; };
 		496A06E01B276FB400649400 /* DripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DripViewController.h; sourceTree = "<group>"; };
 		496A06E11B276FB400649400 /* DripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DripViewController.m; sourceTree = "<group>"; };
+		8B9428B91B3A4C1100E715EC /* NSDictionary+TermoRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+TermoRecord.h"; sourceTree = "<group>"; };
+		8B9428BA1B3A4C1100E715EC /* NSDictionary+TermoRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+TermoRecord.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				493E91171B39B1FC009F6096 /* SiglasTableViewController.m */,
 				493E91191B39B21A009F6096 /* SiglasViewController.h */,
 				493E911A1B39B21A009F6096 /* SiglasViewController.m */,
+				8B9428B91B3A4C1100E715EC /* NSDictionary+TermoRecord.h */,
+				8B9428BA1B3A4C1100E715EC /* NSDictionary+TermoRecord.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -294,6 +299,7 @@
 				2AC3A0DF1B2867AA0011F857 /* DoencaTableViewController.m in Sources */,
 				493E911B1B39B21A009F6096 /* SiglasViewController.m in Sources */,
 				2A1569061B3986E00058ECE8 /* FourthTableViewController.m in Sources */,
+				8B9428BB1B3A4C1100E715EC /* NSDictionary+TermoRecord.m in Sources */,
 				49512EC91B2F0F28009ADD09 /* TermoTableViewController.m in Sources */,
 				2A6CE97A1B28722D0062CB5A /* TableViewController.m in Sources */,
 				496A06E21B276FB400649400 /* DripViewController.m in Sources */,

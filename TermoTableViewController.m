@@ -8,10 +8,10 @@
 
 #import "TermoTableViewController.h"
 #import "TermoViewController.h"
+#import "NSDictionary+TermoRecord.h"
 
 @interface TermoTableViewController ()
 
-@property (nonatomic, copy) NSArray *termos;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
@@ -21,9 +21,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
     NSURL *plistURL = [[NSBundle mainBundle] URLForResource:@"Termos" withExtension:@"plist"];
-    NSDictionary *plist = [NSDictionary dictionaryWithContentsOfURL:plistURL];
-    self.termos = [plist objectForKey:@"TERMOS"];
+//    NSDictionary *plist = [NSDictionary dictionaryWithContentsOfURL:plistURL];
+    self.content = [[NSMutableArray alloc] initWithContentsOfURL:plistURL];
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -31,12 +33,31 @@
     [super didReceiveMemoryWarning];
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (tableView == self.searchDisplayController.searchResultsTableView) {
+        [self performSegueWithIdentifier: @"showDetails" sender: self];
+    }
+}
+
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-    TermoViewController *detailViewController = (TermoViewController *)segue.destinationViewController;
-    detailViewController.Detail = [self.termos objectAtIndex:indexPath.row];
+    if ([segue.identifier isEqualToString:@"showDetails"]) {
+        
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        TermoViewController *detailViewController = (TermoViewController *)segue.destinationViewController;
+        detailViewController.Detail = [self.content objectAtIndex:indexPath.row];
+        
+        if ([self.searchDisplayController isActive]) {
+            detailViewController.Detail = [self.searchResults objectAtIndex:indexPath.row];
+        } 
+        
+    }
+
+//    NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+//    TermoViewController *detailViewController = (TermoViewController *)segue.destinationViewController;
+//    detailViewController.Detail = [self.content objectAtIndex:indexPath.row];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -48,61 +69,57 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
 
-    return [self.termos count];
+    if (tableView == self.searchDisplayController.searchResultsTableView) {
+        return [self.searchResults count];
+        
+    } else {
+        return [self.content count];
+        
+    }
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
-    NSDictionary *termo = self.termos[indexPath.row];
-    cell.textLabel.text = [termo objectForKey:@"nome"];
-    cell.detailTextLabel.text = [termo objectForKey:@"significado"];
+    static NSString *CellIdentifier = @"Cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle: UITableViewCellStyleDefault reuseIdentifier: CellIdentifier];
+    }
+    
+    NSDictionary *termoRecord;
+    if (tableView == self.searchDisplayController.searchResultsTableView) {
+        termoRecord = [self.searchResults objectAtIndex:indexPath.row];
+    } else {
+        termoRecord = [self.content objectAtIndex:indexPath.row];
+    }
+        
+        cell.textLabel.text       = termoRecord.nomeTermo;
+        cell.detailTextLabel.text = termoRecord.sigTermo;
+
+//    cell.textLabel.text = [termo objectForKey:@"nome"];
+//    cell.detailTextLabel.text = [termo objectForKey:@"significado"];
     return cell;
 }
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
+
+- (void)filterContentForSearchText:(NSString*)searchText scope:(NSString*)scope
+{
+    
+    NSPredicate *resultPredicate = [NSPredicate predicateWithFormat: @"SELF['nome'] contains[c] %@ ", self.searchBar.text];
+        
+    self.searchResults = [self.content filteredArrayUsingPredicate:resultPredicate] ;
+}
+
+-(BOOL)searchDisplayController:(UISearchDisplayController *)controller shouldReloadTableForSearchString:(NSString *)searchString
+
+{
+    [self filterContentForSearchText:searchString
+                               scope:[[self.searchDisplayController.searchBar scopeButtonTitles]
+                                      objectAtIndex:[self.searchDisplayController.searchBar
+                                                     selectedScopeButtonIndex]]];
+    
     return YES;
 }
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

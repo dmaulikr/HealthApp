@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="pVk-Vm-0m3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="pVk-Vm-0m3">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <customFonts key="customFonts">
         <mutableArray key="Avenir.ttc">
@@ -668,7 +668,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="VIt-y7-tQu" kind="show" id="mCU-Pg-4xt"/>
+                                            <segue destination="VIt-y7-tQu" kind="show" identifier="showDetails" id="mCU-Pg-4xt"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -683,6 +683,7 @@
                     <navigationItem key="navigationItem" title="Siglas" id="Htt-Dk-kaB"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="searchBar" destination="S3v-f8-mbY" id="SRR-sY-VzD"/>
                         <outlet property="searchDisplayController" destination="QNI-gk-KSL" id="IM1-2f-V6E"/>
                         <outlet property="tableView" destination="QRt-kI-Edl" id="hjI-Rd-ELP"/>
                     </connections>

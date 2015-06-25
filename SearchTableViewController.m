@@ -23,6 +23,7 @@
     NSURL *plistURL = [[NSBundle mainBundle] URLForResource:@"Listas" withExtension:@"plist"];
     NSDictionary *plist = [NSDictionary dictionaryWithContentsOfURL:plistURL];
     self.content = [plist objectForKey:@"Listas"];
+    
 }
 
 - (void)didReceiveMemoryWarning {

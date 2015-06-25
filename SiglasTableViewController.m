@@ -8,10 +8,12 @@
 
 #import "SiglasTableViewController.h"
 #import "SiglasViewController.h"
+#import "NSDictionary+TermoRecord.h"
+#import "Color.h"
 
 @interface SiglasTableViewController ()
-@property (nonatomic, copy) NSArray *siglas;
-@property (strong, nonatomic) IBOutlet UITableView *tableView;
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 
@@ -22,7 +24,7 @@
     [super viewDidLoad];
     NSURL *plistURL = [[NSBundle mainBundle] URLForResource:@"Siglas" withExtension:@"plist"];
     NSDictionary *plist = [NSDictionary dictionaryWithContentsOfURL:plistURL];
-    self.siglas = [plist objectForKey:@"SIGLAS"];
+    self.content = [plist objectForKey:@"SIGLAS"];
 }
 
 - (void)didReceiveMemoryWarning
@@ -30,12 +32,26 @@
     [super didReceiveMemoryWarning];
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (tableView == self.searchDisplayController.searchResultsTableView)
+    {
+        [self performSegueWithIdentifier: @"showDetails" sender: self];
+    }
+}
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-    SiglasViewController *detailViewController = (SiglasViewController *)segue.destinationViewController;
-    detailViewController.Detail = [self.siglas objectAtIndex:indexPath.row];
+    if ([segue.identifier isEqualToString:@"showDetails"])
+    {
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        SiglasViewController *detailViewController = (SiglasViewController *)segue.destinationViewController;
+        detailViewController.Detail = [self.content objectAtIndex:indexPath.row];
+        if ([self.searchDisplayController isActive])
+        {
+            detailViewController.Detail = [self.searchResults objectAtIndex:indexPath.row];
+        }
+    }
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -45,17 +61,53 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [self.siglas count];
+    if (tableView == self.searchDisplayController.searchResultsTableView)
+    {
+        return [self.searchResults count];
+    }
+    else
+    {
+        return [self.content count];
+    }
 }
-
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
-    NSDictionary *sigla = self.siglas[indexPath.row];
-    cell.textLabel.text = [sigla objectForKey:@"nome"];
-    cell.detailTextLabel.text = [sigla objectForKey:@"significado"];
+    static NSString *CellIdentifier = @"Cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil)
+    {
+        cell = [[UITableViewCell alloc] initWithStyle: UITableViewCellStyleDefault reuseIdentifier: CellIdentifier];
+    }
+    NSDictionary *termoRecord;
+    if (tableView == self.searchDisplayController.searchResultsTableView)
+    {
+        termoRecord = [self.searchResults objectAtIndex:indexPath.row];
+    }
+    else
+    {
+        termoRecord = [self.content objectAtIndex:indexPath.row];
+    }
+    cell.textLabel.text       = termoRecord.nomeTermo;
+    cell.detailTextLabel.text = termoRecord.sigTermo;
     return cell;
 }
+
+
+- (void)filterContentForSearchText:(NSString*)searchText scope:(NSString*)scope
+{
+    NSPredicate *resultPredicate = [NSPredicate predicateWithFormat: @"SELF['nome'] contains[c] %@ ", self.searchBar.text];
+    self.searchResults = [self.content filteredArrayUsingPredicate:resultPredicate] ;
+}
+
+-(BOOL)searchDisplayController:(UISearchDisplayController *)controller shouldReloadTableForSearchString:(NSString *)searchString
+{
+    [self filterContentForSearchText:searchString
+                               scope:[[self.searchDisplayController.searchBar scopeButtonTitles]
+                                      objectAtIndex:[self.searchDisplayController.searchBar
+                                                     selectedScopeButtonIndex]]];
+    return YES;
+}
+
 
 @end

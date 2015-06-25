@@ -49,7 +49,8 @@
         detailViewController.Detail = [self.content objectAtIndex:indexPath.row];
         if ([self.searchDisplayController isActive])
         {
-            detailViewController.Detail = [self.searchResults objectAtIndex:indexPath.row];
+            detailViewController.Detail = [self.searchResults objectAtIndex: self.searchDisplayController.searchResultsTableView.indexPathForSelectedRow.row];
+
         }
     }
 }

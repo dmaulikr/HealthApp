@@ -19,6 +19,7 @@
             <string>Avenir-Medium</string>
             <string>Avenir-Medium</string>
             <string>Avenir-Book</string>
+            <string>Avenir-Book</string>
         </mutableArray>
         <mutableArray key="AvenirNext.ttc">
             <string>AvenirNext-Regular</string>
@@ -205,7 +206,7 @@
             </objects>
             <point key="canvasLocation" x="-858.5" y="4150.5"/>
         </scene>
-        <!--Result Drip View Controller-->
+        <!--Cálculo de Gotejamento-->
         <scene sceneID="Q3N-vF-rAZ">
             <objects>
                 <viewController id="gz7-ca-0Np" customClass="ResultDripViewController" sceneMemberID="viewController">
@@ -248,6 +249,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Cálculo de Gotejamento" id="nTg-fn-qCv"/>
                     <connections>
                         <outlet property="lbPaciente" destination="bFh-lp-lMk" id="Xvs-W2-nFD"/>
                         <outlet property="lbResult" destination="Xpo-ZX-zUM" id="h6x-v5-FN3"/>
@@ -274,7 +276,7 @@
             </objects>
             <point key="canvasLocation" x="-844.5" y="874.5"/>
         </scene>
-        <!--Search Table View Controller-->
+        <!--Consulta Geral-->
         <scene sceneID="eyK-2C-A1c">
             <objects>
                 <tableViewController id="xlZ-7W-joh" customClass="SearchTableViewController" sceneMemberID="viewController">
@@ -308,7 +310,7 @@
                             <outlet property="delegate" destination="xlZ-7W-joh" id="dGx-qM-1pR"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="2ER-IQ-DhH"/>
+                    <navigationItem key="navigationItem" title="Consulta Geral" id="voE-Eo-31T"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="searchBar" destination="hZ2-VP-R6z" id="d1W-35-9Mt"/>
@@ -444,6 +446,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Qtd(ml)" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fGI-zN-uf4">
                                 <rect key="frame" x="27" y="206" width="320" height="54"/>
                                 <color key="backgroundColor" red="0.078431372549019607" green="0.60392156862745094" blue="0.36078431372549019" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="28"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -460,6 +463,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Paciente" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hxj-uk-cEG">
                                 <rect key="frame" x="27" y="135" width="320" height="54"/>
                                 <color key="backgroundColor" red="0.078431372549019607" green="0.60392156862745094" blue="0.36078431372549019" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="28"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -528,8 +532,8 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="Yx1-NK-Q0Q" kind="relationship" relationship="viewControllers" id="vrk-xR-0Ja"/>
                         <segue destination="1uD-WT-R6t" kind="relationship" relationship="viewControllers" id="Hs3-jQ-5Kq"/>
+                        <segue destination="Yx1-NK-Q0Q" kind="relationship" relationship="viewControllers" id="vrk-xR-0Ja"/>
                         <segue destination="Lbz-YE-Hrp" kind="relationship" relationship="viewControllers" id="lyj-M7-nEt"/>
                         <segue destination="sgL-hM-d9g" kind="relationship" relationship="viewControllers" id="xf9-7q-FOp"/>
                     </connections>
@@ -625,7 +629,7 @@
             </objects>
             <point key="canvasLocation" x="-844.5" y="1718.5"/>
         </scene>
-        <!--Siglas Table View Controller-->
+        <!--Siglas-->
         <scene sceneID="oRB-s9-gYt">
             <objects>
                 <viewController id="3g8-g1-5Va" customClass="SiglasTableViewController" sceneMemberID="viewController">
@@ -644,16 +648,24 @@
                                     <outlet property="delegate" destination="3g8-g1-5Va" id="SMo-A9-mq5"/>
                                 </connections>
                             </searchBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="QRt-kI-Edl">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="71" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="QRt-kI-Edl">
                                 <rect key="frame" x="0.0" y="108" width="375" height="510"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="tWy-dP-BN9">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="xRY-YL-iNC" rowHeight="71" style="IBUITableViewCellStyleDefault" id="tWy-dP-BN9">
                                         <rect key="frame" x="0.0" y="22" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tWy-dP-BN9" id="Gdh-aK-TK2">
                                             <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xRY-YL-iNC">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                                    <color key="textColor" red="0.97647058823529409" green="0.27843137254901962" blue="0.35294117647058826" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="VIt-y7-tQu" kind="show" id="mCU-Pg-4xt"/>
@@ -668,6 +680,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Siglas" id="Htt-Dk-kaB"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="searchDisplayController" destination="QNI-gk-KSL" id="IM1-2f-V6E"/>
@@ -725,7 +738,7 @@
             </objects>
             <point key="canvasLocation" x="130.5" y="3298.5"/>
         </scene>
-        <!--Termo Table View Controller-->
+        <!--Termos Técnicos-->
         <scene sceneID="nIq-bP-fIu">
             <objects>
                 <viewController id="gZk-c1-2MX" customClass="TermoTableViewController" sceneMemberID="viewController">
@@ -737,19 +750,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <searchBar contentMode="redraw" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nER-q1-J8a">
+                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nER-q1-J8a">
                                 <rect key="frame" x="0.0" y="64" width="375" height="44"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <outlet property="delegate" destination="gZk-c1-2MX" id="c4j-3b-ZVl"/>
                                 </connections>
                             </searchBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="jh2-vJ-er6">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="70" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="jh2-vJ-er6">
                                 <rect key="frame" x="0.0" y="108" width="375" height="559"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="separatorColor" red="0.22352941176470589" green="0.61568627450980395" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="T3q-dJ-SuD" style="IBUITableViewCellStyleDefault" id="aNz-pq-iKd">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="T3q-dJ-SuD" rowHeight="70" style="IBUITableViewCellStyleDefault" id="aNz-pq-iKd">
                                         <rect key="frame" x="0.0" y="22" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aNz-pq-iKd" id="dJH-0d-wMm">
@@ -759,8 +772,8 @@
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="T3q-dJ-SuD">
                                                     <rect key="frame" x="15" y="0.0" width="325" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                                    <color key="textColor" red="0.082352941176470587" green="0.6588235294117647" blue="0.65098039215686276" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -778,6 +791,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Termos Técnicos" id="ytQ-Cm-9j2"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="searchBar" destination="nER-q1-J8a" id="8mT-Y2-rSB"/>

@@ -42,12 +42,12 @@
 //    
 //}
 //
-//-(void)textFieldDidEndEditing:(UITextField *)textField {
-//    //ESCONDER O DATEPICKER AQUI
-//
-//    self.datePicker.hidden = YES;
-//   // self.datePicker.hidden = YES;
-//}
+-(void)textFieldDidEndEditing:(UITextField *)textField {
+    //ESCONDER O DATEPICKER AQUI
+
+    self.datePicker.hidden = YES;
+   // self.datePicker.hidden = YES;
+}
 
 
 - (void)calculatorDrip
@@ -59,16 +59,13 @@
     [hora setDateFormat:@"HH"];
     NSString *tempo = [hora stringFromDate:self.datePicker.date];
     float stringFloathora = [tempo floatValue];
-    NSLog(@"%f", stringFloathora);
     
     NSDateFormatter *minuto = [[NSDateFormatter alloc] init];
     [minuto setDateFormat:@"mm"];
     NSString *tempo_minuto = [minuto stringFromDate:self.datePicker.date];
     float stringFloatminuto = [tempo_minuto floatValue];
-    NSLog(@"%f", stringFloatminuto);
     
     float total = stringFloathora+(stringFloatminuto/60);
-    NSLog(@"%f", total);
     
     if (self.typeSegmented.selectedSegmentIndex == 0)
     {
@@ -82,7 +79,6 @@
     else
     {
         float macrogotas = (valorSolucao1/(total*3));
-        NSLog(@"macrogotas: %f", macrogotas);
         self.lbResult.text = [[NSString alloc] initWithFormat:@"%.0f", macrogotas];
         self.lbResult.hidden = YES;
     }

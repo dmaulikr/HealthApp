@@ -14,18 +14,17 @@
 @end
 
 @implementation ResultDripViewController
-@synthesize lbResult, temporal;
+@synthesize lbResult, temporal, lbPaciente,temporal1;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     [lbResult setText:temporal];
+    [lbPaciente setText:temporal1];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-
-
 
 @end

@@ -24,7 +24,6 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 
@@ -35,15 +34,21 @@
     return TRUE;
 }
 
--(void)textFieldDidBeginEditing:(UITextField *)textField{
-    //MOSTRAR O DATEPICKER AQUI
-    self.datePicker.hidden = NO;
-}
+//-(void)textFieldDidBeginEditing:(UITextField *)textField{
+//    //MOSTRAR O DATEPICKER AQUI
+//    if (self.tfPaciente) {
+//        self.datePicker.hidden = NO;
+//    }
+//    
+//}
+//
+//-(void)textFieldDidEndEditing:(UITextField *)textField {
+//    //ESCONDER O DATEPICKER AQUI
+//
+//    self.datePicker.hidden = YES;
+//   // self.datePicker.hidden = YES;
+//}
 
--(void)textFieldDidEndEditing:(UITextField *)textField {
-    //ESCONDER O DATEPICKER AQUI
-    self.datePicker.hidden = YES;
-}
 
 - (void)calculatorDrip
 {
@@ -84,10 +89,15 @@
     
 }
 
+- (IBAction)dtP:(id)sender {
+    self.datePicker.hidden = NO;
+}
+
 - (IBAction)btCalculate:(id)sender {
     [self calculatorDrip];
     self.tfTime.text = nil;
     self.tfQuantity.text = nil;
+
     self.datePicker.hidden = YES;
 }
 
@@ -106,9 +116,12 @@
     NSLog(@"prepareForSegue: %@", segue.identifier);
     
     if ([segue.identifier isEqualToString:@"dados"]) {
-        NSLog(@"prepareForSegue: %@", segue.identifier);
         ResultDripViewController *test = [segue destinationViewController];
+        //ResultDripViewController *test1 = [segue destinationViewController];
         test.temporal = self.lbResult.text;
-    } 
+        test.temporal1 = self.tfPaciente.text;
+        
+ 
+}
 }
 @end

@@ -15,6 +15,8 @@
 @property (weak, nonatomic) IBOutlet UITextField *tfTime;
 @property (weak, nonatomic) IBOutlet UIDatePicker *datePicker;
 @property (weak, nonatomic) IBOutlet UILabel *lbResult;
+@property (strong, nonatomic) IBOutlet UITextField *tfPaciente;
+- (IBAction)dtP:(id)sender;
 
 - (IBAction)btCalculate:(id)sender;
 - (IBAction)pickerAction:(id)sender;

@@ -15,7 +15,6 @@
 		2A7453B31B2B0BEF00A7E1EE /* ThirdTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7453B21B2B0BEF00A7E1EE /* ThirdTableViewController.m */; };
 		2A872EF21B265E5C00252E27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A872EF11B265E5C00252E27 /* main.m */; };
 		2A872EF51B265E5C00252E27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A872EF41B265E5C00252E27 /* AppDelegate.m */; };
-		2A872EF81B265E5C00252E27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A872EF71B265E5C00252E27 /* ViewController.m */; };
 		2A872EFB1B265E5C00252E27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A872EF91B265E5C00252E27 /* Main.storyboard */; };
 		2A872EFD1B265E5C00252E27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A872EFC1B265E5C00252E27 /* Images.xcassets */; };
 		2A872F001B265E5C00252E27 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A872EFE1B265E5C00252E27 /* LaunchScreen.xib */; };
@@ -28,6 +27,7 @@
 		493E911E1B3A08F7009F6096 /* ResultDripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493E911D1B3A08F7009F6096 /* ResultDripViewController.m */; };
 		49512EC91B2F0F28009ADD09 /* TermoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49512EC81B2F0F28009ADD09 /* TermoTableViewController.m */; };
 		49512ECE1B2F2171009ADD09 /* TermoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49512ECD1B2F2171009ADD09 /* TermoViewController.m */; };
+		4959BEB11B3D99E100011E55 /* Speak.m in Sources */ = {isa = PBXBuildFile; fileRef = 4959BEB01B3D99E100011E55 /* Speak.m */; };
 		496A06E21B276FB400649400 /* DripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496A06E11B276FB400649400 /* DripViewController.m */; };
 		8B4CA36C1B3AF8B900B80AFD /* SearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4CA36B1B3AF8B900B80AFD /* SearchTableViewController.m */; };
 		8B4CA3711B3AFAB200B80AFD /* SearchDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4CA3701B3AFAB200B80AFD /* SearchDetailViewController.m */; };
@@ -59,8 +59,6 @@
 		2A872EF11B265E5C00252E27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2A872EF31B265E5C00252E27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2A872EF41B265E5C00252E27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2A872EF61B265E5C00252E27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = HealthApp/ViewController.h; sourceTree = "<group>"; };
-		2A872EF71B265E5C00252E27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = HealthApp/ViewController.m; sourceTree = "<group>"; };
 		2A872EFA1B265E5C00252E27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A872EFC1B265E5C00252E27 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2A872EFF1B265E5C00252E27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -82,6 +80,8 @@
 		49512EC81B2F0F28009ADD09 /* TermoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermoTableViewController.m; sourceTree = "<group>"; };
 		49512ECC1B2F2171009ADD09 /* TermoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TermoViewController.h; sourceTree = "<group>"; };
 		49512ECD1B2F2171009ADD09 /* TermoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermoViewController.m; sourceTree = "<group>"; };
+		4959BEAF1B3D99E100011E55 /* Speak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Speak.h; sourceTree = "<group>"; };
+		4959BEB01B3D99E100011E55 /* Speak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Speak.m; sourceTree = "<group>"; };
 		496A06E01B276FB400649400 /* DripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DripViewController.h; sourceTree = "<group>"; };
 		496A06E11B276FB400649400 /* DripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DripViewController.m; sourceTree = "<group>"; };
 		8B4CA36A1B3AF8B900B80AFD /* SearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTableViewController.h; sourceTree = "<group>"; };
@@ -113,8 +113,6 @@
 		2A5E0AB21B27132D00027920 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				2A872EF71B265E5C00252E27 /* ViewController.m */,
-				2A872EF61B265E5C00252E27 /* ViewController.h */,
 				496A06E01B276FB400649400 /* DripViewController.h */,
 				496A06E11B276FB400649400 /* DripViewController.m */,
 				493E911C1B3A08F7009F6096 /* ResultDripViewController.h */,
@@ -141,6 +139,8 @@
 				8B4CA36B1B3AF8B900B80AFD /* SearchTableViewController.m */,
 				8B4CA36F1B3AFAB200B80AFD /* SearchDetailViewController.h */,
 				8B4CA3701B3AFAB200B80AFD /* SearchDetailViewController.m */,
+				4959BEAF1B3D99E100011E55 /* Speak.h */,
+				4959BEB01B3D99E100011E55 /* Speak.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -315,7 +315,6 @@
 			files = (
 				8B4CA36C1B3AF8B900B80AFD /* SearchTableViewController.m in Sources */,
 				2A7453B31B2B0BEF00A7E1EE /* ThirdTableViewController.m in Sources */,
-				2A872EF81B265E5C00252E27 /* ViewController.m in Sources */,
 				2AC3A0DF1B2867AA0011F857 /* DoencaTableViewController.m in Sources */,
 				493E911B1B39B21A009F6096 /* SiglasViewController.m in Sources */,
 				2A1569061B3986E00058ECE8 /* FourthTableViewController.m in Sources */,
@@ -325,6 +324,7 @@
 				2A6CE97A1B28722D0062CB5A /* TableViewController.m in Sources */,
 				496A06E21B276FB400649400 /* DripViewController.m in Sources */,
 				8B4CA3711B3AFAB200B80AFD /* SearchDetailViewController.m in Sources */,
+				4959BEB11B3D99E100011E55 /* Speak.m in Sources */,
 				490C29D11B39A019004C978B /* Color.m in Sources */,
 				493E91181B39B1FC009F6096 /* SiglasTableViewController.m in Sources */,
 				2A872EF51B265E5C00252E27 /* AppDelegate.m in Sources */,

@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Speak.h"
+#import <AVFoundation/AVFoundation.h>
 
-@interface TermoViewController : UIViewController <UIApplicationDelegate>
+@interface TermoViewController : UIViewController <UIApplicationDelegate, AVSpeechSynthesizerDelegate>
 
 @property (strong, nonatomic) NSDictionary *Detail;
 @property (strong, nonatomic) IBOutlet UILabel *lbTermo;

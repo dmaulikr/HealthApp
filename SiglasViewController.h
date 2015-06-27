@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface SiglasViewController : UIViewController
 
+@property (strong, nonatomic) AVSpeechSynthesizer *synthesizer;
 @property (strong, nonatomic) NSDictionary *Detail;
 @property (strong, nonatomic) IBOutlet UILabel *lbSiglas;
 @property (strong, nonatomic) IBOutlet UITextView *tvSiglas;
+- (IBAction)btOuvir:(id)sender;
 
 @end

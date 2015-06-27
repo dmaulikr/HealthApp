@@ -80,8 +80,8 @@
 		49512EC81B2F0F28009ADD09 /* TermoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermoTableViewController.m; sourceTree = "<group>"; };
 		49512ECC1B2F2171009ADD09 /* TermoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TermoViewController.h; sourceTree = "<group>"; };
 		49512ECD1B2F2171009ADD09 /* TermoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermoViewController.m; sourceTree = "<group>"; };
-		4959BEAF1B3D99E100011E55 /* Sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sound.h; sourceTree = "<group>"; };
-		4959BEB01B3D99E100011E55 /* Sound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sound.m; sourceTree = "<group>"; };
+		4959BEAF1B3D99E100011E55 /* Sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sound.h; path = ../Sound.h; sourceTree = "<group>"; };
+		4959BEB01B3D99E100011E55 /* Sound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Sound.m; path = ../Sound.m; sourceTree = "<group>"; };
 		496A06E01B276FB400649400 /* DripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DripViewController.h; sourceTree = "<group>"; };
 		496A06E11B276FB400649400 /* DripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DripViewController.m; sourceTree = "<group>"; };
 		8B4CA36A1B3AF8B900B80AFD /* SearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTableViewController.h; sourceTree = "<group>"; };
@@ -139,8 +139,6 @@
 				8B4CA36B1B3AF8B900B80AFD /* SearchTableViewController.m */,
 				8B4CA36F1B3AFAB200B80AFD /* SearchDetailViewController.h */,
 				8B4CA3701B3AFAB200B80AFD /* SearchDetailViewController.m */,
-				4959BEAF1B3D99E100011E55 /* Sound.h */,
-				4959BEB01B3D99E100011E55 /* Sound.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -176,6 +174,8 @@
 				2A872EF41B265E5C00252E27 /* AppDelegate.m */,
 				490C29CF1B39A019004C978B /* Color.h */,
 				490C29D01B39A019004C978B /* Color.m */,
+				4959BEAF1B3D99E100011E55 /* Sound.h */,
+				4959BEB01B3D99E100011E55 /* Sound.m */,
 				2A872EFC1B265E5C00252E27 /* Images.xcassets */,
 				2A872EFE1B265E5C00252E27 /* LaunchScreen.xib */,
 				2A872EEF1B265E5C00252E27 /* Supporting Files */,

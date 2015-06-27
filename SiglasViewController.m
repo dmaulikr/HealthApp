@@ -8,8 +8,9 @@
 
 #import "SiglasViewController.h"
 #import "SiglasTableViewController.h"
+#import "Sound.h"
 
-@interface SiglasViewController ()
+@interface SiglasViewController () <AVSpeechSynthesizerDelegate>
 
 @end
 
@@ -17,13 +18,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.synthesizer = [[AVSpeechSynthesizer alloc] init];
+    self.synthesizer.delegate = self;
+    
     self.lbSiglas.text = [self.Detail objectForKey:@"nome"];
     self.tvSiglas.text = [self.Detail objectForKey:@"significado"];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)btOuvir:(id)sender {
+    Sound *sound = [Sound new];
+    [sound parameter01:self.lbSiglas.text parameter02:self.tvSiglas.text parameter03:self.synthesizer];
+}
 @end

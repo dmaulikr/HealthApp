@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
 
-@interface Speak : NSObject
+@interface Sound : NSObject
 
-- (void)speak01:(NSString *)top test:(AVSpeechSynthesizer *)synthesizer;
+- (void)parameter01:(NSString *)text01 parameter02:(NSString *)text02 parameter03:(AVSpeechSynthesizer *)synthesizer;
 
 @end

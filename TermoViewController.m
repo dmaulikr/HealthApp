@@ -7,12 +7,9 @@
 //
 
 #import "TermoViewController.h"
-#import "TermoTableViewController.h"
-#import "NSDictionary+TermoRecord.h"
+
 
 @interface TermoViewController ()
-
-@property (strong, nonatomic) AVSpeechSynthesizer *synthesizer;
 
 @end
 
@@ -26,14 +23,14 @@
     
     self.lbTermo.text = self.Detail.nomeTermo;
     self.txSignificado.text = self.Detail.sigTermo;
-    
-    Speak *speak = [Speak new];
-    [speak speak01:self.lbTermo.text test:self.synthesizer];
-    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
 
+- (IBAction)btOuvir:(id)sender {
+    Sound *sound = [Sound new];
+    [sound parameter01:self.lbTermo.text parameter02:self.txSignificado.text parameter03:self.synthesizer];
+}
 @end

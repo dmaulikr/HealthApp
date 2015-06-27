@@ -7,13 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Speak.h"
+#import "Sound.h"
 #import <AVFoundation/AVFoundation.h>
+#import "TermoTableViewController.h"
+#import "NSDictionary+TermoRecord.h"
 
 @interface TermoViewController : UIViewController <UIApplicationDelegate, AVSpeechSynthesizerDelegate>
 
+@property (strong, nonatomic) AVSpeechSynthesizer *synthesizer;
 @property (strong, nonatomic) NSDictionary *Detail;
 @property (strong, nonatomic) IBOutlet UILabel *lbTermo;
 @property (strong, nonatomic) IBOutlet UITextView *txSignificado;
+- (IBAction)btOuvir:(id)sender;
 
 @end

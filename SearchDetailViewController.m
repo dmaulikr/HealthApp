@@ -18,6 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.synthesizer = [[AVSpeechSynthesizer alloc] init];
+    self.synthesizer.delegate = self;
     self.lbNome.text = self.Detail.nomeTermo;
     self.txSignificado.text = self.Detail.sigTermo;
 }
@@ -27,4 +29,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)btOuvir:(id)sender {
+    Sound *sound = [Sound new];
+    [sound parameter01:self.lbNome.text parameter02:self.txSignificado.text parameter03:self.synthesizer];
+}
 @end

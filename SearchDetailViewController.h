@@ -7,12 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Sound.h"
+#import <AVFoundation/AVFoundation.h>
 
-@interface SearchDetailViewController : UIViewController
+@interface SearchDetailViewController : UIViewController <AVSpeechSynthesizerDelegate>
 
+@property (strong, nonatomic) AVSpeechSynthesizer *synthesizer;
 @property (strong, nonatomic) NSDictionary *Detail;
 @property (strong, nonatomic) IBOutlet UILabel *lbNome;
 @property (strong, nonatomic) IBOutlet UITextView *txSignificado;
+- (IBAction)btOuvir:(id)sender;
+
 
 @end
 

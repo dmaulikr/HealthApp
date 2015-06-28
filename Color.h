@@ -10,6 +10,7 @@
 
 @interface Color : NSObject
 
++ (UIColor *)tabSelectColor;
 + (UIColor *)verde;
 
 @end

@@ -15,4 +15,9 @@
     return [UIColor colorWithRed:(float)20/255 green:(float)154/255 blue:(float)92/255 alpha:1];
 }
 
++ (UIColor *)tabSelectColor
+{
+    return [UIColor colorWithRed:(float)16/255 green:(float)91/255 blue:(float)37/255 alpha:1];
+}
+
 @end

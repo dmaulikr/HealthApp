@@ -280,7 +280,7 @@
         <scene sceneID="Vif-GX-Ppv">
             <objects>
                 <navigationController id="1uD-WT-R6t" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="dicionario" id="RcM-VP-uAk"/>
+                    <tabBarItem key="tabBarItem" title="" id="RcM-VP-uAk"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="TpK-5g-RDv">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -414,7 +414,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="recentes" id="12E-61-htb"/>
+                    <tabBarItem key="tabBarItem" title="" id="12E-61-htb"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oPf-uO-1Fc" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -867,7 +867,7 @@
         <scene sceneID="ik5-SW-QKw">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Lbz-YE-Hrp" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="calculo" id="JEE-8m-fRA"/>
+                    <tabBarItem key="tabBarItem" title="" id="JEE-8m-fRA"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ktx-G6-qQ7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -886,7 +886,7 @@
         <scene sceneID="Xh1-u1-0v1">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Yx1-NK-Q0Q" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="busca" id="Bgd-GQ-cpe"/>
+                    <tabBarItem key="tabBarItem" title="" id="Bgd-GQ-cpe"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="dBx-iH-fMx">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -902,10 +902,4 @@
             <point key="canvasLocation" x="130.5" y="-111.5"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="busca" width="22" height="22"/>
-        <image name="calculo" width="22" height="22"/>
-        <image name="dicionario" width="22" height="22"/>
-        <image name="recentes" width="22" height="22"/>
-    </resources>
 </document>

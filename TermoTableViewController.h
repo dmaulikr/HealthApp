@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TermoTableViewController : UIViewController <UISearchBarDelegate, UISearchDisplayDelegate>
+@interface TermoTableViewController : UITableViewController <UISearchBarDelegate, UISearchDisplayDelegate>
 
 @property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
 @property (strong, nonatomic) NSArray *searchResults;

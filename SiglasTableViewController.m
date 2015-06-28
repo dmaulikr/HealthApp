@@ -13,8 +13,6 @@
 
 @interface SiglasTableViewController ()
 
-@property (weak, nonatomic) IBOutlet UITableView *tableView;
-
 @end
 
 @implementation SiglasTableViewController

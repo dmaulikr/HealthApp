@@ -780,7 +780,7 @@
                             </connections>
                         </searchBar>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="BEN-mO-jFv" rowHeight="70" style="IBUITableViewCellStyleDefault" id="UKw-jr-7eo">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" textLabel="BEN-mO-jFv" rowHeight="70" style="IBUITableViewCellStyleDefault" id="UKw-jr-7eo">
                                 <rect key="frame" x="0.0" y="130" width="375" height="70"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UKw-jr-7eo" id="th3-tl-6AQ">

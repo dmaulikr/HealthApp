@@ -10,13 +10,13 @@
 
 @interface DripViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *btCalculate;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *typeSegmented;
 @property (weak, nonatomic) IBOutlet UITextField *tfQuantity;
-@property (weak, nonatomic) IBOutlet UITextField *tfTime;
 @property (weak, nonatomic) IBOutlet UIDatePicker *datePicker;
 @property (weak, nonatomic) IBOutlet UILabel *lbResult;
 @property (strong, nonatomic) IBOutlet UITextField *tfPaciente;
-- (IBAction)dtP:(id)sender;
+@property NSString *time;
 
 - (IBAction)btCalculate:(id)sender;
 - (IBAction)pickerAction:(id)sender;

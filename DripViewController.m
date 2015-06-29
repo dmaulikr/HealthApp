@@ -15,109 +15,126 @@
 
 @implementation DripViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // datePicker desaparece da tela
-    self.datePicker.hidden = YES;
-    
 }
 
-- (void)didReceiveMemoryWarning {
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
 }
 
-
--(BOOL)textFieldShouldReturn:(UITextField *)textField{
-    
-    [textField resignFirstResponder];
-    
+- (BOOL)textFieldShouldBeginEditing:(nonnull UITextField *)textField
+{
+    NSLog(@"Teste - 1");
     return TRUE;
 }
 
-//-(void)textFieldDidBeginEditing:(UITextField *)textField{
-//    //MOSTRAR O DATEPICKER AQUI
-//    if (self.tfPaciente) {
-//        self.datePicker.hidden = NO;
-//    }
-//    
-//}
-//
--(void)textFieldDidEndEditing:(UITextField *)textField {
-    //ESCONDER O DATEPICKER AQUI
-
-    self.datePicker.hidden = YES;
-   // self.datePicker.hidden = YES;
-}
-
-
-- (void)calculatorDrip
+- (void)textFieldDidBeginEditing:(nonnull UITextField *)textField
 {
-    NSString *valorSolucao =  self.tfQuantity.text;
-    int valorSolucao1 = [valorSolucao intValue];
-    
-    NSDateFormatter *hora = [[NSDateFormatter alloc] init];
-    [hora setDateFormat:@"HH"];
-    NSString *tempo = [hora stringFromDate:self.datePicker.date];
-    float stringFloathora = [tempo floatValue];
-    
-    NSDateFormatter *minuto = [[NSDateFormatter alloc] init];
-    [minuto setDateFormat:@"mm"];
-    NSString *tempo_minuto = [minuto stringFromDate:self.datePicker.date];
-    float stringFloatminuto = [tempo_minuto floatValue];
-    
-    float total = stringFloathora+(stringFloatminuto/60);
-    
-    if (self.typeSegmented.selectedSegmentIndex == 0)
+    NSLog(@"Teste - 2");
+    if(textField == self.tfPaciente)
     {
-        float microgotas = (valorSolucao1/(total));
-        NSLog(@"microgotas: %.0f", microgotas);
-        self.lbResult.text = [[NSString alloc] initWithFormat:@"%.0f", microgotas];
-        NSLog(@"test: %@", self.lbResult);
-        self.lbResult.hidden = YES;
-        
+        NSLog(@"A");
+        if([self.tfQuantity.text isEqualToString:@""])
+        {
+            NSLog(@"B");
+            self.tfQuantity.enabled = FALSE;
+        }
     }
     else
     {
-        float macrogotas = (valorSolucao1/(total*3));
-        self.lbResult.text = [[NSString alloc] initWithFormat:@"%.0f", macrogotas];
-        self.lbResult.hidden = YES;
+        NSLog(@"C");
+        self.tfQuantity.enabled = TRUE;
+        self.datePicker.hidden = FALSE;
     }
-    
 }
 
-- (IBAction)dtP:(id)sender {
-    self.datePicker.hidden = NO;
+- (BOOL)textFieldShouldClear:(nonnull UITextField *)textField
+{
+    NSLog(@"Teste - 5");
+    return TRUE;
 }
 
-- (IBAction)btCalculate:(id)sender {
-    [self calculatorDrip];
-    self.tfTime.text = nil;
-    self.tfQuantity.text = nil;
-
-    self.datePicker.hidden = YES;
+- (BOOL)textFieldShouldReturn:(nonnull UITextField *)textField
+{
+    NSLog(@"Teste - 4");
+    [textField resignFirstResponder];
+    return TRUE;
 }
 
-- (IBAction)pickerAction:(id)sender {
-    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-    
-    [dateFormatter setDateFormat:@"HH:mm"];
-    
-    NSString *formatedDate = [dateFormatter stringFromDate:self.datePicker.date];
-    
-    self.tfTime.text = formatedDate;
+- (void)textFieldDidEndEditing:(nonnull UITextField *)textField
+{
+    NSLog(@"Teste - 3");
+    if(textField == self.tfQuantity)
+    {
+        if([self.tfPaciente.text isEqualToString:@""] == YES)
+        {
+            self.datePicker.hidden = FALSE;
+        }
+    }
+    else
+    {
+        NSLog(@"F");
+        if([textField.text isEqualToString:@""] == NO)
+        {
+            NSLog(@"G");
+            self.tfQuantity.enabled = TRUE;
+            self.datePicker.hidden = TRUE;
+        }
+        else
+        {
+            NSLog(@"H");
+            self.tfQuantity.enabled = NO;
+        }
+    }
+}
+
+- (void)touchesBegan:(nonnull NSSet<UITouch *> *)touches withEvent:(nullable UIEvent *)event
+{
+    NSLog(@"I");
+    [self.tfPaciente resignFirstResponder];
+    [self.tfQuantity resignFirstResponder];
+    if([self.tfPaciente.text isEqualToString:@""] == NO)
+    {
+        self.tfQuantity.selected = TRUE;
+    }
+    if([self.tfPaciente.text isEqualToString:@""] == NO && [self.tfQuantity.text isEqualToString:@""] == NO)
+    {
+        self.btCalculate.enabled = TRUE;
+    }
+}
+
+- (IBAction)btCalculate:(id)sender
+{
+    int quantidade = [self.tfQuantity.text intValue];
+    NSDateFormatter *dateFormatter = [NSDateFormatter new];
+    [dateFormatter setDateFormat:@"HH"];
+    float hora = [[dateFormatter stringFromDate:self.datePicker.date] floatValue];
+    [dateFormatter setDateFormat:@"mm"];
+    float minuto = [[dateFormatter stringFromDate:self.datePicker.date] floatValue];
+    float tempo = hora+(minuto/60);
+    if(self.typeSegmented.selectedSegmentIndex == 0)
+    {
+        float macrogotas = (quantidade/(tempo*3));
+        self.time = [[NSString alloc] initWithFormat:@"%.0f", macrogotas];
+    }
+    else
+    {
+        float microgotas = (quantidade/(tempo));
+        self.time = [[NSString alloc] initWithFormat:@"%.0f", microgotas];
+    }
 }
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    NSLog(@"prepareForSegue: %@", segue.identifier);
-    
-    if ([segue.identifier isEqualToString:@"dados"]) {
+    if([segue.identifier isEqualToString:@"dados"])
+    {
         ResultDripViewController *test = [segue destinationViewController];
-        //ResultDripViewController *test1 = [segue destinationViewController];
-        test.temporal = self.lbResult.text;
+        test.temporal = self.time;
         test.temporal1 = self.tfPaciente.text;
-        
- 
+    }
 }
-}
+
 @end

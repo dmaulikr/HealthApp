@@ -97,7 +97,7 @@
 {
     if ([segue.identifier isEqualToString:@"showDetails"])
     {
-        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        //NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         SearchDetailViewController *detailViewController = (SearchTableViewController *)segue.destinationViewController;
         
         if ([self.searchDisplayController isActive])

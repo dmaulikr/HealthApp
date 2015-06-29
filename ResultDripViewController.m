@@ -14,17 +14,17 @@
 @end
 
 @implementation ResultDripViewController
-@synthesize lbResult, temporal, lbPaciente,temporal1;
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    [lbResult setText:temporal];
-    [lbPaciente setText:temporal1];
+    self.lbPaciente.text = self.nome;
+    self.lbResult.text = self.resultado;
 }
 
-- (void)didReceiveMemoryWarning {
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

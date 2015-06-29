@@ -7,7 +7,6 @@
 //
 
 #import "DripViewController.h"
-#import "ResultDripViewController.h"
 
 @interface DripViewController () <UITextFieldDelegate>
 
@@ -118,12 +117,12 @@
     if(self.typeSegmented.selectedSegmentIndex == 0)
     {
         float macrogotas = (quantidade/(tempo*3));
-        self.time = [[NSString alloc] initWithFormat:@"%.0f", macrogotas];
+        self.calculo = [[NSString alloc] initWithFormat:@"%.0f", macrogotas];
     }
     else
     {
         float microgotas = (quantidade/(tempo));
-        self.time = [[NSString alloc] initWithFormat:@"%.0f", microgotas];
+        self.calculo = [[NSString alloc] initWithFormat:@"%.0f", microgotas];
     }
 }
 
@@ -132,8 +131,8 @@
     if([segue.identifier isEqualToString:@"dados"])
     {
         ResultDripViewController *test = [segue destinationViewController];
-        test.temporal = self.time;
-        test.temporal1 = self.tfPaciente.text;
+        test.nome = self.tfPaciente.text;
+        test.resultado = self.calculo;
     }
 }
 

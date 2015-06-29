@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ResultDripViewController.h"
 
 @interface DripViewController : UIViewController
 
@@ -16,10 +17,8 @@
 @property (weak, nonatomic) IBOutlet UIDatePicker *datePicker;
 @property (weak, nonatomic) IBOutlet UILabel *lbResult;
 @property (strong, nonatomic) IBOutlet UITextField *tfPaciente;
-@property NSString *time;
+@property NSString *calculo;
 
 - (IBAction)btCalculate:(id)sender;
-- (IBAction)pickerAction:(id)sender;
-
 
 @end

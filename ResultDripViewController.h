@@ -12,6 +12,6 @@
 @interface ResultDripViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UILabel *lbResult;
 @property (strong, nonatomic) IBOutlet UITextField *lbPaciente;
-@property (weak, nonatomic) IBOutlet NSString *temporal;
-@property (weak, nonatomic) IBOutlet NSString *temporal1;
+@property NSString *resultado;
+@property NSString *nome;
 @end

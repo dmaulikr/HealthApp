@@ -398,25 +398,35 @@
             </objects>
             <point key="canvasLocation" x="1206.5" y="-111.5"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="eUX-2X-Rf1">
+        <!--Table View Controller-->
+        <scene sceneID="25n-2e-ZIx">
             <objects>
-                <viewController id="sgL-hM-d9g" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Pxs-ub-LpG"/>
-                        <viewControllerLayoutGuide type="bottom" id="zfJ-0u-I9b"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="14w-tH-YEK">
+                <tableViewController id="6cs-c9-nMW" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="YRR-hl-1oo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="" id="12E-61-htb"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="0cU-jC-pUW">
+                                <rect key="frame" x="0.0" y="22" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0cU-jC-pUW" id="QNn-cM-qga">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="6cs-c9-nMW" id="wPv-DW-aTc"/>
+                            <outlet property="delegate" destination="6cs-c9-nMW" id="5Wy-ZA-p6f"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="" id="bJj-xf-qnf"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="oPf-uO-1Fc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ra3-ym-06o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="637.5" y="862.5"/>
+            <point key="canvasLocation" x="197.5" y="837.5"/>
         </scene>
         <!--Cálculo de Gotejamento-->
         <scene sceneID="bO4-NT-AsC">
@@ -439,7 +449,7 @@
                                 <color key="tintColor" red="0.078431372549019607" green="0.60392156862745094" blue="0.36078431372549019" alpha="1" colorSpace="calibratedRGB"/>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CQW-2o-GFJ">
-                                <rect key="frame" x="27" y="533" width="320" height="54"/>
+                                <rect key="frame" x="27" y="528" width="320" height="54"/>
                                 <color key="backgroundColor" red="0.078431372549019607" green="0.60392156862745094" blue="0.36078431372549019" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Calcular">
@@ -492,7 +502,7 @@
                                 </connections>
                             </textField>
                             <datePicker hidden="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="djw-R5-9LB">
-                                <rect key="frame" x="74" y="300" width="220" height="170"/>
+                                <rect key="frame" x="87" y="278" width="200" height="165"/>
                                 <color key="backgroundColor" red="0.18431372549019609" green="0.58823529411764708" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
                                 <date key="date" timeIntervalSinceReferenceDate="455598000.208902">
                                     <!--2015-06-10 03:00:00 +0000-->
@@ -510,6 +520,7 @@
                         <color key="tintColor" red="0.078431372549019607" green="0.60392156862745094" blue="0.36078431372549019" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Cálculo de Gotejamento" id="J1N-FV-iKO"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="btCalculate" destination="CQW-2o-GFJ" id="bUE-mZ-MRZ"/>
                         <outlet property="datePicker" destination="djw-R5-9LB" id="AZH-Ad-uYP"/>
@@ -537,7 +548,7 @@
                         <segue destination="1uD-WT-R6t" kind="relationship" relationship="viewControllers" id="Hs3-jQ-5Kq"/>
                         <segue destination="Yx1-NK-Q0Q" kind="relationship" relationship="viewControllers" id="vrk-xR-0Ja"/>
                         <segue destination="Lbz-YE-Hrp" kind="relationship" relationship="viewControllers" id="lyj-M7-nEt"/>
-                        <segue destination="sgL-hM-d9g" kind="relationship" relationship="viewControllers" id="xf9-7q-FOp"/>
+                        <segue destination="6cs-c9-nMW" kind="relationship" relationship="viewControllers" id="k9k-ax-lZj"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HVK-Qb-qHh" userLabel="First Responder" sceneMemberID="firstResponder"/>

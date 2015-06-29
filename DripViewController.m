@@ -134,6 +134,11 @@
         test.nome = self.tfPaciente.text;
         test.resultado = self.calculo;
     }
+    self.datePicker.hidden = TRUE;
+    self.tfQuantity.text = nil;
+    self.tfQuantity.enabled = FALSE;
+    self.tfPaciente.text = nil;
+    self.btCalculate.enabled = FALSE;
 }
 
 @end

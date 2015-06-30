@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MEDICAMENTOS</key>
+	<array>
+		<dict>
+			<key>nome</key>
+			<string>Aminofilina</string>
+			<key>formadeadm</key>
+			<string>Comprimido de 100 e 200 mg respectivamente</string>
+			<key>administração</key>
+			<string>Oral</string>
+			<key>dose</key>
+			<string>Crianças acima de 6 meses de idade 12 mg por Kg de peso corporal por dia, divididos em 3 ou 4 tomadas; Adultos 600 a 1600 mg por dia, divididos em 3 ou 4
+￼￼￼￼￼- 25 -
+tomadas; Idosos usar com cautela, pode ser necessário diminuir as doses para evitar manifestações tóxicas</string>
+			<key>acao</key>
+			<string>Broncodilatador, antiasmático;
+Reação Adversa: diarréia; náusea;</string>
+			<key>reacao</key>
+			<string>diarréia; náusea; vomito; tontura; dor de cabeça; insônia; tremor; urina excessiva; inquietude; irritabilidade</string>
+		</dict>
+	</array>
+</dict>
+</plist>

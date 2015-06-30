@@ -29,6 +29,9 @@
 		49512ECE1B2F2171009ADD09 /* TermoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49512ECD1B2F2171009ADD09 /* TermoViewController.m */; };
 		4959BEB11B3D99E100011E55 /* Sound.m in Sources */ = {isa = PBXBuildFile; fileRef = 4959BEB01B3D99E100011E55 /* Sound.m */; };
 		496A06E21B276FB400649400 /* DripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496A06E11B276FB400649400 /* DripViewController.m */; };
+		49C93C2B1B422191003AA114 /* Medicamentos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49C93C2A1B422191003AA114 /* Medicamentos.plist */; };
+		49C93C2E1B4221B8003AA114 /* MedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C93C2C1B4221B8003AA114 /* MedTableViewController.m */; };
+		49C93C301B42225E003AA114 /* MedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C93C2F1B42225E003AA114 /* MedViewController.m */; };
 		8B4CA36C1B3AF8B900B80AFD /* SearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4CA36B1B3AF8B900B80AFD /* SearchTableViewController.m */; };
 		8B4CA3711B3AFAB200B80AFD /* SearchDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4CA3701B3AFAB200B80AFD /* SearchDetailViewController.m */; };
 		8B9428BB1B3A4C1100E715EC /* NSDictionary+TermoRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9428BA1B3A4C1100E715EC /* NSDictionary+TermoRecord.m */; };
@@ -84,6 +87,11 @@
 		4959BEB01B3D99E100011E55 /* Sound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Sound.m; path = ../Sound.m; sourceTree = "<group>"; };
 		496A06E01B276FB400649400 /* DripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DripViewController.h; sourceTree = "<group>"; };
 		496A06E11B276FB400649400 /* DripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DripViewController.m; sourceTree = "<group>"; };
+		49C93C2A1B422191003AA114 /* Medicamentos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Medicamentos.plist; sourceTree = "<group>"; };
+		49C93C2C1B4221B8003AA114 /* MedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedTableViewController.m; sourceTree = "<group>"; };
+		49C93C2D1B4221B8003AA114 /* MedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedTableViewController.h; sourceTree = "<group>"; };
+		49C93C2F1B42225E003AA114 /* MedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedViewController.m; sourceTree = "<group>"; };
+		49C93C311B422265003AA114 /* MedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MedViewController.h; sourceTree = "<group>"; };
 		8B4CA36A1B3AF8B900B80AFD /* SearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTableViewController.h; sourceTree = "<group>"; };
 		8B4CA36B1B3AF8B900B80AFD /* SearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTableViewController.m; sourceTree = "<group>"; };
 		8B4CA36F1B3AFAB200B80AFD /* SearchDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchDetailViewController.h; sourceTree = "<group>"; };
@@ -151,6 +159,11 @@
 				2A49D3531B39833800AB388A /* Doencas.plist */,
 				2A1569071B3991C30058ECE8 /* Termos.plist */,
 				2A8DE7691B3999BF005AA2E0 /* Siglas.plist */,
+				49C93C2A1B422191003AA114 /* Medicamentos.plist */,
+				49C93C2C1B4221B8003AA114 /* MedTableViewController.m */,
+				49C93C2D1B4221B8003AA114 /* MedTableViewController.h */,
+				49C93C2F1B42225E003AA114 /* MedViewController.m */,
+				49C93C311B422265003AA114 /* MedViewController.h */,
 				2A5E0AB21B27132D00027920 /* Controller */,
 				2A872EEE1B265E5C00252E27 /* HealthApp */,
 				2A872F081B265E5C00252E27 /* HealthAppTests */,
@@ -294,6 +307,7 @@
 				2A1569081B3991C30058ECE8 /* Termos.plist in Resources */,
 				2A1422CB1B3B012F002DD43A /* Listas.plist in Resources */,
 				2A872F001B265E5C00252E27 /* LaunchScreen.xib in Resources */,
+				49C93C2B1B422191003AA114 /* Medicamentos.plist in Resources */,
 				2A872EFD1B265E5C00252E27 /* Images.xcassets in Resources */,
 				2A8DE76A1B3999BF005AA2E0 /* Siglas.plist in Resources */,
 			);
@@ -313,6 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49C93C2E1B4221B8003AA114 /* MedTableViewController.m in Sources */,
 				8B4CA36C1B3AF8B900B80AFD /* SearchTableViewController.m in Sources */,
 				2A7453B31B2B0BEF00A7E1EE /* ThirdTableViewController.m in Sources */,
 				2AC3A0DF1B2867AA0011F857 /* DoencaTableViewController.m in Sources */,
@@ -328,6 +343,7 @@
 				490C29D11B39A019004C978B /* Color.m in Sources */,
 				493E91181B39B1FC009F6096 /* SiglasTableViewController.m in Sources */,
 				2A872EF51B265E5C00252E27 /* AppDelegate.m in Sources */,
+				49C93C301B42225E003AA114 /* MedViewController.m in Sources */,
 				2A872EF21B265E5C00252E27 /* main.m in Sources */,
 				49512ECE1B2F2171009ADD09 /* TermoViewController.m in Sources */,
 			);

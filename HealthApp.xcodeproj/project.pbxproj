@@ -121,6 +121,10 @@
 		2A5E0AB21B27132D00027920 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				49C93C2C1B4221B8003AA114 /* MedTableViewController.m */,
+				49C93C311B422265003AA114 /* MedViewController.h */,
+				49C93C2F1B42225E003AA114 /* MedViewController.m */,
+				49C93C2D1B4221B8003AA114 /* MedTableViewController.h */,
 				496A06E01B276FB400649400 /* DripViewController.h */,
 				496A06E11B276FB400649400 /* DripViewController.m */,
 				493E911C1B3A08F7009F6096 /* ResultDripViewController.h */,
@@ -160,10 +164,6 @@
 				2A1569071B3991C30058ECE8 /* Termos.plist */,
 				2A8DE7691B3999BF005AA2E0 /* Siglas.plist */,
 				49C93C2A1B422191003AA114 /* Medicamentos.plist */,
-				49C93C2C1B4221B8003AA114 /* MedTableViewController.m */,
-				49C93C2D1B4221B8003AA114 /* MedTableViewController.h */,
-				49C93C2F1B42225E003AA114 /* MedViewController.m */,
-				49C93C311B422265003AA114 /* MedViewController.h */,
 				2A5E0AB21B27132D00027920 /* Controller */,
 				2A872EEE1B265E5C00252E27 /* HealthApp */,
 				2A872F081B265E5C00252E27 /* HealthAppTests */,

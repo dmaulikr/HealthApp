@@ -47,13 +47,6 @@
     [super didReceiveMemoryWarning];
 }
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (self.searchController.active)
-    {
-        [self performSegueWithIdentifier: @"showDetails" sender: self];
-    }
-}
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {

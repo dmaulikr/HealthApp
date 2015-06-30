@@ -45,13 +45,6 @@
     [super didReceiveMemoryWarning];
 }
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (self.searchController.active)
-    {
-        [self performSegueWithIdentifier: @"showDetails" sender: self];
-    }
-}
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
@@ -59,6 +52,7 @@
     {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         TermoViewController *detailViewController = (TermoViewController *)segue.destinationViewController;
+        
         detailViewController.Detail = [self.content objectAtIndex:indexPath.row];
         
         if (self.searchController.active)
@@ -109,11 +103,13 @@
 }
 
 
-- (BOOL)searchBarShouldBeginEditing:(UISearchBar *)searchBar{
-    return YES;
-}
+//- (BOOL)searchBarShouldBeginEditing:(UISearchBar *)searchBar{
+//    return YES;
+//}
 - (void)updateSearchResultsForSearchController:(UISearchController *)searchController{
+    
     NSString *searchString = self.searchController.searchBar.text;
+    
     NSPredicate *predicate = [NSPredicate predicateWithFormat:@"SELF['nome'] CONTAINS[c] %@", searchString];
     
     self.searchResults= [NSMutableArray arrayWithArray:[self.content filteredArrayUsingPredicate:predicate]];

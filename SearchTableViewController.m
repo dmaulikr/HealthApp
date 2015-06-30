@@ -69,11 +69,9 @@
         termoRecord = [self.content objectAtIndex:indexPath.row];
     }
     
-    if (self.searchController.active)
-    {
         cell.textLabel.text       = termoRecord.nomeTermo;
         cell.detailTextLabel.text = termoRecord.sigTermo;
-    }
+    
     return cell;
 }
 
@@ -89,13 +87,6 @@
     [self.tableView reloadData];
 }
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (self.searchController.active)
-    {
-        [self performSegueWithIdentifier: @"showDetails" sender: self];
-    }
-}
 
 
 #pragma mark - Prepare For Segue

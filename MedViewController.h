@@ -12,5 +12,11 @@
 
 @property (strong, nonatomic) NSDictionary *Detail;
 @property (strong, nonatomic) IBOutlet UILabel *lbNome;
+@property (strong, nonatomic) IBOutlet UITextView *tvForma;
+@property (strong, nonatomic) IBOutlet UITextView *tvadmin;
+@property (strong, nonatomic) IBOutlet UITextView *tvDose;
+@property (strong, nonatomic) IBOutlet UITextView *tvAcao;
+@property (strong, nonatomic) IBOutlet UITextView *tvReacao;
+
 
 @end

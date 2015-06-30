@@ -23,6 +23,23 @@
     NSURL *plistURL = [[NSBundle mainBundle] URLForResource:@"Siglas" withExtension:@"plist"];
     NSDictionary *plist = [NSDictionary dictionaryWithContentsOfURL:plistURL];
     self.content = [plist objectForKey:@"SIGLAS"];
+    
+    // No search results controller to display the search results in the current view
+    self.searchController = [[UISearchController alloc] initWithSearchResultsController:nil];
+    self.searchController.searchResultsUpdater = self;
+    self.searchController.dimsBackgroundDuringPresentation = NO;
+    
+    // Configure the search bar with scope buttons and add it to the table view header
+    
+    self.searchController.searchBar.delegate = self;
+    
+    self.tableView.tableHeaderView = self.searchController.searchBar;
+    
+    self.definesPresentationContext = YES;
+    
+    [self.searchController.searchBar sizeToFit];
+    
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -32,7 +49,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (tableView == self.searchDisplayController.searchResultsTableView)
+    if (self.searchController.active)
     {
         [self performSegueWithIdentifier: @"showDetails" sender: self];
     }
@@ -45,9 +62,9 @@
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         SiglasViewController *detailViewController = (SiglasViewController *)segue.destinationViewController;
         detailViewController.Detail = [self.content objectAtIndex:indexPath.row];
-        if ([self.searchDisplayController isActive])
+        if (self.searchController.active)
         {
-            detailViewController.Detail = [self.searchResults objectAtIndex: self.searchDisplayController.searchResultsTableView.indexPathForSelectedRow.row];
+            detailViewController.Detail = [self.searchResults objectAtIndex: indexPath.row];
 
         }
     }
@@ -60,7 +77,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    if (tableView == self.searchDisplayController.searchResultsTableView)
+    if (self.searchController.active)
     {
         return [self.searchResults count];
     }
@@ -79,7 +96,8 @@
         cell = [[UITableViewCell alloc] initWithStyle: UITableViewCellStyleDefault reuseIdentifier: CellIdentifier];
     }
     NSDictionary *termoRecord;
-    if (tableView == self.searchDisplayController.searchResultsTableView)
+    
+    if (self.searchController.active)
     {
         termoRecord = [self.searchResults objectAtIndex:indexPath.row];
     }
@@ -93,19 +111,18 @@
 }
 
 
-- (void)filterContentForSearchText:(NSString*)searchText scope:(NSString*)scope
-{
-    NSPredicate *resultPredicate = [NSPredicate predicateWithFormat: @"SELF['nome'] contains[c] %@ ", self.searchBar.text];
-    self.searchResults = [self.content filteredArrayUsingPredicate:resultPredicate] ;
+- (BOOL)searchBarShouldBeginEditing:(UISearchBar *)searchBar{
+    return YES;
 }
 
--(BOOL)searchDisplayController:(UISearchDisplayController *)controller shouldReloadTableForSearchString:(NSString *)searchString
-{
-    [self filterContentForSearchText:searchString
-                               scope:[[self.searchDisplayController.searchBar scopeButtonTitles]
-                                      objectAtIndex:[self.searchDisplayController.searchBar
-                                                     selectedScopeButtonIndex]]];
-    return YES;
+- (void)updateSearchResultsForSearchController:(UISearchController *)searchController{
+
+    NSString *searchString = self.searchController.searchBar.text;
+    
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"SELF['nome'] CONTAINS[c] %@", searchString];
+    
+    self.searchResults= [NSMutableArray arrayWithArray:[self.content filteredArrayUsingPredicate:predicate]];
+    [self.tableView reloadData];
 }
 
 

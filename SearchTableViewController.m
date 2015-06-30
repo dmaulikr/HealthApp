@@ -24,6 +24,22 @@
     NSDictionary *plist = [NSDictionary dictionaryWithContentsOfURL:plistURL];
     self.content = [plist objectForKey:@"Listas"];
     
+    // No search results controller to display the search results in the current view
+    self.searchController = [[UISearchController alloc] initWithSearchResultsController:nil];
+    self.searchController.searchResultsUpdater = self;
+    self.searchController.dimsBackgroundDuringPresentation = NO;
+    
+    // Configure the search bar with scope buttons and add it to the table view header
+    
+    self.searchController.searchBar.delegate = self;
+    
+    self.tableView.tableHeaderView = self.searchController.searchBar;
+    
+    self.definesPresentationContext = YES;
+    
+    [self.searchController.searchBar sizeToFit];
+
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -46,14 +62,14 @@
     }
     
     NSDictionary *termoRecord;
-    if (tableView == self.searchDisplayController.searchResultsTableView)
+    if (self.searchController.active)
     {
         termoRecord = [self.searchResults objectAtIndex:indexPath.row];
     } else {
         termoRecord = [self.content objectAtIndex:indexPath.row];
     }
     
-    if ([self.searchDisplayController isActive])
+    if (self.searchController.active)
     {
         cell.textLabel.text       = termoRecord.nomeTermo;
         cell.detailTextLabel.text = termoRecord.sigTermo;
@@ -62,29 +78,20 @@
 }
 
 
-- (void)filterContentForSearchText:(NSString*)searchText scope:(NSString*)scope
-{
-    NSPredicate *resultPredicate = [NSPredicate predicateWithFormat: @"SELF['nome'] contains[c] %@ ", self.searchBar.text];
-    
-    //    NSPredicate *resultPredicate = [NSPredicate predicateWithFormat: @"(SELF['nome'] contains[c] %@) OR (SELF['significado'] contains[c] %@)", self.searchBar.text, self.searchBar.text];
-    
-    self.searchResults = [self.content filteredArrayUsingPredicate:resultPredicate] ;
-}
-
--(BOOL)searchDisplayController:(UISearchDisplayController *)controller shouldReloadTableForSearchString:(NSString *)searchString
-
-{
-    [self filterContentForSearchText:searchString
-                               scope:[[self.searchDisplayController.searchBar scopeButtonTitles]
-                                      objectAtIndex:[self.searchDisplayController.searchBar
-                                                     selectedScopeButtonIndex]]];
-    
+- (BOOL)searchBarShouldBeginEditing:(UISearchBar *)searchBar{
     return YES;
+}
+- (void)updateSearchResultsForSearchController:(UISearchController *)searchController{
+    NSString *searchString = self.searchController.searchBar.text;
+    NSPredicate *preicate = [NSPredicate predicateWithFormat:@"SELF['nome'] CONTAINS[c] %@", searchString];
+    
+    self.searchResults= [NSMutableArray arrayWithArray:[self.content filteredArrayUsingPredicate:preicate]];
+    [self.tableView reloadData];
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (tableView == self.searchDisplayController.searchResultsTableView)
+    if (self.searchController.active)
     {
         [self performSegueWithIdentifier: @"showDetails" sender: self];
     }
@@ -97,12 +104,12 @@
 {
     if ([segue.identifier isEqualToString:@"showDetails"])
     {
-        //NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        SearchDetailViewController *detailViewController = (SearchTableViewController *)segue.destinationViewController;
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        SearchDetailViewController *detailViewController = (SearchDetailViewController *)segue.destinationViewController;
         
-        if ([self.searchDisplayController isActive])
+        if (self.searchController.active)
         {
-            detailViewController.Detail = [self.searchResults objectAtIndex: self.searchDisplayController.searchResultsTableView.indexPathForSelectedRow.row];
+            detailViewController.Detail = [self.searchResults objectAtIndex: indexPath.row];
 
         }
     }

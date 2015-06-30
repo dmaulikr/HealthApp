@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 
 
-@interface SiglasTableViewController : UITableViewController <UISearchBarDelegate, UISearchDisplayDelegate>
+@interface SiglasTableViewController : UITableViewController <UISearchBarDelegate, UISearchResultsUpdating>
 
-@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
+@property (strong, nonatomic) UISearchController *searchController;
 @property (strong, nonatomic) NSArray *searchResults;
 @property (strong, nonatomic) NSMutableArray *content;
 

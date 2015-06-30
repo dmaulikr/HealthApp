@@ -7,19 +7,89 @@
 		<dict>
 			<key>nome</key>
 			<string>Aminofilina</string>
+			<key>nomec</key>
+			<string>Aminofilina</string>
 			<key>formadeadm</key>
-			<string>Comprimido de 100 e 200 mg respectivamente</string>
+			<string>Comprimido de 100 e 200 mg respectivamente.</string>
 			<key>administração</key>
-			<string>Oral</string>
+			<string>Oral.</string>
 			<key>dose</key>
-			<string>Crianças acima de 6 meses de idade 12 mg por Kg de peso corporal por dia, divididos em 3 ou 4 tomadas; Adultos 600 a 1600 mg por dia, divididos em 3 ou 4
-￼￼￼￼￼- 25 -
-tomadas; Idosos usar com cautela, pode ser necessário diminuir as doses para evitar manifestações tóxicas</string>
+			<string>Crianças acima de 6 meses de idade 12 mg por Kg de peso corporal por dia, divididos em 3 ou 4 tomadas; Adultos 600 a 1600 mg por dia, divididos em 3 ou 4 tomadas; Idosos usar com cautela, pode ser necessário diminuir as doses para evitar manifestações tóxicas.</string>
 			<key>acao</key>
-			<string>Broncodilatador, antiasmático;
+			<string>Broncodilatador, antiasmático
 Reação Adversa: diarréia; náusea;</string>
 			<key>reacao</key>
-			<string>diarréia; náusea; vomito; tontura; dor de cabeça; insônia; tremor; urina excessiva; inquietude; irritabilidade</string>
+			<string>Diarréia; náusea; vomito; tontura; dor de cabeça; insônia; tremor; urina excessiva; inquietude; irritabilidade</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Bisacodil</string>
+			<key>nomec</key>
+			<string>Aminofilina</string>
+			<key>formadeadm</key>
+			<string>Dulcolax, Isilax.</string>
+			<key>administração</key>
+			<string>Oral.</string>
+			<key>dose</key>
+			<string>Crianças Acima de 4 Anos dose usual 1 comprimido, VO 1 vez ao dia (após a última refeição);Adultos dose usual 10 mg, VO em dose única ao dia.</string>
+			<key>acao</key>
+			<string>Laxante.
+Reação Adversa: diarréia; náusea;</string>
+			<key>reacao</key>
+			<string>diarréia, náusea; vomito; distensão abdominal; cólica; gases; desmaio; irritação em torno do ânus.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Cabergolina</string>
+			<key>nomec</key>
+			<string>Dostinex.</string>
+			<key>formadeadm</key>
+			<string>Comprimido 0,5 mg.</string>
+			<key>administração</key>
+			<string>Oral.</string>
+			<key>dose</key>
+			<string>A dose inicial é de 0,5 mg por semana.</string>
+			<key>acao</key>
+			<string>Agonista dopaminérgico de utilidade para o tratamento da hiperprolactinemia.</string>
+			<key>reacao</key>
+			<string>Aumento do volume da urina; agitação; excitação; insônia.</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Carvedilol</string>
+			<key>nomec</key>
+			<string>Divelol</string>
+			<key>formadeadm</key>
+			<string>Comprimido 6,25 mg, 12,5 mg e 25 mg.</string>
+			<key>administração</key>
+			<string>Oral.</string>
+			<key>dose</key>
+			<string>Crianças eficácia e segurança não estabelecidas; Adultos hipertensão dose inicial 6,25 mg; Idosos podem ser mais sensíveis às doses usuais do produto.</string>
+			<key>acao</key>
+			<string>Anti - hipertensivo.</string>
+			<key>reacao</key>
+			<string>Pressão baixa; diarréia; aumento de peso; aumento da glicose no sangue; infecção respiratória; fraqueza; tontura; fadiga</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Decametasona
+DEXAMETASONA
+DEXAMETASONA</string>
+			<key>nomec</key>
+			<string>Decadron, Dexamex, Dexason.</string>
+			<key>formadeadm</key>
+			<string>Comprimido 0,5 mg, 0,75 mg e 4 mg.</string>
+			<key>administração</key>
+			<string>Oral.</string>
+			<key>dose</key>
+			<string>Crianças: 20 a 300 mcg por Kg de peso corporal por dia, dividido em 4 tomadas, durante 8 dias. Adultos: 0,5 a 8 mg por dia, dividido em 4 tomadas, durante 8 dias; Ação: Antiinflamatório esteroidal (AIE), antialérgico.</string>
+			<key>acao</key>
+			<string>Antiinflamatório esteroidal (AIE), antialérgico.</string>
+			<key>reacao</key>
+			<string>Distúrbios líquidos e eletrolíticos: Retenção de sódio; retenção de líquidos, insuficiência cardíaca congestiva em pacientes suscetíveis, perda de potássio, perda da massa muscular, osteoporose, úlceras pépticas e esofágicas.
+Distúrbios líquidos e eletrolíticos: Retenção de sódio; retenção de líquidos, insuficiência cardíaca congestiva em pacientes suscetíveis, perda de potássio, perda da massa muscular, osteoporose, úlceras pépticas e esofágicas.
+Distúrbios líquidos e eletrolíticos: Retenção de sódio; retenção de líquidos, insuficiência cardíaca congestiva em pacientes suscetíveis, perda de potássio, perda da massa muscular, osteoporose, úlceras pépticas e esofágicas.
+ Distúrbios líquidos e eletrolíticos: Retenção de sódio; retenção de líquidos, insuficiência cardíaca congestiva em pacientes suscetíveis, perda de potássio, perda da massa muscular, osteoporose, úlceras pépticas e esofágicas.</string>
 		</dict>
 	</array>
 </dict>

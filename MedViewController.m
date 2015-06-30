@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.lbNome.text = [self.Detail objectForKey:@"nome"];
+    self.title = [self.Detail objectForKey:@"nome"];
     self.tvForma.text = [self.Detail objectForKey:@"formadeadm"];
     self.tvadmin.text = [self.Detail objectForKey:@"administração"];
     self.tvDose.text = [self.Detail objectForKey:@"dose"];

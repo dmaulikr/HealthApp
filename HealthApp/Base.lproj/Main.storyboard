@@ -6,38 +6,38 @@
     </dependencies>
     <customFonts key="customFonts">
         <mutableArray key="Avenir.ttc">
-            <string>Avenir-Heavy</string>
             <string>Avenir-Book</string>
-            <string>Avenir-Medium</string>
-            <string>Avenir-Medium</string>
-            <string>Avenir-Book</string>
-            <string>Avenir-Medium</string>
-            <string>Avenir-Book</string>
-            <string>Avenir-Book</string>
-            <string>Avenir-Book</string>
-            <string>Avenir-Heavy</string>
-            <string>Avenir-Book</string>
-            <string>Avenir-Medium</string>
-            <string>Avenir-Book</string>
-            <string>Avenir-Book</string>
-            <string>Avenir-Medium</string>
-            <string>Avenir-Medium</string>
-            <string>Avenir-Medium</string>
             <string>Avenir-Medium</string>
             <string>Avenir-Heavy</string>
-            <string>Avenir-Heavy</string>
-            <string>Avenir-Heavy</string>
-            <string>Avenir-Heavy</string>
+            <string>Avenir-Medium</string>
             <string>Avenir-Book</string>
+            <string>Avenir-Medium</string>
             <string>Avenir-Book</string>
             <string>Avenir-Book</string>
             <string>Avenir-Book</string>
             <string>Avenir-Book</string>
             <string>Avenir-Heavy</string>
-            <string>Avenir-Heavy</string>
-            <string>Avenir-Book</string>
             <string>Avenir-Medium</string>
             <string>Avenir-Book</string>
+            <string>Avenir-Book</string>
+            <string>Avenir-Book</string>
+            <string>Avenir-Medium</string>
+            <string>Avenir-Medium</string>
+            <string>Avenir-Medium</string>
+            <string>Avenir-Medium</string>
+            <string>Avenir-Book</string>
+            <string>Avenir-Heavy</string>
+            <string>Avenir-Heavy</string>
+            <string>Avenir-Heavy</string>
+            <string>Avenir-Heavy</string>
+            <string>Avenir-Book</string>
+            <string>Avenir-Book</string>
+            <string>Avenir-Book</string>
+            <string>Avenir-Book</string>
+            <string>Avenir-Heavy</string>
+            <string>Avenir-Book</string>
+            <string>Avenir-Heavy</string>
+            <string>Avenir-Medium</string>
             <string>Avenir-Book</string>
         </mutableArray>
         <mutableArray key="AvenirNext.ttc">
@@ -48,7 +48,7 @@
         </mutableArray>
     </customFonts>
     <scenes>
-        <!--Termo View Controller-->
+        <!--Termo-->
         <scene sceneID="lR0-vb-YzT">
             <objects>
                 <viewController id="qhl-Xh-1wf" customClass="TermoViewController" sceneMemberID="viewController">
@@ -98,6 +98,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Termo" id="j9h-gX-8N7"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="lbTermo" destination="dnH-cJ-OVC" id="jVk-iI-IGR"/>
@@ -162,27 +163,27 @@
         <scene sceneID="Qjm-o0-hYr">
             <objects>
                 <tableViewController storyboardIdentifier="TESTANDO" id="5TP-UG-QSY" customClass="ThirdTableViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" sectionHeaderHeight="22" sectionFooterHeight="22" id="qkf-0r-Mkt">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="65" sectionHeaderHeight="22" sectionFooterHeight="22" id="qkf-0r-Mkt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" textLabel="EbP-7h-Zc3" detailTextLabel="g7l-g6-dpG" rowHeight="60" style="IBUITableViewCellStyleSubtitle" id="0Ke-wJ-mAp">
-                                <rect key="frame" x="0.0" y="86" width="375" height="60"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" textLabel="EbP-7h-Zc3" detailTextLabel="g7l-g6-dpG" rowHeight="65" style="IBUITableViewCellStyleSubtitle" id="0Ke-wJ-mAp">
+                                <rect key="frame" x="0.0" y="86" width="375" height="65"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0Ke-wJ-mAp" id="lgg-CM-ocx">
-                                    <rect key="frame" x="0.0" y="0.0" width="342" height="59.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="64.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EbP-7h-Zc3">
-                                            <rect key="frame" x="15" y="11" width="30" height="20.5"/>
+                                            <rect key="frame" x="15" y="13" width="30" height="20.5"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="15"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="g7l-g6-dpG">
-                                            <rect key="frame" x="15" y="31.5" width="44.5" height="18"/>
+                                            <rect key="frame" x="15" y="33.5" width="44.5" height="18"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="13"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -210,20 +211,20 @@
         <scene sceneID="KOW-aC-JOK">
             <objects>
                 <tableViewController id="dYU-il-Shg" customClass="FourthTableViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="55" sectionHeaderHeight="22" sectionFooterHeight="22" id="hNM-Kb-0KW">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="65" sectionHeaderHeight="22" sectionFooterHeight="22" id="hNM-Kb-0KW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="F4m-TS-Zbe" rowHeight="55" style="IBUITableViewCellStyleDefault" id="NPX-zH-tas">
-                                <rect key="frame" x="0.0" y="86" width="375" height="55"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="F4m-TS-Zbe" rowHeight="65" style="IBUITableViewCellStyleDefault" id="NPX-zH-tas">
+                                <rect key="frame" x="0.0" y="86" width="375" height="65"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NPX-zH-tas" id="PRw-Ye-ppn">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="54.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="64.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="F4m-TS-Zbe">
-                                            <rect key="frame" x="15" y="0.0" width="345" height="54.5"/>
+                                            <rect key="frame" x="15" y="0.0" width="345" height="64.5"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="13"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -483,7 +484,7 @@
                                 </connections>
                             </textField>
                             <datePicker hidden="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="djw-R5-9LB">
-                                <rect key="frame" x="87" y="278" width="200" height="165"/>
+                                <rect key="frame" x="87" y="286" width="200" height="165"/>
                                 <color key="backgroundColor" red="0.18431372549019609" green="0.58823529411764708" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
                                 <date key="date" timeIntervalSinceReferenceDate="455598000.208902">
                                     <!--2015-06-10 03:00:00 +0000-->
@@ -625,7 +626,7 @@
             </objects>
             <point key="canvasLocation" x="-844.5" y="1718.5"/>
         </scene>
-        <!--Med Table View Controller-->
+        <!--Medicamentos-->
         <scene sceneID="DyU-fx-vOp">
             <objects>
                 <tableViewController id="6Oc-4N-tIm" customClass="MedTableViewController" sceneMemberID="viewController">
@@ -645,7 +646,7 @@
                                             <rect key="frame" x="15" y="0.0" width="325" height="69.5"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.10196078431372549" green="0.4823529411764706" blue="0.22352941176470589" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -660,6 +661,7 @@
                             <outlet property="delegate" destination="6Oc-4N-tIm" id="qcR-h9-u58"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="Medicamentos" id="DG7-yY-YQS"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ep3-uF-oof" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -680,25 +682,25 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Forma de Administraçao:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xmy-RB-lHs">
                                 <rect key="frame" x="14" y="85" width="206" height="21"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.10196078431372549" green="0.4823529411764706" blue="0.22352941176470589" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Administraçao:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wrg-aT-bWw">
                                 <rect key="frame" x="14" y="174" width="121" height="21"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.10196078431372549" green="0.4823529411764706" blue="0.22352941176470589" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dose:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ibc-Jx-Org">
                                 <rect key="frame" x="14" y="252" width="114" height="22"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.10196078431372549" green="0.4823529411764706" blue="0.22352941176470589" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reação:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Og-GC-llJ">
                                 <rect key="frame" x="14" y="460" width="64" height="21"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.10196078431372549" green="0.4823529411764706" blue="0.22352941176470589" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="text" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="h1C-ia-aeS">
@@ -728,7 +730,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ação:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="be6-Ve-RcK">
                                 <rect key="frame" x="14" y="352" width="48" height="21"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.10196078431372549" green="0.4823529411764706" blue="0.22352941176470589" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="text" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="GUw-2i-rBd">
@@ -753,7 +755,7 @@
             </objects>
             <point key="canvasLocation" x="566.5" y="3345.5"/>
         </scene>
-        <!--Siglas View Controller-->
+        <!--Sigla-->
         <scene sceneID="tka-0v-Lyc">
             <objects>
                 <viewController id="VIt-y7-tQu" customClass="SiglasViewController" sceneMemberID="viewController">
@@ -796,6 +798,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Sigla" id="XIr-dQ-IFX"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="lbSiglas" destination="vlg-zv-UhG" id="YLn-iN-Mgw"/>

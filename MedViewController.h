@@ -7,15 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface MedViewController : UIViewController
 
 @property (strong, nonatomic) NSDictionary *Detail;
+@property (strong, nonatomic) IBOutlet UITextView *tvnomec;
 @property (strong, nonatomic) IBOutlet UITextView *tvForma;
 @property (strong, nonatomic) IBOutlet UITextView *tvadmin;
 @property (strong, nonatomic) IBOutlet UITextView *tvDose;
 @property (strong, nonatomic) IBOutlet UITextView *tvAcao;
 @property (strong, nonatomic) IBOutlet UITextView *tvReacao;
-
+- (IBAction)btLer:(id)sender;
 
 @end

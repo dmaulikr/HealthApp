@@ -91,6 +91,22 @@ Distúrbios líquidos e eletrolíticos: Retenção de sódio; retenção
 Distúrbios líquidos e eletrolíticos: Retenção de sódio; retenção de líquidos, insuficiência cardíaca congestiva em pacientes suscetíveis, perda de potássio, perda da massa muscular, osteoporose, úlceras pépticas e esofágicas.
  Distúrbios líquidos e eletrolíticos: Retenção de sódio; retenção de líquidos, insuficiência cardíaca congestiva em pacientes suscetíveis, perda de potássio, perda da massa muscular, osteoporose, úlceras pépticas e esofágicas.</string>
 		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Dipiirona Sódica </string>
+			<key>nomec</key>
+			<string>Dipirona Sódica (Genérico)</string>
+			<key>formadeadm</key>
+			<string>Comprimido 500 mg</string>
+			<key>administração</key>
+			<string>Oral.</string>
+			<key>dose</key>
+			<string>Crianças: 10 mg por Kg de peso corporal por dose, até 4 doses por dia; (Adultos e Adolescentes acima de 15 anos): 500 a 750 mg por dose, até 4 doses por dia.</string>
+			<key>acao</key>
+			<string>Analgésico, antipirético, antitérmico</string>
+			<key>reacao</key>
+			<string>Pacientes sensíveis podem ter reações de sensibilidade, em geral devido a dipirona, a forma mais grave, embora bastante rara, é a agranulocitose. </string>
+		</dict>
 	</array>
 </dict>
 </plist>

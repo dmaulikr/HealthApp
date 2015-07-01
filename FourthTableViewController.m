@@ -7,8 +7,10 @@
 //
 
 #import "FourthTableViewController.h"
+#import "FifthViewController.h"
 
 @interface FourthTableViewController ()
+
 
 @end
 
@@ -43,4 +45,10 @@
     return cell;
 }
 
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+    FifthViewController *detailViewController = (FifthViewController *)segue.destinationViewController;
+    detailViewController.Detail = [self.test objectAtIndex:indexPath.row];
+}
 @end

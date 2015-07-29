@@ -24,85 +24,33 @@
     [super didReceiveMemoryWarning];
 }
 
-- (BOOL)textFieldShouldBeginEditing:(nonnull UITextField *)textField
-{
-    NSLog(@"Teste - 1");
-    return TRUE;
-}
-
-- (void)textFieldDidBeginEditing:(nonnull UITextField *)textField
-{
-    NSLog(@"Teste - 2");
-    if(textField == self.tfPaciente)
-    {
-        NSLog(@"A");
-        if([self.tfQuantity.text isEqualToString:@""])
-        {
-            NSLog(@"B");
-            self.tfQuantity.enabled = FALSE;
-        }
-    }
-    else
-    {
-        NSLog(@"C");
-        self.tfQuantity.enabled = TRUE;
-        self.datePicker.hidden = FALSE;
-    }
-}
-
-- (BOOL)textFieldShouldClear:(nonnull UITextField *)textField
-{
-    NSLog(@"Teste - 5");
-    return TRUE;
-}
-
-- (BOOL)textFieldShouldReturn:(nonnull UITextField *)textField
-{
-    NSLog(@"Teste - 4");
-    [textField resignFirstResponder];
-    return TRUE;
-}
-
 - (void)textFieldDidEndEditing:(nonnull UITextField *)textField
 {
-    NSLog(@"Teste - 3");
+    [textField resignFirstResponder];
     if(textField == self.tfQuantity)
     {
-        if([self.tfPaciente.text isEqualToString:@""] == YES)
+        if([self.tfPaciente.text isEqualToString:@""] && [self.tfQuantity.text isEqualToString:@""])
         {
-            self.datePicker.hidden = FALSE;
-        }
-    }
-    else
-    {
-        NSLog(@"F");
-        if([textField.text isEqualToString:@""] == NO)
-        {
-            NSLog(@"G");
-            self.tfQuantity.enabled = TRUE;
-            self.datePicker.hidden = TRUE;
+            self.btCalculate.enabled = false;
         }
         else
         {
-            NSLog(@"H");
-            self.tfQuantity.enabled = NO;
+            self.btCalculate.enabled = true;
         }
     }
 }
 
-//- (void)touchesBegan:(nonnull NSSet<UITouch *> *)touches withEvent:(nullable UIEvent *)event
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    NSLog(@"I");
     [self.tfPaciente resignFirstResponder];
     [self.tfQuantity resignFirstResponder];
-    if([self.tfPaciente.text isEqualToString:@""] == NO)
+    if([self.tfPaciente.text isEqualToString:@""] && [self.tfQuantity.text isEqualToString:@""])
     {
-        self.tfQuantity.selected = TRUE;
+        self.btCalculate.enabled = false;
     }
-    if([self.tfPaciente.text isEqualToString:@""] == NO && [self.tfQuantity.text isEqualToString:@""] == NO)
+    else
     {
-        self.btCalculate.enabled = TRUE;
+        self.btCalculate.enabled = true;
     }
 }
 

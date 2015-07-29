@@ -15,7 +15,6 @@
 @property (weak, nonatomic) IBOutlet UISegmentedControl *typeSegmented;
 @property (weak, nonatomic) IBOutlet UITextField *tfQuantity;
 @property (weak, nonatomic) IBOutlet UIDatePicker *datePicker;
-@property (weak, nonatomic) IBOutlet UILabel *lbResult;
 @property (strong, nonatomic) IBOutlet UITextField *tfPaciente;
 @property NSString *calculo;
 

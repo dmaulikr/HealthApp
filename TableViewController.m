@@ -17,6 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.tableView.separatorColor = [UIColor clearColor];
     
 }
 
@@ -32,29 +33,12 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 4;
+    return 1;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSString *identifier;
-    if(indexPath.row == 0)
-    {
-        identifier = @"BasicCell1";
-    }
-    else if(indexPath.row == 2)
-    {
-        identifier = @"BasicCell2";
-    }
-    else if(indexPath.row == 3)
-    {
-        identifier = @"BasicCell3";
-    }
-    else
-    {
-        identifier = @"BasicCell4";
-    }
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     return cell;
 }
 

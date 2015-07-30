@@ -18,6 +18,6 @@
 @property (strong, nonatomic) NSDictionary *Detail;
 @property (strong, nonatomic) IBOutlet UILabel *lbTermo;
 @property (strong, nonatomic) IBOutlet UITextView *txSignificado;
-- (IBAction)btOuvir:(id)sender;
+
 
 @end

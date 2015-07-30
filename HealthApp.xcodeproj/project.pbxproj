@@ -27,11 +27,9 @@
 		493E911E1B3A08F7009F6096 /* ResultDripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493E911D1B3A08F7009F6096 /* ResultDripViewController.m */; };
 		49512EC91B2F0F28009ADD09 /* TermoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49512EC81B2F0F28009ADD09 /* TermoTableViewController.m */; };
 		49512ECE1B2F2171009ADD09 /* TermoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49512ECD1B2F2171009ADD09 /* TermoViewController.m */; };
-		4959BEB11B3D99E100011E55 /* Sound.m in Sources */ = {isa = PBXBuildFile; fileRef = 4959BEB01B3D99E100011E55 /* Sound.m */; };
 		496A06E21B276FB400649400 /* DripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496A06E11B276FB400649400 /* DripViewController.m */; };
 		49C93C2B1B422191003AA114 /* Medicamentos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49C93C2A1B422191003AA114 /* Medicamentos.plist */; };
 		49C93C2E1B4221B8003AA114 /* MedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C93C2C1B4221B8003AA114 /* MedTableViewController.m */; };
-		49C93C301B42225E003AA114 /* MedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C93C2F1B42225E003AA114 /* MedViewController.m */; };
 		49E26BF51B4352240020FF65 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E26BF41B4352240020FF65 /* FifthViewController.m */; };
 		8B4CA36C1B3AF8B900B80AFD /* SearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4CA36B1B3AF8B900B80AFD /* SearchTableViewController.m */; };
 		8B4CA3711B3AFAB200B80AFD /* SearchDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4CA3701B3AFAB200B80AFD /* SearchDetailViewController.m */; };
@@ -84,15 +82,11 @@
 		49512EC81B2F0F28009ADD09 /* TermoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermoTableViewController.m; sourceTree = "<group>"; };
 		49512ECC1B2F2171009ADD09 /* TermoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TermoViewController.h; sourceTree = "<group>"; };
 		49512ECD1B2F2171009ADD09 /* TermoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermoViewController.m; sourceTree = "<group>"; };
-		4959BEAF1B3D99E100011E55 /* Sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sound.h; path = ../Sound.h; sourceTree = "<group>"; };
-		4959BEB01B3D99E100011E55 /* Sound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Sound.m; path = ../Sound.m; sourceTree = "<group>"; };
 		496A06E01B276FB400649400 /* DripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DripViewController.h; sourceTree = "<group>"; };
 		496A06E11B276FB400649400 /* DripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DripViewController.m; sourceTree = "<group>"; };
 		49C93C2A1B422191003AA114 /* Medicamentos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Medicamentos.plist; sourceTree = "<group>"; };
 		49C93C2C1B4221B8003AA114 /* MedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedTableViewController.m; sourceTree = "<group>"; };
 		49C93C2D1B4221B8003AA114 /* MedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedTableViewController.h; sourceTree = "<group>"; };
-		49C93C2F1B42225E003AA114 /* MedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedViewController.m; sourceTree = "<group>"; };
-		49C93C311B422265003AA114 /* MedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MedViewController.h; sourceTree = "<group>"; };
 		49E26BF31B4352240020FF65 /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
 		49E26BF41B4352240020FF65 /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
 		8B4CA36A1B3AF8B900B80AFD /* SearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTableViewController.h; sourceTree = "<group>"; };
@@ -126,8 +120,6 @@
 			children = (
 				49C93C2C1B4221B8003AA114 /* MedTableViewController.m */,
 				49C93C2D1B4221B8003AA114 /* MedTableViewController.h */,
-				49C93C311B422265003AA114 /* MedViewController.h */,
-				49C93C2F1B42225E003AA114 /* MedViewController.m */,
 				496A06E01B276FB400649400 /* DripViewController.h */,
 				496A06E11B276FB400649400 /* DripViewController.m */,
 				493E911C1B3A08F7009F6096 /* ResultDripViewController.h */,
@@ -192,8 +184,6 @@
 				2A872EF41B265E5C00252E27 /* AppDelegate.m */,
 				490C29CF1B39A019004C978B /* Color.h */,
 				490C29D01B39A019004C978B /* Color.m */,
-				4959BEAF1B3D99E100011E55 /* Sound.h */,
-				4959BEB01B3D99E100011E55 /* Sound.m */,
 				2A872EFC1B265E5C00252E27 /* Images.xcassets */,
 				2A872EFE1B265E5C00252E27 /* LaunchScreen.xib */,
 				2A872EEF1B265E5C00252E27 /* Supporting Files */,
@@ -345,11 +335,9 @@
 				2A6CE97A1B28722D0062CB5A /* TableViewController.m in Sources */,
 				496A06E21B276FB400649400 /* DripViewController.m in Sources */,
 				8B4CA3711B3AFAB200B80AFD /* SearchDetailViewController.m in Sources */,
-				4959BEB11B3D99E100011E55 /* Sound.m in Sources */,
 				490C29D11B39A019004C978B /* Color.m in Sources */,
 				493E91181B39B1FC009F6096 /* SiglasTableViewController.m in Sources */,
 				2A872EF51B265E5C00252E27 /* AppDelegate.m in Sources */,
-				49C93C301B42225E003AA114 /* MedViewController.m in Sources */,
 				2A872EF21B265E5C00252E27 /* main.m in Sources */,
 				49512ECE1B2F2171009ADD09 /* TermoViewController.m in Sources */,
 			);

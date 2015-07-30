@@ -29,8 +29,4 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)btOuvir:(id)sender {
-    Sound *sound = [Sound new];
-    [sound parameter01:self.lbNome.text parameter02:self.txSignificado.text parameter03:self.synthesizer];
-}
 @end

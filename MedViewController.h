@@ -18,6 +18,5 @@
 @property (strong, nonatomic) IBOutlet UITextView *tvDose;
 @property (strong, nonatomic) IBOutlet UITextView *tvAcao;
 @property (strong, nonatomic) IBOutlet UITextView *tvReacao;
-- (IBAction)btLer:(id)sender;
 
 @end

@@ -13,6 +13,6 @@
 @property (strong, nonatomic) NSDictionary *Detail;
 
 @property (strong, nonatomic) IBOutlet UITextView *lbSig;
-- (IBAction)btLer:(id)sender;
+
 
 @end

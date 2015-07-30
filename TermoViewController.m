@@ -18,9 +18,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.synthesizer = [[AVSpeechSynthesizer alloc] init];
-    self.synthesizer.delegate = self;
-    
     self.lbTermo.text = self.Detail.nomeTermo;
     self.txSignificado.text = self.Detail.sigTermo;
 }
@@ -29,8 +26,5 @@
     [super didReceiveMemoryWarning];
 }
 
-- (IBAction)btOuvir:(id)sender {
-    Sound *sound = [Sound new];
-    [sound parameter01:self.lbTermo.text parameter02:self.txSignificado.text parameter03:self.synthesizer];
-}
+
 @end

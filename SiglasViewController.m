@@ -29,8 +29,4 @@
     [super didReceiveMemoryWarning];
 }
 
-- (IBAction)btOuvir:(id)sender {
-    Sound *sound = [Sound new];
-    [sound parameter01:self.lbSiglas.text parameter02:self.tvSiglas.text parameter03:self.synthesizer];
-}
 @end

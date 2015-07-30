@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8164.2" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="pVk-Vm-0m3">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8135.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -749,7 +750,7 @@
             </objects>
             <point key="canvasLocation" x="-844.5" y="-99.5"/>
         </scene>
-        <!--Medicamentos-->
+        <!--Sinais Vitais-->
         <scene sceneID="DyU-fx-vOp">
             <objects>
                 <tableViewController id="6Oc-4N-tIm" customClass="SinaisTableViewController" sceneMemberID="viewController">
@@ -784,7 +785,7 @@
                             <outlet property="delegate" destination="6Oc-4N-tIm" id="qcR-h9-u58"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Medicamentos" id="DG7-yY-YQS"/>
+                    <navigationItem key="navigationItem" title="Sinais Vitais" id="DG7-yY-YQS"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ep3-uF-oof" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -868,7 +869,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" text="text" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="sV7-O0-YEN">
-                                <rect key="frame" x="20" y="299" width="335" height="156"/>
+                                <rect key="frame" x="20" y="266" width="335" height="344"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>

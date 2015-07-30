@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SINAISVITAIS</key>
+	<array>
+		<dict>
+			<key>nome</key>
+			<string>Temperatura</string>
+			<key>significado</key>
+			<string>A temperatura é a medida do calor do corpo: é o equilíbrio entre o calor produzido e o calor perdido. Tempo para deixar o termômetro no paciente é de 5 a 10 minutos.
+</string>
+			<key>valores</key>
+			<string>- Valores da temperatura:
+
+É considerado normal 36ºC a 37ºC
+
+Temperatura axilar- 36ºC a 36,8ºC
+
+Temperatura inguinal- 36ºC a 36,8ºC
+
+Temperatura bucal- 36,2ºC a 37ºC
+
+Temperatura retal- 36,4ºC a 37,2ºC</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Pulso</string>
+			<key>significado</key>
+			<string>O pulso radial é habitualmente o mais verificado.
+</string>
+			<key>valores</key>
+			<string>Média normal do pulso:
+
+Lactentes: - 110 a 130 bpm (batimentos por minuto)
+
+Abaixo de 7 anos: - 80 a 120 bpm
+
+Acima de 7 anos: - 70 a 90 bpm
+
+Puberdade: - 80 a 85 bpm
+
+Homem: - 60 a 70 bpm
+
+Mulher: - 65 a 80 bpm
+
+Acima dos 60 anos: - 60 a 70 bpm</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Respiração</string>
+			<key>significado</key>
+			<string>A principal função da respiração é suprir as células do organismo de oxigênio e retirar o excesso de dióxido de carbono.
+</string>
+			<key>valores</key>
+			<string>Valores normais:
+
+Homem: - 16 a 18 mpm (movimentos por minuto)
+
+Mulher: - 18 a 20 mpm
+
+Criança: - 20 a 25 mpm
+
+Lactentes: - 30 a 40 mpm</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Pressão Arterial</string>
+			<key>significado</key>
+			<string>É a medida da força do sangue contra as paredes das artérias. A medida da pressão arterial compreende a verificação da pressão máxima chamada sistólica e pressão mínima diastólica.</string>
+			<key>valores</key>
+			<string>- Valores normais para um adulto:
+
+Pressão sistólica: 140x90mmHg
+
+Pressão diastólica: 90x60mmHg
+
+</string>
+		</dict>
+	</array>
+</dict>
+</plist>

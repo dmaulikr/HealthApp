@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8164.2" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="pVk-Vm-0m3">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8135.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -29,6 +28,9 @@
             <string>Avenir-Book</string>
             <string>Avenir-Book</string>
             <string>Avenir-Heavy</string>
+            <string>Avenir-Book</string>
+            <string>Avenir-Heavy</string>
+            <string>Avenir-Book</string>
             <string>Avenir-Book</string>
         </mutableArray>
         <mutableArray key="AvenirNext.ttc">
@@ -750,7 +752,7 @@
         <!--Medicamentos-->
         <scene sceneID="DyU-fx-vOp">
             <objects>
-                <tableViewController id="6Oc-4N-tIm" customClass="MedTableViewController" sceneMemberID="viewController">
+                <tableViewController id="6Oc-4N-tIm" customClass="SinaisTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="70" sectionHeaderHeight="22" sectionFooterHeight="22" id="8tu-on-TQz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -772,6 +774,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="cBh-vu-wwg" kind="show" identifier="showDetails" id="OCe-Ih-mPN"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -834,6 +839,53 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yvR-bt-yKA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-487.5" y="4440.5"/>
+        </scene>
+        <!--Sinais View Controller-->
+        <scene sceneID="2Zm-mQ-dg4">
+            <objects>
+                <viewController id="cBh-vu-wwg" customClass="SinaisViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QU5-Hh-bmU"/>
+                        <viewControllerLayoutGuide type="bottom" id="kFB-Yg-pix"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cYM-qU-eli">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kCr-ca-eSc">
+                                <rect key="frame" x="20" y="102" width="335" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="90r-TH-vR4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                                <color key="textColor" red="0.1019607843" green="0.4823529412" blue="0.22352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" text="text" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="N8f-ZY-HVL">
+                                <rect key="frame" x="20" y="148" width="335" height="135"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" text="text" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="sV7-O0-YEN">
+                                <rect key="frame" x="20" y="299" width="335" height="156"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="lbSinais" destination="kCr-ca-eSc" id="Pe7-Zc-zA9"/>
+                        <outlet property="tv2Sinais" destination="sV7-O0-YEN" id="TGP-Zr-pAq"/>
+                        <outlet property="tvSinais" destination="N8f-ZY-HVL" id="YB0-Wk-R9l"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FTA-3B-V0n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="70.5" y="4440.5"/>
         </scene>
         <!--Termos Técnicos-->
         <scene sceneID="7Wn-dm-7iT">

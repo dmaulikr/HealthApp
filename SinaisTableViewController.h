@@ -1,5 +1,5 @@
 //
-//  MedTableViewController.h
+//  SinaisTableViewController.h
 //  HealthApp
 //
 //  Created by Andrew Gama Branches on 29/06/15.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MedTableViewController : UITableViewController
+@interface SinaisTableViewController : UITableViewController
 
 @property (strong, nonatomic) NSMutableArray *content;
 

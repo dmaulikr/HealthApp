@@ -1,26 +1,26 @@
 //
-//  MedTableViewController.m
+//  SinaisTableViewController.m
 //  HealthApp
 //
 //  Created by Andrew Gama Branches on 29/06/15.
 //  Copyright © 2015 Filipe Silva. All rights reserved.
 //
 
-#import "MedTableViewController.h"
-#import "MedViewController.h"
+#import "SinaisTableViewController.h"
+#import "SinaisViewController.h"
 
-@interface MedTableViewController ()
+@interface SinaisTableViewController ()
 
 @end
 
-@implementation MedTableViewController
+@implementation SinaisTableViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSURL *plistURL = [[NSBundle mainBundle] URLForResource:@"Medicamentos" withExtension:@"plist"];
+    NSURL *plistURL = [[NSBundle mainBundle] URLForResource:@"SinaisVitais" withExtension:@"plist"];
     NSDictionary *plist = [NSDictionary dictionaryWithContentsOfURL:plistURL];
-    self.content = [plist objectForKey:@"MEDICAMENTOS"];
+    self.content = [plist objectForKey:@"SINAISVITAIS"];
 }
 
 - (void)didReceiveMemoryWarning
@@ -49,7 +49,7 @@
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        MedViewController *detailViewController = (MedViewController *)segue.destinationViewController;
+        SinaisViewController *detailViewController = (SinaisViewController *)segue.destinationViewController;
         detailViewController.Detail = [self.content objectAtIndex:indexPath.row];
 }
 

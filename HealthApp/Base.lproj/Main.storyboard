@@ -859,29 +859,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kCr-ca-eSc">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kCr-ca-eSc">
                                 <rect key="frame" x="20" y="102" width="335" height="26"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="26" id="90r-TH-vR4"/>
+                                    <constraint firstAttribute="height" constant="26" id="BBd-pv-Cur"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
                                 <color key="textColor" red="0.1019607843" green="0.4823529412" blue="0.22352941179999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" text="text" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="N8f-ZY-HVL">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="text" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="N8f-ZY-HVL">
                                 <rect key="frame" x="20" y="148" width="335" height="135"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" text="text" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="sV7-O0-YEN">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="text" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="sV7-O0-YEN">
                                 <rect key="frame" x="20" y="266" width="335" height="344"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="344" id="ySb-Fz-T7N"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kCr-ca-eSc" firstAttribute="leading" secondItem="cYM-qU-eli" secondAttribute="leadingMargin" constant="4" id="0li-yu-zqz"/>
+                            <constraint firstItem="kCr-ca-eSc" firstAttribute="leading" secondItem="N8f-ZY-HVL" secondAttribute="leading" id="11B-Rp-Run"/>
+                            <constraint firstItem="N8f-ZY-HVL" firstAttribute="top" secondItem="kCr-ca-eSc" secondAttribute="bottom" constant="20" id="Dc0-9n-hrd"/>
+                            <constraint firstItem="kFB-Yg-pix" firstAttribute="top" secondItem="N8f-ZY-HVL" secondAttribute="bottom" constant="335" id="V4X-CS-t9O"/>
+                            <constraint firstItem="kFB-Yg-pix" firstAttribute="top" secondItem="sV7-O0-YEN" secondAttribute="bottom" constant="8" symbolic="YES" id="dEl-DT-qba"/>
+                            <constraint firstItem="kCr-ca-eSc" firstAttribute="top" secondItem="QU5-Hh-bmU" secondAttribute="bottom" constant="38" id="etL-2s-eT7"/>
+                            <constraint firstItem="sV7-O0-YEN" firstAttribute="trailing" secondItem="N8f-ZY-HVL" secondAttribute="trailing" id="odB-BN-NGe"/>
+                            <constraint firstItem="N8f-ZY-HVL" firstAttribute="trailing" secondItem="kCr-ca-eSc" secondAttribute="trailing" id="pPv-xZ-vlk"/>
+                            <constraint firstItem="sV7-O0-YEN" firstAttribute="centerX" secondItem="cYM-qU-eli" secondAttribute="centerX" id="qo5-jq-q1W"/>
+                            <constraint firstItem="sV7-O0-YEN" firstAttribute="leading" secondItem="N8f-ZY-HVL" secondAttribute="leading" id="xlO-fw-tJs"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>

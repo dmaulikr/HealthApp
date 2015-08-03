@@ -15,13 +15,13 @@
 
 É considerado normal 36ºC a 37ºC
 
-Temperatura axilar- 36ºC a 36,8ºC
+Temperatura axilar 35,8ºC a 37,0ºC
 
-Temperatura inguinal- 36ºC a 36,8ºC
+Temperatura inguinal 36,3ºC a 37,4ºC
 
-Temperatura bucal- 36,2ºC a 37ºC
+Temperatura bucal 36,2ºC a 37ºC
 
-Temperatura retal- 36,4ºC a 37,2ºC</string>
+Temperatura retal 37ºC a 38ºC</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -32,17 +32,17 @@ Temperatura retal- 36,4ºC a 37,2ºC</string>
 			<key>valores</key>
 			<string>Média normal do pulso:
 
-Lactentes: - 110 a 130 bpm (batimentos por minuto)
+Lactentes: - 110 a 120 bpm (batimentos por minuto)
 
 Abaixo de 7 anos: - 80 a 120 bpm
 
-Acima de 7 anos: - 70 a 90 bpm
+Acima de 7 anos: - 70 a 110 bpm
 
 Puberdade: - 80 a 85 bpm
 
-Homem: - 60 a 70 bpm
+Homem: - 65 a 80 bpm
 
-Mulher: - 65 a 80 bpm
+Mulher: - 60 a 70 bpm
 
 Acima dos 60 anos: - 60 a 70 bpm</string>
 		</dict>
@@ -55,13 +55,13 @@ Acima dos 60 anos: - 60 a 70 bpm</string>
 			<key>valores</key>
 			<string>Valores normais:
 
-Homem: - 16 a 18 mpm (movimentos por minuto)
+Homem:  16 a 18 mpm (movimentos por minuto)
 
-Mulher: - 18 a 20 mpm
+Mulher:  18 a 20 mpm
 
-Criança: - 20 a 25 mpm
+Criança:  20 a 25 mpm
 
-Lactentes: - 30 a 40 mpm</string>
+Lactentes:  30 a 40 mpm</string>
 		</dict>
 		<dict>
 			<key>nome</key>

@@ -18,7 +18,17 @@
 {
     [super viewDidLoad];
     self.tableView.separatorColor = [UIColor clearColor];
+    UIAlertView *theAlert = [[UIAlertView alloc] initWithTitle:@"Termo de Uso" message:@"Este aplicativo possui caráter apenas informativos e não substitui orientação, diagnóstico ou tratamento prestado por seu médico ou por outro profissional de saúde. Não nos responsabilizamos pelo uso indevido de nossa ferramenta." delegate:self cancelButtonTitle:@"Aceito" otherButtonTitles:@"Não Aceito", nil];
+    [theAlert show];
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger) buttonIndex
+{
     
+    if(buttonIndex != 0)
+    {
+        exit(0);
+    }
 }
 
 - (void)didReceiveMemoryWarning

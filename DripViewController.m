@@ -24,33 +24,23 @@
     [super didReceiveMemoryWarning];
 }
 
-- (void)textFieldDidEndEditing:(nonnull UITextField *)textField
+- (BOOL)textFieldShouldReturn:(nonnull UITextField *)textField
 {
     [textField resignFirstResponder];
-    if(textField == self.tfQuantity)
-    {
-        if([self.tfPaciente.text isEqualToString:@""] && [self.tfQuantity.text isEqualToString:@""])
-        {
-            self.btCalculate.enabled = false;
-        }
-        else
-        {
-            self.btCalculate.enabled = true;
-        }
-    }
+    return TRUE;
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     [self.tfPaciente resignFirstResponder];
     [self.tfQuantity resignFirstResponder];
-    if([self.tfPaciente.text isEqualToString:@""] && [self.tfQuantity.text isEqualToString:@""])
+    if(![self.tfPaciente.text isEqualToString:@""] && ![self.tfQuantity.text isEqualToString:@""])
     {
-        self.btCalculate.enabled = false;
+        self.btCalculate.enabled = TRUE;
     }
     else
     {
-        self.btCalculate.enabled = true;
+        self.btCalculate.enabled = FALSE;
     }
 }
 
@@ -83,9 +73,7 @@
         test.nome = self.tfPaciente.text;
         test.resultado = self.calculo;
     }
-    self.datePicker.hidden = TRUE;
     self.tfQuantity.text = nil;
-    self.tfQuantity.enabled = FALSE;
     self.tfPaciente.text = nil;
     self.btCalculate.enabled = FALSE;
 }

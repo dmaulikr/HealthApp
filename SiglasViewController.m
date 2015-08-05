@@ -8,7 +8,6 @@
 
 #import "SiglasViewController.h"
 #import "SiglasTableViewController.h"
-#import "Sound.h"
 
 @interface SiglasViewController () <AVSpeechSynthesizerDelegate>
 

@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Sound.h"
 #import <AVFoundation/AVFoundation.h>
 #import "TermoTableViewController.h"
 #import "NSDictionary+TermoRecord.h"

@@ -22,9 +22,9 @@
             <string>Avenir-Medium</string>
             <string>Avenir-Book</string>
             <string>Avenir-Medium</string>
+            <string>Avenir-Book</string>
+            <string>Avenir-Book</string>
             <string>Avenir-Medium</string>
-            <string>Avenir-Book</string>
-            <string>Avenir-Book</string>
             <string>Avenir-Book</string>
             <string>Avenir-Heavy</string>
             <string>Avenir-Book</string>
@@ -557,7 +557,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Qtd(ml)" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fGI-zN-uf4">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Qtd(ml)" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fGI-zN-uf4">
                                 <rect key="frame" x="20" y="189" width="335" height="39"/>
                                 <color key="backgroundColor" red="0.078431372549019607" green="0.60392156862745094" blue="0.36078431372549019" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -582,7 +582,7 @@
                                     <outlet property="delegate" destination="qq9-O2-Fmq" id="pcf-Gn-EaK"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Paciente" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hxj-uk-cEG">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Paciente" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hxj-uk-cEG">
                                 <rect key="frame" x="20" y="135" width="335" height="39"/>
                                 <color key="backgroundColor" red="0.078431372549019607" green="0.60392156862745094" blue="0.36078431372549019" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -607,7 +607,7 @@
                                     <outlet property="delegate" destination="qq9-O2-Fmq" id="pIS-B7-xxh"/>
                                 </connections>
                             </textField>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="Ssn-kV-TNu">
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="Ssn-kV-TNu">
                                 <rect key="frame" x="54" y="86" width="267" height="29"/>
                                 <segments>
                                     <segment title="MacroGotas"/>
@@ -615,8 +615,8 @@
                                 </segments>
                                 <color key="tintColor" red="0.078431372549019607" green="0.60392156862745094" blue="0.36078431372549019" alpha="1" colorSpace="calibratedRGB"/>
                             </segmentedControl>
-                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="djw-R5-9LB">
-                                <rect key="frame" x="20" y="242" width="335" height="216"/>
+                            <datePicker contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="djw-R5-9LB">
+                                <rect key="frame" x="20" y="242" width="335" height="243"/>
                                 <color key="backgroundColor" red="0.18431372549019609" green="0.58823529411764708" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="127" id="jG2-rD-JUg"/>
@@ -699,7 +699,7 @@
                             <constraint firstItem="fGI-zN-uf4" firstAttribute="centerX" secondItem="djw-R5-9LB" secondAttribute="centerX" id="TtL-T3-cLX"/>
                             <constraint firstItem="CQW-2o-GFJ" firstAttribute="leading" secondItem="IHp-LM-UhX" secondAttribute="leadingMargin" constant="4" id="VNC-L9-WNO"/>
                             <constraint firstItem="djw-R5-9LB" firstAttribute="centerY" secondItem="IHp-LM-UhX" secondAttribute="centerY" id="W62-TJ-ZwT"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="djw-R5-9LB" secondAttribute="trailing" constant="4" id="WMR-qh-fkN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="djw-R5-9LB" secondAttribute="trailing" id="WMR-qh-fkN"/>
                             <constraint firstItem="djw-R5-9LB" firstAttribute="leading" secondItem="IHp-LM-UhX" secondAttribute="leadingMargin" constant="4" id="WQt-xB-8a4"/>
                             <constraint firstItem="djw-R5-9LB" firstAttribute="top" secondItem="fGI-zN-uf4" secondAttribute="bottom" constant="50" id="WZH-mi-OBf"/>
                             <constraint firstItem="djw-R5-9LB" firstAttribute="leading" secondItem="IHp-LM-UhX" secondAttribute="leadingMargin" id="WdP-nW-5EQ"/>
@@ -712,8 +712,8 @@
                             <constraint firstItem="ImI-Re-IjY" firstAttribute="top" secondItem="CQW-2o-GFJ" secondAttribute="bottom" constant="36" id="biA-om-1Fs"/>
                             <constraint firstItem="fGI-zN-uf4" firstAttribute="top" secondItem="hxj-uk-cEG" secondAttribute="bottom" constant="15" id="cnw-15-iEF"/>
                             <constraint firstItem="djw-R5-9LB" firstAttribute="top" secondItem="fGI-zN-uf4" secondAttribute="bottom" constant="14" id="fSK-Fa-6vb"/>
-                            <constraint firstItem="CQW-2o-GFJ" firstAttribute="top" secondItem="djw-R5-9LB" secondAttribute="bottom" constant="35" id="gli-8J-MTn"/>
-                            <constraint firstItem="djw-R5-9LB" firstAttribute="leading" secondItem="IHp-LM-UhX" secondAttribute="leadingMargin" constant="4" id="glt-23-fxU"/>
+                            <constraint firstItem="CQW-2o-GFJ" firstAttribute="top" secondItem="djw-R5-9LB" secondAttribute="bottom" constant="18" id="gli-8J-MTn"/>
+                            <constraint firstItem="djw-R5-9LB" firstAttribute="leading" secondItem="IHp-LM-UhX" secondAttribute="leadingMargin" id="glt-23-fxU"/>
                             <constraint firstItem="CQW-2o-GFJ" firstAttribute="top" secondItem="djw-R5-9LB" secondAttribute="bottom" constant="63" id="h6s-PJ-xN4"/>
                             <constraint firstAttribute="trailingMargin" secondItem="CQW-2o-GFJ" secondAttribute="trailing" constant="4" id="hOV-Tv-fAw"/>
                             <constraint firstAttribute="trailing" secondItem="djw-R5-9LB" secondAttribute="trailing" id="hrI-ib-m7g"/>

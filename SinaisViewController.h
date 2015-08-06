@@ -12,7 +12,7 @@
 
 @property (strong, nonatomic) NSDictionary *Detail;
 @property (strong, nonatomic) IBOutlet UILabel *lbSinais;
-@property (strong, nonatomic) IBOutlet UITextView *tvSinais;
-@property (strong, nonatomic) IBOutlet UITextView *tv2Sinais;
+@property (strong, nonatomic) IBOutlet UILabel *tvSinais;
+@property (strong, nonatomic) IBOutlet UILabel *tv2Sinais;
 
 @end

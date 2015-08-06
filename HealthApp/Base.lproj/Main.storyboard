@@ -34,6 +34,7 @@
             <string>Avenir-Book</string>
             <string>Avenir-Book</string>
             <string>Avenir-Book</string>
+            <string>Avenir-Book</string>
         </mutableArray>
         <mutableArray key="AvenirNext.ttc">
             <string>AvenirNext-Regular</string>
@@ -476,7 +477,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="342" height="49.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Termos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="a9t-nr-j9A">
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Termos de Responsabilidade" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="a9t-nr-j9A">
                                             <rect key="frame" x="15" y="0.0" width="325" height="49.5"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
@@ -485,6 +486,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="IkR-VI-w0g" kind="show" id="pO5-Sz-3eh"/>
+                                </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell4" textLabel="DGs-mp-pNP" detailTextLabel="ctM-DF-P8J" rowHeight="50" style="IBUITableViewCellStyleSubtitle" id="Fqx-e1-NDh">
                                 <rect key="frame" x="0.0" y="236" width="375" height="50"/>
@@ -537,7 +541,40 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lUx-nn-G0D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="261.5" y="2675.5"/>
+            <point key="canvasLocation" x="253.5" y="2634.5"/>
+        </scene>
+        <!--Termo-->
+        <scene sceneID="AnL-92-rqd">
+            <objects>
+                <viewController id="IkR-VI-w0g" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0o9-kx-73t"/>
+                        <viewControllerLayoutGuide type="bottom" id="5a7-4f-MdE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="APA-HA-5bY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7lb-FR-AW4">
+                                <rect key="frame" x="16" y="108" width="343" height="156"/>
+                                <string key="text">Este aplicativo possui caráter apenas informativos e não substitui orientação, diagnóstico ou tratamento prestado por seu médico ou por outro profissional de saúde. Não nos responsabilizamos pelo uso indevido de nossa ferramenta.</string>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
+                                <color key="textColor" red="0.10980392156862745" green="0.54117647058823526" blue="0.50980392156862742" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7lb-FR-AW4" firstAttribute="top" secondItem="0o9-kx-73t" secondAttribute="bottom" constant="44" id="JXr-iu-Ell"/>
+                            <constraint firstItem="7lb-FR-AW4" firstAttribute="trailing" secondItem="APA-HA-5bY" secondAttribute="trailingMargin" id="YSG-g2-YmJ"/>
+                            <constraint firstItem="7lb-FR-AW4" firstAttribute="leading" secondItem="APA-HA-5bY" secondAttribute="leadingMargin" id="ZIy-0Y-hnR"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Termo" id="VG4-nj-Nxy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EFZ-zk-Rbt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="746.5" y="2634.5"/>
         </scene>
         <!--Dicionário-->
         <scene sceneID="t03-xk-mS9">

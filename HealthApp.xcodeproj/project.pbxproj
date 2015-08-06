@@ -27,6 +27,7 @@
 		493E911E1B3A08F7009F6096 /* ResultDripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493E911D1B3A08F7009F6096 /* ResultDripViewController.m */; };
 		49512EC91B2F0F28009ADD09 /* TermoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49512EC81B2F0F28009ADD09 /* TermoTableViewController.m */; };
 		49512ECE1B2F2171009ADD09 /* TermoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49512ECD1B2F2171009ADD09 /* TermoViewController.m */; };
+		49520F8A1B73A686003055EA /* SobreTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49520F891B73A686003055EA /* SobreTableViewController.m */; };
 		496A06E21B276FB400649400 /* DripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496A06E11B276FB400649400 /* DripViewController.m */; };
 		49C93C2B1B422191003AA114 /* SinaisVitais.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49C93C2A1B422191003AA114 /* SinaisVitais.plist */; };
 		49C93C2E1B4221B8003AA114 /* SinaisTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C93C2C1B4221B8003AA114 /* SinaisTableViewController.m */; };
@@ -82,6 +83,8 @@
 		49512EC81B2F0F28009ADD09 /* TermoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermoTableViewController.m; sourceTree = "<group>"; };
 		49512ECC1B2F2171009ADD09 /* TermoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TermoViewController.h; sourceTree = "<group>"; };
 		49512ECD1B2F2171009ADD09 /* TermoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermoViewController.m; sourceTree = "<group>"; };
+		49520F881B73A686003055EA /* SobreTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SobreTableViewController.h; sourceTree = "<group>"; };
+		49520F891B73A686003055EA /* SobreTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SobreTableViewController.m; sourceTree = "<group>"; };
 		496A06E01B276FB400649400 /* DripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DripViewController.h; sourceTree = "<group>"; };
 		496A06E11B276FB400649400 /* DripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DripViewController.m; sourceTree = "<group>"; };
 		49C93C2A1B422191003AA114 /* SinaisVitais.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SinaisVitais.plist; sourceTree = "<group>"; };
@@ -120,6 +123,8 @@
 			children = (
 				2A6CE9781B28722D0062CB5A /* TableViewController.h */,
 				2A6CE9791B28722D0062CB5A /* TableViewController.m */,
+				49520F881B73A686003055EA /* SobreTableViewController.h */,
+				49520F891B73A686003055EA /* SobreTableViewController.m */,
 				49487ECB1B716CC100BF20FC /* Gotejamento */,
 				49487ECA1B716CA300BF20FC /* Doenças */,
 				49487EC91B716C7D00BF20FC /* Termos Tecnicos */,
@@ -374,6 +379,7 @@
 				49C93C2E1B4221B8003AA114 /* SinaisTableViewController.m in Sources */,
 				8B4CA36C1B3AF8B900B80AFD /* SearchTableViewController.m in Sources */,
 				2A7453B31B2B0BEF00A7E1EE /* ThirdTableViewController.m in Sources */,
+				49520F8A1B73A686003055EA /* SobreTableViewController.m in Sources */,
 				2AC3A0DF1B2867AA0011F857 /* DoencaTableViewController.m in Sources */,
 				8BC712701B6A80CA0002DE2B /* SinaisViewController.m in Sources */,
 				493E911B1B39B21A009F6096 /* SiglasViewController.m in Sources */,

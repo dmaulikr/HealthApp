@@ -107,7 +107,7 @@ MFMailComposeViewController *formularioEmail;
     
     if (error) {
         
-        mensagem = [[UIAlertView alloc]initWithTitle:@"Erro" message:@"Erro ao enviar mensagem" delegate:self cancelButtonTitle:@"ok otherButtonTitles:nil, nil];
+        mensagem = [[UIAlertView alloc]initWithTitle:@"Erro" message:@"Erro ao enviar mensagem" delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil, nil];
         
     }
     

@@ -24,12 +24,10 @@
     UITabBarItem *tabBarItem1 = [tabBar.items objectAtIndex:0];
     UITabBarItem *tabBarItem2 = [tabBar.items objectAtIndex:1];
     UITabBarItem *tabBarItem3 = [tabBar.items objectAtIndex:2];
-    //UITabBarItem *tabBarItem4 = [tabBar.items objectAtIndex:3];
     
-    tabBarItem1 =[tabBarItem1 initWithTitle:nil image:[UIImage imageNamed:@"dicionario"] selectedImage:[UIImage imageNamed:@"dicionario-s.png"]];
-    tabBarItem2 =[tabBarItem2 initWithTitle:nil image:[UIImage imageNamed:@"busca.png"] selectedImage:[UIImage imageNamed:@"busca-s.png"]];
-    tabBarItem3 =[tabBarItem3 initWithTitle:nil image:[UIImage imageNamed:@"calculo.png"] selectedImage:[UIImage imageNamed:@"calculo-s.png"]];
-    //tabBarItem4 =[tabBarItem4 initWithTitle:nil image:[UIImage imageNamed:@"recentes.png"] selectedImage:[UIImage imageNamed:@"recentes-s.png"]];
+    tabBarItem1 =[tabBarItem1 initWithTitle:nil image:[UIImage imageNamed:@"dicionario"] selectedImage:[UIImage imageNamed:@"dicionario-s"]];
+    tabBarItem2 =[tabBarItem2 initWithTitle:nil image:[UIImage imageNamed:@"busca"] selectedImage:[UIImage imageNamed:@"busca-s"]];
+    tabBarItem3 =[tabBarItem3 initWithTitle:nil image:[UIImage imageNamed:@"calculo"] selectedImage:[UIImage imageNamed:@"calculo-s"]];
     
     [[UINavigationBar appearance] setBarTintColor:[Color verde]];
     [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];

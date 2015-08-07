@@ -6,7 +6,7 @@
     },
     {
       "idiom" : "universal",
-      "filename" : "dicionario-icon-2.png",
+      "filename" : "dicionario@2x.png",
       "scale" : "2x"
     },
     {
@@ -16,7 +16,9 @@
   ],
   "info" : {
     "version" : 1,
-    "author" : "xcode",
+    "author" : "xcode"
+  },
+  "properties" : {
     "template-rendering-intent" : "original"
   }
 }

@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "ResultDripViewController.h"
+#import "Color.h"
 
 @interface DripViewController : UIViewController
 

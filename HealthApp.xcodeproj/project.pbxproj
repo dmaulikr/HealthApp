@@ -13,6 +13,7 @@
 		2A49D3541B39833800AB388A /* Doencas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A49D3531B39833800AB388A /* Doencas.plist */; };
 		2A6CE97A1B28722D0062CB5A /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CE9791B28722D0062CB5A /* TableViewController.m */; };
 		2A7453B31B2B0BEF00A7E1EE /* ThirdTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7453B21B2B0BEF00A7E1EE /* ThirdTableViewController.m */; };
+		2A851A621B74E52400B4A4A4 /* DesenvolvedoresTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A851A611B74E52400B4A4A4 /* DesenvolvedoresTableViewController.m */; };
 		2A872EF21B265E5C00252E27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A872EF11B265E5C00252E27 /* main.m */; };
 		2A872EF51B265E5C00252E27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A872EF41B265E5C00252E27 /* AppDelegate.m */; };
 		2A872EFB1B265E5C00252E27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A872EF91B265E5C00252E27 /* Main.storyboard */; };
@@ -57,6 +58,8 @@
 		2A6CE9791B28722D0062CB5A /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		2A7453B11B2B0BEF00A7E1EE /* ThirdTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdTableViewController.h; sourceTree = "<group>"; };
 		2A7453B21B2B0BEF00A7E1EE /* ThirdTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdTableViewController.m; sourceTree = "<group>"; };
+		2A851A601B74E52400B4A4A4 /* DesenvolvedoresTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesenvolvedoresTableViewController.h; sourceTree = "<group>"; };
+		2A851A611B74E52400B4A4A4 /* DesenvolvedoresTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesenvolvedoresTableViewController.m; sourceTree = "<group>"; };
 		2A872EEC1B265E5C00252E27 /* HealthApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A872EF01B265E5C00252E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A872EF11B265E5C00252E27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -121,6 +124,8 @@
 		2A5E0AB21B27132D00027920 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2A851A601B74E52400B4A4A4 /* DesenvolvedoresTableViewController.h */,
+				2A851A611B74E52400B4A4A4 /* DesenvolvedoresTableViewController.m */,
 				2A6CE9781B28722D0062CB5A /* TableViewController.h */,
 				2A6CE9791B28722D0062CB5A /* TableViewController.m */,
 				49520F881B73A686003055EA /* SobreTableViewController.h */,
@@ -378,6 +383,7 @@
 			files = (
 				49C93C2E1B4221B8003AA114 /* SinaisTableViewController.m in Sources */,
 				8B4CA36C1B3AF8B900B80AFD /* SearchTableViewController.m in Sources */,
+				2A851A621B74E52400B4A4A4 /* DesenvolvedoresTableViewController.m in Sources */,
 				2A7453B31B2B0BEF00A7E1EE /* ThirdTableViewController.m in Sources */,
 				49520F8A1B73A686003055EA /* SobreTableViewController.m in Sources */,
 				2AC3A0DF1B2867AA0011F857 /* DoencaTableViewController.m in Sources */,

@@ -8,7 +8,10 @@
 
 #import "DripViewController.h"
 
-@interface DripViewController () <UITextFieldDelegate>
+@interface DripViewController () <UITextFieldDelegate, UITextViewDelegate>
+{
+    NSString *strDate;
+}
 
 @end
 
@@ -17,11 +20,34 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [self initPikers];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
+}
+
+- (void)initPikers{
+    
+    NSLocale *locale = [[NSLocale alloc] initWithLocaleIdentifier:@"pt_BR"];
+    
+    self.pickerDate = [[UIDatePicker alloc] init];
+    self.pickerDate.datePickerMode = UIDatePickerModeCountDownTimer;
+    self.pickerDate.locale = locale;
+    self.pickerDate.minuteInterval = 1;
+    self.tfTempo.inputView = self.pickerDate;
+    [self.pickerDate addTarget:self action:@selector(datePickerChanged:) forControlEvents:UIControlEventValueChanged];
+    
+}
+
+-(void) datePickerChanged: (UIDatePicker *)datePicker{
+    
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:@"HH:mm"];
+    strDate = [dateFormatter stringFromDate:datePicker.date];
+    self.tfTempo.text = [NSString stringWithFormat:@"%@",strDate];
 }
 
 - (BOOL)textFieldShouldReturn:(nonnull UITextField *)textField
@@ -34,7 +60,9 @@
 {
     [self.tfPaciente resignFirstResponder];
     [self.tfQuantity resignFirstResponder];
-    if(![self.tfPaciente.text isEqualToString:@""] && ![self.tfQuantity.text isEqualToString:@""])
+    [self.tfTempo resignFirstResponder];
+    
+    if(![self.tfPaciente.text isEqualToString:@""] && ![self.tfQuantity.text isEqualToString:@""]&& ![self.tfTempo.text isEqualToString:@""])
     {
         self.btCalculate.enabled = TRUE;
     }
@@ -49,9 +77,9 @@
     int quantidade = [self.tfQuantity.text intValue];
     NSDateFormatter *dateFormatter = [NSDateFormatter new];
     [dateFormatter setDateFormat:@"HH"];
-    float hora = [[dateFormatter stringFromDate:self.datePicker.date] floatValue];
+    float hora = [[dateFormatter stringFromDate:self.pickerDate.date] floatValue];
     [dateFormatter setDateFormat:@"mm"];
-    float minuto = [[dateFormatter stringFromDate:self.datePicker.date] floatValue];
+    float minuto = [[dateFormatter stringFromDate:self.pickerDate.date] floatValue];
     float tempo = hora+(minuto/60);
     if(self.typeSegmented.selectedSegmentIndex == 0)
     {

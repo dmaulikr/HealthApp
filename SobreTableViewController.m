@@ -10,9 +10,12 @@
 
 @interface SobreTableViewController ()
 
+
 @end
 
 @implementation SobreTableViewController
+
+MFMailComposeViewController *formularioEmail;
 
 - (void)viewDidLoad
 {
@@ -61,5 +64,60 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:name];
     return cell;
 }
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+
+{
+
+    //[tableView cellForRowAtIndexPath:indexPath].accessoryType = UITableViewCellAccessoryCheckmark;
+
+    if (indexPath.section == 0 && indexPath.row == 0) {
+        
+        formularioEmail = [[MFMailComposeViewController alloc]init];
+        
+        formularioEmail.mailComposeDelegate = self;
+        
+        [formularioEmail setToRecipients:@[@"rony_conde@icloud.com"]];
+        
+        // setSubject adiciona um assunto ao email
+        
+        [formularioEmail setSubject:@"Email de teste"];
+        
+        // temos agora o corpo da mensagem
+        
+        [formularioEmail setMessageBody:@"Enviamos nossa mensagem" isHTML:NO];
+        
+        //[self presentModalViewController:formularioEmail animated:YES];
+         [self presentViewController:formularioEmail animated:YES completion:NULL];
+
+    }
+}
+
+-(void)mailComposeController:(MFMailComposeViewController *)controller
+
+         didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error{
+    
+    UIAlertView *mensagem;
+    
+    if (result) {
+        
+        mensagem = [[UIAlertView alloc]initWithTitle:@"Enviado" message:@"Email enviado com sucesso" delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil, nil];
+        
+    }
+    
+    if (error) {
+        
+        mensagem = [[UIAlertView alloc]initWithTitle:@"Erro" message:@"Erro ao enviar mensagem" delegate:self cancelButtonTitle:@"ok otherButtonTitles:nil, nil];
+        
+    }
+    
+    [mensagem show];
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
+    
+}
+        
+        
+        
 
 @end

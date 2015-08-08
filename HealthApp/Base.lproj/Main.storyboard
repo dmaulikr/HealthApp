@@ -730,7 +730,7 @@
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="rony" id="FdV-Ha-6wc">
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Rony" id="FdV-Ha-6wc">
                                             <rect key="frame" x="15" y="0.0" width="75" height="74.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </imageView>
@@ -1378,6 +1378,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Rony" width="300" height="300"/>
         <image name="andrew" width="300" height="300"/>
         <image name="busca-s" width="22" height="22"/>
         <image name="calculo-s" width="22" height="22"/>
@@ -1385,6 +1386,5 @@
         <image name="dicionario-s" width="22" height="22"/>
         <image name="filipe" width="300" height="300"/>
         <image name="info" width="25" height="25"/>
-        <image name="rony" width="300" height="300"/>
     </resources>
 </document>

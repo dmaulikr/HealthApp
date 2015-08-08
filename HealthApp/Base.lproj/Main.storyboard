@@ -487,9 +487,6 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="85v-F1-J4O" kind="show" id="6gp-tg-keP"/>
-                                </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell2" textLabel="DPD-u4-kTK" rowHeight="50" style="IBUITableViewCellStyleDefault" id="OKk-Df-hzi">
                                 <rect key="frame" x="0.0" y="136" width="375" height="50"/>
@@ -751,24 +748,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w2B-IV-cv1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="785.5" y="3721.5"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="UvT-Fp-sEo">
-            <objects>
-                <viewController id="85v-F1-J4O" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="5VH-QH-Wob"/>
-                        <viewControllerLayoutGuide type="bottom" id="Rog-HR-RoM"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="EXs-Qn-M2q">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="EpK-JX-Iua" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="785.5" y="2960.5"/>
         </scene>
         <!--Dicionário-->
         <scene sceneID="t03-xk-mS9">

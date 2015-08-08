@@ -14,6 +14,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.title = [self.Detail objectForKey:@"nome"];
+    
     self.lbSinais.text = [self.Detail objectForKey:@"nome"];
     self.tvSinais.text = [self.Detail objectForKey:@"significado"];
     self.tv2Sinais.text = [self.Detail objectForKey:@"valores"];

@@ -8,10 +8,17 @@
 
 #import <UIKit/UIKit.h>
 #import "DripViewController.h"
+#import <CoreData/CoreData.h>
+#import "AppDelegate.h"
 
-@interface ResultDripViewController : UIViewController
+@interface ResultDripViewController : UIViewController <NSFetchedResultsControllerDelegate, UITableViewDelegate, UITableViewDataSource>
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) IBOutlet UILabel *lbResult;
 @property (strong, nonatomic) IBOutlet UITextField *lbPaciente;
+
+@property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
+@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+
 @property NSString *resultado;
 @property NSString *nome;
 @end

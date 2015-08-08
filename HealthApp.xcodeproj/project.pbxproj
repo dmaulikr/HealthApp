@@ -22,6 +22,7 @@
 		2A872F0C1B265E5C00252E27 /* HealthAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A872F0B1B265E5C00252E27 /* HealthAppTests.m */; };
 		2A8DE76A1B3999BF005AA2E0 /* Siglas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A8DE7691B3999BF005AA2E0 /* Siglas.plist */; };
 		2AC3A0DF1B2867AA0011F857 /* DoencaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC3A0DE1B2867AA0011F857 /* DoencaTableViewController.m */; };
+		4905E48B1B7698D7005BFF29 /* Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4905E4891B7698D7005BFF29 /* Test.xcdatamodeld */; };
 		490C29D11B39A019004C978B /* Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 490C29D01B39A019004C978B /* Color.m */; };
 		493E91181B39B1FC009F6096 /* SiglasTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493E91171B39B1FC009F6096 /* SiglasTableViewController.m */; };
 		493E911B1B39B21A009F6096 /* SiglasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493E911A1B39B21A009F6096 /* SiglasViewController.m */; };
@@ -74,6 +75,7 @@
 		2A8DE7691B3999BF005AA2E0 /* Siglas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Siglas.plist; sourceTree = "<group>"; };
 		2AC3A0DD1B2867AA0011F857 /* DoencaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoencaTableViewController.h; sourceTree = "<group>"; };
 		2AC3A0DE1B2867AA0011F857 /* DoencaTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoencaTableViewController.m; sourceTree = "<group>"; };
+		4905E48A1B7698D7005BFF29 /* Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Test.xcdatamodel; sourceTree = "<group>"; };
 		490C29CF1B39A019004C978B /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Color.h; path = ../Color.h; sourceTree = "<group>"; };
 		490C29D01B39A019004C978B /* Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Color.m; path = ../Color.m; sourceTree = "<group>"; };
 		493E91161B39B1FC009F6096 /* SiglasTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiglasTableViewController.h; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 		2A872EE31B265E5C00252E27 = {
 			isa = PBXGroup;
 			children = (
+				4905E4891B7698D7005BFF29 /* Test.xcdatamodeld */,
 				2A872EF91B265E5C00252E27 /* Main.storyboard */,
 				2A1422CA1B3B012F002DD43A /* Listas.plist */,
 				2A49D3531B39833800AB388A /* Doencas.plist */,
@@ -398,6 +401,7 @@
 				8B4CA3711B3AFAB200B80AFD /* SearchDetailViewController.m in Sources */,
 				490C29D11B39A019004C978B /* Color.m in Sources */,
 				493E91181B39B1FC009F6096 /* SiglasTableViewController.m in Sources */,
+				4905E48B1B7698D7005BFF29 /* Test.xcdatamodeld in Sources */,
 				2A872EF51B265E5C00252E27 /* AppDelegate.m in Sources */,
 				2A872EF21B265E5C00252E27 /* main.m in Sources */,
 				49512ECE1B2F2171009ADD09 /* TermoViewController.m in Sources */,
@@ -620,6 +624,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4905E4891B7698D7005BFF29 /* Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4905E48A1B7698D7005BFF29 /* Test.xcdatamodel */,
+			);
+			currentVersion = 4905E48A1B7698D7005BFF29 /* Test.xcdatamodel */;
+			path = Test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2A872EE41B265E5C00252E27 /* Project object */;
 }

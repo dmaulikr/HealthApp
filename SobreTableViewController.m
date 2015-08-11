@@ -79,11 +79,11 @@ MFMailComposeViewController *formularioEmail;
         
         formularioEmail.navigationBar.tintColor = [UIColor whiteColor];
         
-        [formularioEmail setToRecipients:@[@"rony_conde@icloud.com"]];
+        [formularioEmail setToRecipients:@[@"app.meddict@gmail.com"]];
         
         // setSubject adiciona um assunto ao email
         
-        [formularioEmail setSubject:@"Email de teste"];
+        [formularioEmail setSubject:@"Sugestões"];
         
         // temos agora o corpo da mensagem
         

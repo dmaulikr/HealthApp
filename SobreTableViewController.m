@@ -77,6 +77,8 @@ MFMailComposeViewController *formularioEmail;
         
         formularioEmail.mailComposeDelegate = self;
         
+        formularioEmail.navigationBar.tintColor = [UIColor whiteColor];
+        
         [formularioEmail setToRecipients:@[@"rony_conde@icloud.com"]];
         
         // setSubject adiciona um assunto ao email

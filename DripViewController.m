@@ -44,12 +44,14 @@
 
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
 {
-    if (self.tfQuantity.text.length >= 5 )
+    if(textField == self.tfQuantity && self.tfQuantity.text.length >= 5)
     {
-    return NO; // return NO to not change text
+        return NO;
     }
     else
-    {return YES;}
+    {
+        return YES;
+    }
 }
 
 -(void) datePickerChanged: (UIDatePicker *)datePicker{

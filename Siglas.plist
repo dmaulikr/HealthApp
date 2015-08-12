@@ -8,103 +8,103 @@
 			<key>nome</key>
 			<string>AAA</string>
 			<key>significado</key>
-			<string>Aneurisma de aorta abdominal</string>
+			<string>aneurisma de aorta abdominal</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>ABO</string>
 			<key>significado</key>
-			<string>Tipo sanguineo ABO</string>
+			<string>tipo sanguíneo ABO</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>ABVO</string>
 			<key>significado</key>
-			<string>Aceita bem via oral</string>
+			<string>aceita bem via oral</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>AC</string>
 			<key>significado</key>
-			<string>Alojamento conjunto</string>
+			<string>alojamento conjunto</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>ACM</string>
 			<key>significado</key>
-			<string>A criterio medico</string>
+			<string>A critério médico</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>ACTH</string>
 			<key>significado</key>
-			<string>Hormonio adrenocorticotrofico</string>
+			<string>hormônio adrenocorticotrofico</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>ADH</string>
 			<key>significado</key>
-			<string>Hormonio antidiuretico</string>
+			<string>hormônio antidiurético</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>ADP</string>
 			<key>significado</key>
-			<string>Adenosina difosfato</string>
+			<string>adenosina difosfato</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>AIDS</string>
 			<key>significado</key>
-			<string>Sindrome da imunodeficiencia</string>
+			<string>síndrome da imunodeficiência</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>AD</string>
 			<key>significado</key>
-			<string>Atrio direito</string>
+			<string>átrio direito</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>AE</string>
 			<key>significado</key>
-			<string>Atrio esquerdo</string>
+			<string>átrio esquerdo</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>AGE</string>
 			<key>significado</key>
-			<string>Acidos graxos essenciais</string>
+			<string>ácidos graxos essenciais</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>amp</string>
 			<key>significado</key>
-			<string>Ampola</string>
+			<string>ampola</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>AMP</string>
 			<key>significado</key>
-			<string>Adenosina monofosfato</string>
+			<string>adenosina monofosfato</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>AMVO</string>
 			<key>significado</key>
-			<string>Aceita mal via oral</string>
+			<string>aceita mal via oral</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>AO</string>
 			<key>significado</key>
-			<string>Aorta.</string>
+			<string>aorta.</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>AOE</string>
 			<key>significado</key>
-			<string>Abertura ocular espontanea</string>
+			<string>abertura ocular espontânea</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -134,7 +134,7 @@
 			<key>nome</key>
 			<string>AV</string>
 			<key>significado</key>
-			<string>atrio ventricular</string>
+			<string>átrio ventricular</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -152,7 +152,7 @@
 			<key>nome</key>
 			<string>AVE</string>
 			<key>significado</key>
-			<string>acidente vascular encefalico</string>
+			<string>acidente vascular encefálico</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -194,7 +194,7 @@
 			<key>nome</key>
 			<string>BIA</string>
 			<key>significado</key>
-			<string>balao intra-aortico</string>
+			<string>balão intra-aórtico</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -206,7 +206,7 @@
 			<key>nome</key>
 			<string>BC</string>
 			<key>significado</key>
-			<string>bloco cirurgico</string>
+			<string>bloco cirúrgico</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -224,25 +224,25 @@
 			<key>nome</key>
 			<string>Ca</string>
 			<key>significado</key>
-			<string>calcio</string>
+			<string>cálcio</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>CA</string>
 			<key>significado</key>
-			<string>cancer</string>
+			<string>câncer</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>CAPD</string>
 			<key>significado</key>
-			<string>dialise peritoneal ambulatorial continua</string>
+			<string>diálise peritoneal ambulatorial contínua</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>CAPs</string>
 			<key>significado</key>
-			<string>contracoes atriais prematuras</string>
+			<string>contrações atriais prematuras</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -260,7 +260,7 @@
 			<key>nome</key>
 			<string>CC</string>
 			<key>significado</key>
-			<string>centro cirurgico</string>
+			<string>centro cirúrgico</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -302,19 +302,19 @@
 			<key>nome</key>
 			<string>CH</string>
 			<key>significado</key>
-			<string>concentrado de hemaceas</string>
+			<string>concentrado de hemáceas</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>CHF</string>
 			<key>significado</key>
-			<string>concentrado de hemaceas filtrado</string>
+			<string>concentrado de hemáceas filtrado</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>CHFI</string>
 			<key>significado</key>
-			<string>concentrado de hemaceas filtrado e irradiado</string>
+			<string>concentrado de hemáceas filtrado e irradiado</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -326,7 +326,7 @@
 			<key>nome</key>
 			<string>CID</string>
 			<key>significado</key>
-			<string>classificacao internacional de doencas</string>
+			<string>classificação internacional de doencas</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -338,19 +338,13 @@
 			<key>nome</key>
 			<string>CKMB</string>
 			<key>significado</key>
-			<string>fracao da enzima CPK</string>
-		</dict>
-		<dict>
-			<key>nome</key>
-			<string>cm</string>
-			<key>significado</key>
-			<string></string>
+			<string>fração da enzima CPK</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>CME</string>
 			<key>significado</key>
-			<string>centro de material e esterilizacao</string>
+			<string>centro de material e esterilização</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -362,7 +356,7 @@
 			<key>nome</key>
 			<string>CMV</string>
 			<key>significado</key>
-			<string>citomegalovirus</string>
+			<string>citomegalovírus</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -374,37 +368,31 @@
 			<key>nome</key>
 			<string>CO</string>
 			<key>significado</key>
-			<string>centro obstetrico</string>
+			<string>centro obstétrico</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>CO</string>
 			<key>significado</key>
-			<string>monoxido de carbono</string>
+			<string>monóxido de carbono</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>CO2</string>
 			<key>significado</key>
-			<string>dioxido de carbono</string>
+			<string>dióxido de carbono</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>conc</string>
 			<key>significado</key>
-			<string>concentracao</string>
+			<string>concentração</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>CP</string>
 			<key>significado</key>
 			<string>contagem de plaquetas</string>
-		</dict>
-		<dict>
-			<key>nome</key>
-			<string>CPAP</string>
-			<key>significado</key>
-			<string></string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -428,7 +416,7 @@
 			<key>nome</key>
 			<string>CST</string>
 			<key>significado</key>
-			<string>complacencia estatica</string>
+			<string>complacência estática</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -458,7 +446,7 @@
 			<key>nome</key>
 			<string>CV</string>
 			<key>significado</key>
-			<string>cardioversao</string>
+			<string>cardioversão</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -476,13 +464,13 @@
 			<key>nome</key>
 			<string>CVE</string>
 			<key>significado</key>
-			<string>cardioversao eletrica</string>
+			<string>cardioversão elétrica</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>CVPs</string>
 			<key>significado</key>
-			<string>contracoes ventriculares Prematuras</string>
+			<string>contrações ventriculares prematuras</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -494,13 +482,13 @@
 			<key>nome</key>
 			<string>D</string>
 			<key>significado</key>
-			<string>dialise</string>
+			<string>diálise</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>D</string>
 			<key>significado</key>
-			<string>difusao</string>
+			<string>difusão</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -512,7 +500,7 @@
 			<key>nome</key>
 			<string>DC</string>
 			<key>significado</key>
-			<string>debito cardiaco</string>
+			<string>debito cardíaco</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -530,7 +518,7 @@
 			<key>nome</key>
 			<string>DHL</string>
 			<key>significado</key>
-			<string>desidrogenase latica</string>
+			<string>desidrogenase lática</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -542,7 +530,7 @@
 			<key>nome</key>
 			<string>DI</string>
 			<key>significado</key>
-			<string>dia de internacao</string>
+			<string>dia de internação</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -560,7 +548,7 @@
 			<key>nome</key>
 			<string>DL</string>
 			<key>significado</key>
-			<string>drenagem linfatica</string>
+			<string>drenagem linfática</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -578,37 +566,37 @@
 			<key>nome</key>
 			<string>DLD</string>
 			<key>significado</key>
-			<string>decubito lateral direito</string>
+			<string>decúbito lateral direito</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>DLE</string>
 			<key>significado</key>
-			<string>decubito lateral esquerdo</string>
+			<string>decúbito lateral esquerdo</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>DNA</string>
 			<key>significado</key>
-			<string>acido desoxiribonucleico</string>
+			<string>ácido desoxiribonucleico</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>DP</string>
 			<key>significado</key>
-			<string>dialise peritoneal</string>
+			<string>diálise peritoneal</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>DPI</string>
 			<key>significado</key>
-			<string>dialise peritoneal intermitente</string>
+			<string>diálise peritoneal intermitente</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>DPI</string>
 			<key>significado</key>
-			<string>doenca inflamatoria pelvica</string>
+			<string>doença inflamatória pélvica</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -620,31 +608,31 @@
 			<key>nome</key>
 			<string>DPOC</string>
 			<key>significado</key>
-			<string>doenca pulmonar obstrutiva cronica</string>
+			<string>doença pulmonar obstrutiva crônica</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>DRGE</string>
 			<key>significado</key>
-			<string>doenca refluxo gastroesofagico</string>
+			<string>doença refluxo gastroesofágico</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>DRP</string>
 			<key>significado</key>
-			<string>disfuncao respiratoria precoce</string>
+			<string>disfunção respiratória precoce</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>DT</string>
 			<key>significado</key>
-			<string>dreno de torax</string>
+			<string>dreno de tórax</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>DV</string>
 			<key>significado</key>
-			<string>decubito ventral</string>
+			<string>decúbito ventral</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -656,13 +644,13 @@
 			<key>nome</key>
 			<string>DVE</string>
 			<key>significado</key>
-			<string>derivacao ventricular externa</string>
+			<string>derivação ventricular externa</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>DVP</string>
 			<key>significado</key>
-			<string>derivacao ventricular peritoneal</string>
+			<string>derivação ventricular peritoneal</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -692,7 +680,7 @@
 			<key>nome</key>
 			<string>EF</string>
 			<key>significado</key>
-			<string>exame fisico</string>
+			<string>exame físico</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -716,13 +704,13 @@
 			<key>nome</key>
 			<string>ERVB</string>
 			<key>significado</key>
-			<string>exploracao radiologica de vias biliares</string>
+			<string>exploracao radiológica de vias biliares</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>ETO</string>
 			<key>significado</key>
-			<string>esterilizacao por oxido de etileno</string>
+			<string>esterilizacao por óxido de etileno</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -740,13 +728,13 @@
 			<key>nome</key>
 			<string>FA</string>
 			<key>significado</key>
-			<string>fibrilacao atrial</string>
+			<string>fibrilação atrial</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>FC</string>
 			<key>significado</key>
-			<string>frequencia cardiaca</string>
+			<string>frequência cardíaca</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -758,13 +746,13 @@
 			<key>nome</key>
 			<string>FIO2</string>
 			<key>significado</key>
-			<string>fracao inspiratoria de oxigenio</string>
+			<string>fração inspiratória de oxigênio</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>FL</string>
 			<key>significado</key>
-			<string>fezes liquidas</string>
+			<string>fezes líquidas</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -776,7 +764,7 @@
 			<key>nome</key>
 			<string>FSL</string>
 			<key>significado</key>
-			<string>fezes semi-liquidas</string>
+			<string>fezes semi-líquidas</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -788,13 +776,13 @@
 			<key>nome</key>
 			<string>FR</string>
 			<key>significado</key>
-			<string>frequencia respiratoria</string>
+			<string>frequência respiratória</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>FV</string>
 			<key>significado</key>
-			<string>fibrilacao ventricular</string>
+			<string>fibrilação ventricular</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -824,7 +812,7 @@
 			<key>nome</key>
 			<string>GB</string>
 			<key>significado</key>
-			<string>globulos brancos</string>
+			<string>glóbulos brancos</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -842,7 +830,7 @@
 			<key>nome</key>
 			<string>GV</string>
 			<key>significado</key>
-			<string>globulos vermelhos</string>
+			<string>glóbulos vermelhos</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -861,7 +849,7 @@
 			<string>
 HAS</string>
 			<key>significado</key>
-			<string>hipertensao arterial sistemica</string>
+			<string>hipertensão arterial sistêmica</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -873,13 +861,13 @@ HAS</string>
 			<key>nome</key>
 			<string>HBV</string>
 			<key>significado</key>
-			<string>virus da hepatite B</string>
+			<string>vírus da hepatite B</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>HCV</string>
 			<key>significado</key>
-			<string>virus da hepatite C</string>
+			<string>vírus da hepatite C</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -891,25 +879,19 @@ HAS</string>
 			<key>nome</key>
 			<string>HDF</string>
 			<key>significado</key>
-			<string>hemodiafiltracao</string>
+			<string>hemodiafiltração</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>HF</string>
 			<key>significado</key>
-			<string>hemofiltracao</string>
+			<string>hemofiltração</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>HGT</string>
 			<key>significado</key>
 			<string>hemoglicoteste</string>
-		</dict>
-		<dict>
-			<key>nome</key>
-			<string>HIV</string>
-			<key>significado</key>
-			<string>virus da imunodeficiencia humana</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -921,7 +903,7 @@ HAS</string>
 			<key>nome</key>
 			<string>HP</string>
 			<key>significado</key>
-			<string>hipertensao pulmonar</string>
+			<string>hipertensão pulmonar</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -945,7 +927,7 @@ HAS</string>
 			<key>nome</key>
 			<string>Htc</string>
 			<key>significado</key>
-			<string>hematocrito</string>
+			<string>hematócrito</string>
 		</dict>
 		<dict>
 			<key>nome</key>

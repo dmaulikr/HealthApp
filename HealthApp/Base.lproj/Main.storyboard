@@ -1091,7 +1091,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Cálculo de Gotejamento" id="J1N-FV-iKO">
                         <barButtonItem key="backBarButtonItem" title=" " id="dd3-rq-ozG"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="JDO-et-dZH">
+                        <barButtonItem key="rightBarButtonItem" image="histórico" id="JDO-et-dZH">
                             <connections>
                                 <segue destination="Rnz-YS-xkL" kind="show" id="4Z8-YZ-oy6"/>
                             </connections>
@@ -1441,6 +1441,7 @@
         <image name="diana" width="300" height="300"/>
         <image name="dicionario-s" width="22" height="22"/>
         <image name="filipe" width="300" height="300"/>
+        <image name="histórico" width="25" height="25"/>
         <image name="info" width="25" height="25"/>
     </resources>
 </document>

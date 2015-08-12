@@ -951,7 +951,7 @@ HAS</string>
 			<key>nome</key>
 			<string>IAM</string>
 			<key>significado</key>
-			<string>infarto agudo do miocardio</string>
+			<string>infarto agudo do miocárdio</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -963,19 +963,13 @@ HAS</string>
 			<key>nome</key>
 			<string>ICC</string>
 			<key>significado</key>
-			<string>insuficiencia cardiaca congestiva</string>
-		</dict>
-		<dict>
-			<key>nome</key>
-			<string>ICHS</string>
-			<key>significado</key>
-			<string>hormonio estimulante das</string>
+			<string>insuficiência cardíaca congestiva</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>ID</string>
 			<key>significado</key>
-			<string>intradermica</string>
+			<string>intradérmica</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -993,37 +987,37 @@ HAS</string>
 			<key>nome</key>
 			<string>IMV</string>
 			<key>significado</key>
-			<string>ventilacao mandatoria intermitente</string>
+			<string>ventilação mandatória intermitente</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>IRA</string>
 			<key>significado</key>
-			<string>insuficiencia renal aguda</string>
+			<string>insuficiência renal aguda</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>IRA</string>
 			<key>significado</key>
-			<string>insuficiencia respiratoria aguda</string>
+			<string>insuficiência respiratória aguda</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>IRC</string>
 			<key>significado</key>
-			<string>insuficiencia renal cronica</string>
+			<string>insuficiência renal crônica</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>ISCD</string>
 			<key>significado</key>
-			<string>subclavia direita</string>
+			<string>subclávia direita</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>ISCE</string>
 			<key>significado</key>
-			<string>subclavia esquerda</string>
+			<string>subclávia esquerda</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1047,7 +1041,7 @@ HAS</string>
 			<key>nome</key>
 			<string>K</string>
 			<key>significado</key>
-			<string>potassio</string>
+			<string>potássio</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1059,7 +1053,7 @@ HAS</string>
 			<key>nome</key>
 			<string>Km</string>
 			<key>significado</key>
-			<string>quilometro</string>
+			<string>quilômetro</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1071,13 +1065,13 @@ HAS</string>
 			<key>nome</key>
 			<string>LCR</string>
 			<key>significado</key>
-			<string>liquido cefalorraquidiano</string>
+			<string>líquido cefalorraquidiano</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>LES</string>
 			<key>significado</key>
-			<string>lupus eritematoso sistemico</string>
+			<string>lupus eritematoso sistêmico</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1089,37 +1083,37 @@ HAS</string>
 			<key>nome</key>
 			<string>LH</string>
 			<key>significado</key>
-			<string>hormonio luteinizante</string>
+			<string>hormônio luteinizante</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>LLA</string>
 			<key>significado</key>
-			<string>leucemia linfocitica aguda</string>
+			<string>leucemia linfocítica aguda</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>LLC</string>
 			<key>significado</key>
-			<string>leucemia linfocitica cronica</string>
+			<string>leucemia linfocítica cronica</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>LMA</string>
 			<key>significado</key>
-			<string>leucemia mieloide aguda</string>
+			<string>leucemia mielóide aguda</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>LMC</string>
 			<key>significado</key>
-			<string>leucemia mieloide cronica</string>
+			<string>leucemia mielóide cronica</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>LOC</string>
 			<key>significado</key>
-			<string>lucido, orientado e coerente</string>
+			<string>lúcido, orientado e coerente</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1149,7 +1143,7 @@ HAS</string>
 			<key>nome</key>
 			<string>MIE/CD</string>
 			<key>significado</key>
-			<string>mamaria-coronária direita.</string>
+			<string>mamária-coronária direita.</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1167,7 +1161,7 @@ HAS</string>
 			<key>nome</key>
 			<string>mmHg</string>
 			<key>significado</key>
-			<string>milimetros de mercurio</string>
+			<string>milimetros de mercúrio</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1227,43 +1221,43 @@ HAS</string>
 			<key>nome</key>
 			<string>MSH</string>
 			<key>significado</key>
-			<string>hormonio melanocito estimulante</string>
+			<string>hormônio melanócito estimulante</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>MV+</string>
 			<key>significado</key>
-			<string>murmurio vesicular presente</string>
+			<string>murmúrio vesicular presente</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>Na</string>
 			<key>significado</key>
-			<string>sodio</string>
+			<string>sódio</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>N</string>
 			<key>significado</key>
-			<string>nitrogenio</string>
+			<string>nitrogênio</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>NPP</string>
 			<key>significado</key>
-			<string>nutricao parenteral prolongada</string>
+			<string>nutrição parenteral prolongada</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>NPT</string>
 			<key>significado</key>
-			<string>nutricao parenteral total</string>
+			<string>nutrição parenteral total</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>NO</string>
 			<key>significado</key>
-			<string>oxido nitrico</string>
+			<string>óxido nítrico</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1275,7 +1269,7 @@ HAS</string>
 			<key>nome</key>
 			<string>OPO</string>
 			<key>significado</key>
-			<string>organizacao procura de óbitos</string>
+			<string>organização procura de óbitos</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1287,79 +1281,79 @@ HAS</string>
 			<key>nome</key>
 			<string>PA</string>
 			<key>significado</key>
-			<string>pressao arterial</string>
+			<string>pressão arterial</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>PA</string>
 			<key>significado</key>
-			<string>perimetro abdominal</string>
+			<string>perímetro abdominal</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>PAM</string>
 			<key>significado</key>
-			<string>pressao arterial media</string>
+			<string>pressão arterial média</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>PAP</string>
 			<key>significado</key>
-			<string>pressao arteria pulmonar</string>
+			<string>pressão arterial pulmonar</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>PACO2</string>
 			<key>significado</key>
-			<string>pressao alveolar de gas carbonico</string>
+			<string>pressão alveolar de gás carbônico</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>PAD</string>
 			<key>significado</key>
-			<string>pressao arterial diastolica</string>
+			<string>pressão arterial diastólica</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>PAS</string>
 			<key>significado</key>
-			<string>pressao arterial sistolica</string>
+			<string>pressão arterial sistólica</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>PBE</string>
 			<key>significado</key>
-			<string>peritonite bacteriana espontanea</string>
+			<string>peritonite bacteriana espontânea</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>PC</string>
 			<key>significado</key>
-			<string>perimetro cefalico</string>
+			<string>perímetro cefálico</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>PCO2</string>
 			<key>significado</key>
-			<string>pressao parcial de gas carbonico</string>
+			<string>pressão parcial de gás carbônico</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>PCP</string>
 			<key>significado</key>
-			<string>pressao capilar pulmonar</string>
+			<string>pressão capilar pulmonar</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>PEEP</string>
 			<key>significado</key>
-			<string>pressao positiva expiratoria final</string>
+			<string>pressão positiva expiratória final</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>PEP</string>
 			<key>significado</key>
-			<string>prontuario eletronico do paciente</string>
+			<string>prontuário eletrônico do paciente</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1375,15 +1369,15 @@ HAS</string>
 		</dict>
 		<dict>
 			<key>nome</key>
-			<string>PAO2</string>
+			<string>PAO</string>
 			<key>significado</key>
-			<string>pressao alveolar de oxigenio</string>
+			<string>pressão alveolar de oxigênio</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>PaO2</string>
 			<key>significado</key>
-			<string>pressao arterial de oxigenio</string>
+			<string>pressão arterial de oxigênio</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1395,7 +1389,7 @@ HAS</string>
 			<key>nome</key>
 			<string>pH</string>
 			<key>significado</key>
-			<string>potencial de hidrogenio</string>
+			<string>potencial de hidrogênio</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1425,19 +1419,19 @@ HAS</string>
 			<key>nome</key>
 			<string>PO</string>
 			<key>significado</key>
-			<string>pos-operatorio</string>
+			<string>pos-operatório</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>POI</string>
 			<key>significado</key>
-			<string>pos-operatorio imediato</string>
+			<string>pos-operatório imediato</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>POT</string>
 			<key>significado</key>
-			<string>pos-operatorio tardio</string>
+			<string>pos-operatório tardio</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1455,7 +1449,7 @@ HAS</string>
 			<key>nome</key>
 			<string>PT</string>
 			<key>significado</key>
-			<string>perimetro toracico</string>
+			<string>perímetro torácico</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1467,13 +1461,13 @@ HAS</string>
 			<key>nome</key>
 			<string>PTM</string>
 			<key>significado</key>
-			<string>pressao transmembrana</string>
+			<string>pressão transmembrana</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>PVC</string>
 			<key>significado</key>
-			<string>pressao venosa central</string>
+			<string>pressão venosa central</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1497,13 +1491,13 @@ HAS</string>
 			<key>nome</key>
 			<string>RA</string>
 			<key>significado</key>
-			<string>ruidos adventicios</string>
+			<string>ruídos adventícios</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>RAA</string>
 			<key>significado</key>
-			<string>reumatismo articular agudo.</string>
+			<string>reumatismo articular agudo</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1515,13 +1509,13 @@ HAS</string>
 			<key>nome</key>
 			<string>RG</string>
 			<key>significado</key>
-			<string>residuo gastrico</string>
+			<string>resíduo gástrico</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>RHA</string>
 			<key>significado</key>
-			<string>ruido hidroaereo</string>
+			<string>ruído hidroaereo</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1533,50 +1527,43 @@ HAS</string>
 			<key>nome</key>
 			<string>RM</string>
 			<key>significado</key>
-			<string>ressonancia magnetica</string>
+			<string>ressonância magnética</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>RN</string>
 			<key>significado</key>
-			<string>recem nascido</string>
+			<string>recém nascido</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>RNA</string>
 			<key>significado</key>
-			<string>acido ribonucleico</string>
+			<string>ácido ribonucleico</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>RPA</string>
 			<key>significado</key>
-			<string>recuperacao pos-anestesica</string>
+			<string>recuperação pos-anestésica</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>rpm</string>
 			<key>significado</key>
-			<string>respiracao por minuto</string>
+			<string>respiração por minuto</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>SaO2</string>
 			<key>significado</key>
-			<string>saturacao arterial de oxigenio</string>
-		</dict>
-		<dict>
-			<key>nome</key>
-			<string>SN-IPPV</string>
-			<key>significado</key>
-			<string>Synchronized nasal intermittent
-positive pressure ventilation </string>
+			<string>saturação arterial de oxigênio</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>SC</string>
 			<key>significado</key>
-			<string>subcutanea</string>
+			<string>subcutânea</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1588,7 +1575,7 @@ positive pressure ventilation </string>
 			<key>nome</key>
 			<string>SF</string>
 			<key>significado</key>
-			<string>soro fisiologico</string>
+			<string>soro fisiológico</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1600,7 +1587,7 @@ positive pressure ventilation </string>
 			<key>nome</key>
 			<string>SIMV</string>
 			<key>significado</key>
-			<string>ventilacao mandatoria intermitente sincronizada</string>
+			<string>ventilação mandatória intermitente sincronizada</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1630,13 +1617,13 @@ positive pressure ventilation </string>
 			<key>nome</key>
 			<string>SNG</string>
 			<key>significado</key>
-			<string>sonda nasogastrica</string>
+			<string>sonda nasogástrica</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>s/n</string>
 			<key>significado</key>
-			<string>se necessario</string>
+			<string>se necessário</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1648,7 +1635,7 @@ positive pressure ventilation </string>
 			<key>nome</key>
 			<string>SO</string>
 			<key>significado</key>
-			<string>sala de operacao</string>
+			<string>sala de operação</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1660,7 +1647,7 @@ positive pressure ventilation </string>
 			<key>nome</key>
 			<string>SOG</string>
 			<key>significado</key>
-			<string>sonda orogastrica</string>
+			<string>sonda orogástrica</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1672,7 +1659,7 @@ positive pressure ventilation </string>
 			<key>nome</key>
 			<string>SVA</string>
 			<key>significado</key>
-			<string>sondagem vesical de alivio</string>
+			<string>sondagem vesical de alívio</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1696,7 +1683,7 @@ positive pressure ventilation </string>
 			<key>nome</key>
 			<string> TAP</string>
 			<key>significado</key>
-			<string>taquicardia atrial paroxistica</string>
+			<string>taquicardia atrial paroxística</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1708,7 +1695,7 @@ positive pressure ventilation </string>
 			<key>nome</key>
 			<string>TC</string>
 			<key>significado</key>
-			<string>tempo de coagulacao</string>
+			<string>tempo de coagulação</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1720,7 +1707,7 @@ positive pressure ventilation </string>
 			<key>nome</key>
 			<string>TCE</string>
 			<key>significado</key>
-			<string>traumatismo cranioencefalico</string>
+			<string>traumatismo cranioencefálico</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1744,7 +1731,7 @@ positive pressure ventilation </string>
 			<key>nome</key>
 			<string>TMO</string>
 			<key>significado</key>
-			<string>transplante de medula ossea</string>
+			<string>transplante de medula óssea</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1762,13 +1749,13 @@ positive pressure ventilation </string>
 			<key>nome</key>
 			<string>TS</string>
 			<key>significado</key>
-			<string>tipo sanguineo</string>
+			<string>tipo sanguíneo</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>TSH</string>
 			<key>significado</key>
-			<string>hormonio estimulante da tireoide</string>
+			<string>hormônio estimulante da tireóide</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1810,19 +1797,19 @@ positive pressure ventilation </string>
 			<key>nome</key>
 			<string>UAC</string>
 			<key>significado</key>
-			<string>unidade de assistencia cardiaca</string>
+			<string>unidade de assistência cardíaca</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>UE</string>
 			<key>significado</key>
-			<string>unidade de emergencia</string>
+			<string>unidade de emergência</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>UF</string>
 			<key>significado</key>
-			<string>ultrafiltracao</string>
+			<string>ultrafiltração</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1852,19 +1839,19 @@ positive pressure ventilation </string>
 			<key>nome</key>
 			<string>VAA</string>
 			<key>significado</key>
-			<string>via aerea artificial</string>
+			<string>via aérea artificial</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>VAS</string>
 			<key>significado</key>
-			<string>vias aereas superiores</string>
+			<string>vias aéreas superiores</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>VAPSV</string>
 			<key>significado</key>
-			<string>ventilacao com pressao de suporte e volume garantido</string>
+			<string>ventilação com pressão de suporte e volume garantido</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1876,19 +1863,19 @@ positive pressure ventilation </string>
 			<key>nome</key>
 			<string>VD</string>
 			<key>significado</key>
-			<string>ventriculo direito</string>
+			<string>ventrículo direito</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>VE</string>
 			<key>significado</key>
-			<string>ventriculo esquerdo</string>
+			<string>ventrículo esquerdo</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>VM</string>
 			<key>significado</key>
-			<string>ventilacao mecanica</string>
+			<string>ventilação mecânica</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1900,13 +1887,13 @@ positive pressure ventilation </string>
 			<key>nome</key>
 			<string>VMI</string>
 			<key>significado</key>
-			<string>ventilacao mecanica invasiva</string>
+			<string>ventilação mecânica invasiva</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>VMNI</string>
 			<key>significado</key>
-			<string>ventilacao mecanica nao invasiva</string>
+			<string>ventilação mecânica não invasiva</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1918,7 +1905,7 @@ positive pressure ventilation </string>
 			<key>nome</key>
 			<string>VP</string>
 			<key>significado</key>
-			<string>veia periferica</string>
+			<string>veia periférica</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1930,7 +1917,7 @@ positive pressure ventilation </string>
 			<key>nome</key>
 			<string>VPP</string>
 			<key>significado</key>
-			<string>ventilacao com pressao positiva</string>
+			<string>ventilação com pressão positiva</string>
 		</dict>
 		<dict>
 			<key>nome</key>
@@ -1942,25 +1929,25 @@ positive pressure ventilation </string>
 			<key>nome</key>
 			<string>VS</string>
 			<key>significado</key>
-			<string>volume sistolico</string>
+			<string>volume sistólico</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>VSCD</string>
 			<key>significado</key>
-			<string>veia subclavia direita</string>
+			<string>veia subclávia direita</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>VSCE</string>
 			<key>significado</key>
-			<string>veia subclavia esquerda</string>
+			<string>veia subclávia esquerda</string>
 		</dict>
 		<dict>
 			<key>nome</key>
 			<string>VSR</string>
 			<key>significado</key>
-			<string>virus sincicial respiratorio</string>
+			<string>vírus sincicial respiratório</string>
 		</dict>
 	</array>
 </dict>

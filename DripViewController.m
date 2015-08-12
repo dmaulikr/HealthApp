@@ -44,7 +44,11 @@
 
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
 {
-    if(textField == self.tfQuantity && self.tfQuantity.text.length >= 5)
+    if(textField == self.tfQuantity && range.location == 5)
+    {
+        return NO;
+    }
+    else if(textField == self.tfPaciente && range.location == 20)
     {
         return NO;
     }

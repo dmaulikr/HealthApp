@@ -42,6 +42,16 @@
     
 }
 
+- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
+{
+    if (self.tfQuantity.text.length >= 5 )
+    {
+    return NO; // return NO to not change text
+    }
+    else
+    {return YES;}
+}
+
 -(void) datePickerChanged: (UIDatePicker *)datePicker{
     
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];

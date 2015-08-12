@@ -103,6 +103,7 @@
     }
     self.tfQuantity.text = nil;
     self.tfPaciente.text = nil;
+    self.tfTempo.text = nil;
     self.btCalculate.enabled = FALSE;
 }
 

@@ -8,14 +8,10 @@
 
 #import "SobreTableViewController.h"
 
-@interface SobreTableViewController ()
-
-
+@interface SobreTableViewController()
 @end
 
 @implementation SobreTableViewController
-
-MFMailComposeViewController *formularioEmail;
 
 - (void)viewDidLoad
 {
@@ -35,7 +31,7 @@ MFMailComposeViewController *formularioEmail;
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 5;
+    return 4;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -53,13 +49,9 @@ MFMailComposeViewController *formularioEmail;
     {
         name = @"Cell3";
     }
-    else if(indexPath.row == 3)
+    else
     {
         name = @"Cell4";
-    }
-    else if(indexPath.row == 4)
-    {
-        name = @"Cell5";
     }
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:name];
     return cell;
@@ -68,58 +60,39 @@ MFMailComposeViewController *formularioEmail;
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 
 {
-
-    //[tableView cellForRowAtIndexPath:indexPath].accessoryType = UITableViewCellAccessoryCheckmark;
-
-    if (indexPath.section == 0 && indexPath.row == 0) {
-        
-        formularioEmail = [[MFMailComposeViewController alloc]init];
-        
-        formularioEmail.mailComposeDelegate = self;
-        
-        formularioEmail.navigationBar.tintColor = [UIColor whiteColor];
-        
-        [formularioEmail setToRecipients:@[@"app.meddict@gmail.com"]];
-        
-        // setSubject adiciona um assunto ao email
-        
-        [formularioEmail setSubject:@"Sugestões"];
-        
-        // temos agora o corpo da mensagem
-        
-        [formularioEmail setMessageBody:@"Enviamos nossa mensagem" isHTML:NO];
-        
-        //[self presentModalViewController:formularioEmail animated:YES];
-         [self presentViewController:formularioEmail animated:YES completion:NULL];
-
+    if(indexPath.section == 0 && indexPath.row == 0)
+    {
+        if([MFMailComposeViewController canSendMail] == YES)
+        {
+            MFMailComposeViewController *mailController = [MFMailComposeViewController new];
+            mailController.mailComposeDelegate = self;
+            mailController.navigationBar.tintColor = [UIColor whiteColor];
+            [mailController setToRecipients:@[@"app.meddict@gmail.com"]];
+            [mailController setSubject:@"Sugestões"];
+            [self presentViewController:mailController animated:YES completion:NULL];
+        }
+        else
+        {
+            UIAlertView *mensagem = [[UIAlertView alloc]initWithTitle:@"Informação" message:@"Configure seu Email no Dispositivo" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+            [mensagem show];
+            [tableView deselectRowAtIndexPath:indexPath animated:false];
+        }
     }
 }
 
--(void)mailComposeController:(MFMailComposeViewController *)controller
-
-         didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error{
-    
+-(void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error
+{
     UIAlertView *mensagem;
-    
-    if (result) {
-        
-        mensagem = [[UIAlertView alloc]initWithTitle:@"Enviado" message:@"Email enviado com sucesso" delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil, nil];
-        
+    if(result)
+    {
+        mensagem = [[UIAlertView alloc]initWithTitle:@"Envio" message:@"Email enviado com sucesso" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
     }
-    
-    if (error) {
-        
-        mensagem = [[UIAlertView alloc]initWithTitle:@"Erro" message:@"Erro ao enviar mensagem" delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil, nil];
-        
+    if(error)
+    {
+        mensagem = [[UIAlertView alloc]initWithTitle:@"Erro" message:@"Problema ao enviar a mensagem" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
     }
-    
     [mensagem show];
-    
     [self dismissViewControllerAnimated:YES completion:nil];
-    
 }
-        
-        
-        
 
 @end

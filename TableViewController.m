@@ -31,14 +31,12 @@
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger) buttonIndex
 {
-    
     if(buttonIndex != 0)
     {
         [self.prefs setBool:false forKey:@"CONTRATO"];
         exit(0);
     }
     [self.prefs synchronize];
-
 }
 
 - (void)didReceiveMemoryWarning

@@ -7,7 +7,7 @@
 //
 
 #import "SinaisTableViewController.h"
-#import "SinaisViewController.h"
+#import "TestTableViewController.h"
 
 @interface SinaisTableViewController ()
 
@@ -18,8 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSURL *plistURL = [[NSBundle mainBundle] URLForResource:@"SinaisVitais" withExtension:@"plist"];
-    NSDictionary *plist = [NSDictionary dictionaryWithContentsOfURL:plistURL];
+    NSDictionary *plist = [NSDictionary dictionaryWithContentsOfURL:[[NSBundle mainBundle] URLForResource:@"SinaisVitais" withExtension:@"plist"]];
     self.content = [plist objectForKey:@"SINAISVITAIS"];
 }
 
@@ -35,7 +34,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-        return [self.content count];
+    return [self.content count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -48,10 +47,9 @@
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        SinaisViewController *detailViewController = (SinaisViewController *)segue.destinationViewController;
-        detailViewController.Detail = [self.content objectAtIndex:indexPath.row];
+    NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+    TestTableViewController *detailViewController = (TestTableViewController *)segue.destinationViewController;
+    detailViewController.Detail = [self.content objectAtIndex:indexPath.row];
 }
-
 
 @end

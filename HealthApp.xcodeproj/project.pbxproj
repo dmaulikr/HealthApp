@@ -10,6 +10,8 @@
 		2A1422CB1B3B012F002DD43A /* Listas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A1422CA1B3B012F002DD43A /* Listas.plist */; };
 		2A1569061B3986E00058ECE8 /* FourthTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1569051B3986E00058ECE8 /* FourthTableViewController.m */; };
 		2A1569081B3991C30058ECE8 /* Termos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A1569071B3991C30058ECE8 /* Termos.plist */; };
+		2A15DDE01B9724EB00C9B0CA /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A15DDDF1B9724EB00C9B0CA /* TestTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2A15DDE31B972C7D00C9B0CA /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A15DDE21B972C7D00C9B0CA /* CustomCell.m */; settings = {ASSET_TAGS = (); }; };
 		2A49D3541B39833800AB388A /* Doencas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A49D3531B39833800AB388A /* Doencas.plist */; };
 		2A6CE97A1B28722D0062CB5A /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CE9791B28722D0062CB5A /* TableViewController.m */; };
 		2A7453B31B2B0BEF00A7E1EE /* ThirdTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7453B21B2B0BEF00A7E1EE /* ThirdTableViewController.m */; };
@@ -37,7 +39,6 @@
 		8B4CA36C1B3AF8B900B80AFD /* SearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4CA36B1B3AF8B900B80AFD /* SearchTableViewController.m */; };
 		8B4CA3711B3AFAB200B80AFD /* SearchDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4CA3701B3AFAB200B80AFD /* SearchDetailViewController.m */; };
 		8B9428BB1B3A4C1100E715EC /* NSDictionary+TermoRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9428BA1B3A4C1100E715EC /* NSDictionary+TermoRecord.m */; };
-		8BC712701B6A80CA0002DE2B /* SinaisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC7126F1B6A80CA0002DE2B /* SinaisViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,10 @@
 		2A1569041B3986E00058ECE8 /* FourthTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthTableViewController.h; sourceTree = "<group>"; };
 		2A1569051B3986E00058ECE8 /* FourthTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthTableViewController.m; sourceTree = "<group>"; };
 		2A1569071B3991C30058ECE8 /* Termos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Termos.plist; sourceTree = "<group>"; };
+		2A15DDDE1B9724EB00C9B0CA /* TestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
+		2A15DDDF1B9724EB00C9B0CA /* TestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
+		2A15DDE11B972C7D00C9B0CA /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		2A15DDE21B972C7D00C9B0CA /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 		2A49D3531B39833800AB388A /* Doencas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Doencas.plist; sourceTree = "<group>"; };
 		2A6CE9781B28722D0062CB5A /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		2A6CE9791B28722D0062CB5A /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
@@ -104,8 +109,6 @@
 		8B4CA3701B3AFAB200B80AFD /* SearchDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchDetailViewController.m; sourceTree = "<group>"; };
 		8B9428B91B3A4C1100E715EC /* NSDictionary+TermoRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+TermoRecord.h"; sourceTree = "<group>"; };
 		8B9428BA1B3A4C1100E715EC /* NSDictionary+TermoRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+TermoRecord.m"; sourceTree = "<group>"; };
-		8BC7126E1B6A80CA0002DE2B /* SinaisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaisViewController.h; sourceTree = "<group>"; };
-		8BC7126F1B6A80CA0002DE2B /* SinaisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaisViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,8 +267,10 @@
 			children = (
 				49C93C2C1B4221B8003AA114 /* SinaisTableViewController.m */,
 				49C93C2D1B4221B8003AA114 /* SinaisTableViewController.h */,
-				8BC7126E1B6A80CA0002DE2B /* SinaisViewController.h */,
-				8BC7126F1B6A80CA0002DE2B /* SinaisViewController.m */,
+				2A15DDDE1B9724EB00C9B0CA /* TestTableViewController.h */,
+				2A15DDDF1B9724EB00C9B0CA /* TestTableViewController.m */,
+				2A15DDE11B972C7D00C9B0CA /* CustomCell.h */,
+				2A15DDE21B972C7D00C9B0CA /* CustomCell.m */,
 			);
 			name = "Sinais Vitais";
 			sourceTree = "<group>";
@@ -391,11 +396,11 @@
 			files = (
 				49C93C2E1B4221B8003AA114 /* SinaisTableViewController.m in Sources */,
 				8B4CA36C1B3AF8B900B80AFD /* SearchTableViewController.m in Sources */,
+				2A15DDE31B972C7D00C9B0CA /* CustomCell.m in Sources */,
 				2A851A621B74E52400B4A4A4 /* DesenvolvedoresTableViewController.m in Sources */,
 				2A7453B31B2B0BEF00A7E1EE /* ThirdTableViewController.m in Sources */,
 				49520F8A1B73A686003055EA /* SobreTableViewController.m in Sources */,
 				2AC3A0DF1B2867AA0011F857 /* DoencaTableViewController.m in Sources */,
-				8BC712701B6A80CA0002DE2B /* SinaisViewController.m in Sources */,
 				493E911B1B39B21A009F6096 /* SiglasViewController.m in Sources */,
 				2A1569061B3986E00058ECE8 /* FourthTableViewController.m in Sources */,
 				8B9428BB1B3A4C1100E715EC /* NSDictionary+TermoRecord.m in Sources */,
@@ -408,6 +413,7 @@
 				490C29D11B39A019004C978B /* Color.m in Sources */,
 				493E91181B39B1FC009F6096 /* SiglasTableViewController.m in Sources */,
 				4905E48B1B7698D7005BFF29 /* Test.xcdatamodeld in Sources */,
+				2A15DDE01B9724EB00C9B0CA /* TestTableViewController.m in Sources */,
 				2A872EF51B265E5C00252E27 /* AppDelegate.m in Sources */,
 				2A872EF21B265E5C00252E27 /* main.m in Sources */,
 				49512ECE1B2F2171009ADD09 /* TermoViewController.m in Sources */,

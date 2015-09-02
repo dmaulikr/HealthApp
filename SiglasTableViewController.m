@@ -27,19 +27,20 @@
     // No search results controller to display the search results in the current view
     self.searchController = [[UISearchController alloc] initWithSearchResultsController:nil];
     self.searchController.searchResultsUpdater = self;
+    self.searchController.searchBar.tintColor = [Color verde];
+    self.searchController.searchBar.keyboardType = UIKeyboardTypeAlphabet;
+    self.searchController.searchBar.keyboardAppearance = UIKeyboardAppearanceDark;
     self.searchController.dimsBackgroundDuringPresentation = NO;
     
     // Configure the search bar with scope buttons and add it to the table view header
     
     self.searchController.searchBar.delegate = self;
     
-    self.tableView.tableHeaderView = self.searchController.searchBar;
-    
     self.definesPresentationContext = YES;
     
     [self.searchController.searchBar sizeToFit];
     
-
+    self.tableView.tableHeaderView = self.searchController.searchBar;
 }
 
 - (void)didReceiveMemoryWarning

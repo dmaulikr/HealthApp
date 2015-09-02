@@ -23,7 +23,6 @@
     NSURL *plistURL = [[NSBundle mainBundle] URLForResource:@"Listas" withExtension:@"plist"];
     NSDictionary *plist = [NSDictionary dictionaryWithContentsOfURL:plistURL];
     self.content = [plist objectForKey:@"Listas"];
-    
     // No search results controller to display the search results in the current view
     self.searchController = [[UISearchController alloc] initWithSearchResultsController:nil];
     self.searchController.searchResultsUpdater = self;
@@ -86,10 +85,6 @@
     self.searchResults= [NSMutableArray arrayWithArray:[self.content filteredArrayUsingPredicate:preicate]];
     [self.tableView reloadData];
 }
-
-
-
-#pragma mark - Prepare For Segue
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {

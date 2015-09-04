@@ -10,8 +10,8 @@
 		2A1422CB1B3B012F002DD43A /* Listas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A1422CA1B3B012F002DD43A /* Listas.plist */; };
 		2A1569061B3986E00058ECE8 /* FourthTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1569051B3986E00058ECE8 /* FourthTableViewController.m */; };
 		2A1569081B3991C30058ECE8 /* Termos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A1569071B3991C30058ECE8 /* Termos.plist */; };
-		2A15DDE01B9724EB00C9B0CA /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A15DDDF1B9724EB00C9B0CA /* TestTableViewController.m */; settings = {ASSET_TAGS = (); }; };
-		2A15DDE31B972C7D00C9B0CA /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A15DDE21B972C7D00C9B0CA /* CustomCell.m */; settings = {ASSET_TAGS = (); }; };
+		2A15DDE01B9724EB00C9B0CA /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A15DDDF1B9724EB00C9B0CA /* TestTableViewController.m */; };
+		2A15DDE31B972C7D00C9B0CA /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A15DDE21B972C7D00C9B0CA /* CustomCell.m */; };
 		2A49D3541B39833800AB388A /* Doencas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A49D3531B39833800AB388A /* Doencas.plist */; };
 		2A6CE97A1B28722D0062CB5A /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CE9791B28722D0062CB5A /* TableViewController.m */; };
 		2A7453B31B2B0BEF00A7E1EE /* ThirdTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7453B21B2B0BEF00A7E1EE /* ThirdTableViewController.m */; };
